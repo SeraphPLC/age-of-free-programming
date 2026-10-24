@@ -15,7 +15,7 @@ A free, copy-and-paste educational prompt that guides a capable AI assistant thr
 
 **[Read the security-hardened v0.2 candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md)** — recommended for experimenters; still a candidate pending independent cross-model and cross-platform validation.
 
-**[Beginner quickstart](docs/START_HERE.md)** · **[What has and has not been tested](docs/VERIFICATION_STATUS.md)** · **[Report your build](docs/BUILD_REPORT.md)** · **[Versions](CHANGELOG.md)**
+**[Beginner quickstart](docs/START_HERE.md)** · **[Software & exposure inventory](docs/SOFTWARE_INVENTORY_AND_EXPOSURE.md)** · **[What has and has not been tested](docs/VERIFICATION_STATUS.md)** · **[Report your build](docs/BUILD_REPORT.md)** · **[Versions](CHANGELOG.md)**
 
 To use either version:
 
