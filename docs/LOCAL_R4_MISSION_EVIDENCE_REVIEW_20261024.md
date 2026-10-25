@@ -39,7 +39,7 @@ Separate direct local coding-model calls received the frozen **public Stage 1 pr
 - **First Qwen coding-model generation:** syntax/static import checks passed, but Stage 1 initialization failed and only **1 of 12** tests passed.
 - **First Qwen model-generated repair:** **10 of 12** tests passed under a strengthened harness. It still failed owner-only file permissions and lacked the required versioned SQLite schema.
 - **Second Qwen repair:** failed syntax validation (placeholder response rather than executable source). No code was accepted or run.
-- **Additional model results:** only publish an actual result after a separate model output passes source inspection and the same independent tests; pending/non-executed calls are **NOT RUN / NOT QUALIFIED**, never presumed PASS.
+- **Fresh GPT-OSS model generation:** a separate direct local inference attempt using only the public Stage 1 prompt **timed out after 180 seconds without producing source code**. No acceptance tests were run for that model; its build is **NOT QUALIFIED**, not PASS. The timeout is preserved in private evidence.
 
 A fresh local inference session is not the same as a genuinely fresh browser AI chat with independent source retrieval and current authority. Model-generated programs are not self-certifying. The experiments demonstrate the value of **source inspection before running and stage-specific negative tests**, not successful independent Stage 2 reproduction.
 
