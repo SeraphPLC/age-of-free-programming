@@ -1,4 +1,6 @@
-# Stage 1–2 Public-Prompt Reproduction Trial — October 24, 2026
+# Stage 1–2 Public-Prompt Reproduction Trial — October 24, 2026 (historical R2)
+
+**Newer follow-up:** [R3 security hardening and 63-test results](LOCAL_STAGE2_R3_SECURITY_REVIEW_20261024.md). This page intentionally preserves the historical 57-test R2 run and the original model-generated Stage 1 fingerprint; R3 changes are documented separately.
 
 **Status: partial model-generated reproduction; supervised local prototype; NOT a software release or security certification.**
 
