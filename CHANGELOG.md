@@ -1,5 +1,13 @@
 # Version history
 
+## 2026-10-24 — Council findings translated into public-safe negative test requirements (draft)
+
+- Added [R1 remediation contract](docs/COUNCIL_FINDINGS_REMEDIATION_R1.md) and [synthetic negative-evidence matrix](docs/labs/COUNCIL_NEGATIVE_EVIDENCE_MATRIX_R1.md), then clarified Stage 0–4 prompts, README and staged guide.
+- Prior source-bound adversarial feedback concerns **frozen v0.4**. The newer v0.5 Living prompt and the withheld code have not inherited review approval. **No raw private reviewer transcripts, account information, unlicensed research, executable release or actual test PASS were published.**
+- New acceptance tests are **NOT RUN** against a newly generated public program. Existing reported prompt-only confidentiality failures and all release gates remain open.
+
+
+
 ## 2026-10-24 — Actual local-LLM prompt privacy test: failures observed
 
 - [Black-box test report](docs/LLM_DISCLOSURE_BLACKBOX_TRIAL_20261024.md): frozen public Community R1 and advanced v0.5 prompts submitted to three local models with entirely fictional data. **19 of 24 privacy challenges echoed exact protected synthetic markers**; six benign controls returned responses. Some additional fragments were echoed.

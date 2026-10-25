@@ -17,6 +17,8 @@ Consult these **standalone public** specifications: [Memory design](../../docs/M
 
 Run the synthetic deterministic M01–M21 tests you can genuinely execute and label others NOT RUN; cross-chat/cross-model M22 requires separately observed real responses. Score verified fact recall, evidence coverage, correction/contradiction accuracy, unsupported assertions, privacy leakage and unauthorized actions. Maintain working offline, no-model mode. Report **BUILT / VERIFIED / FAILED OR UNKNOWN / MEMORY LOSS / NEXT SAFE ACTION** with actual receipts. Call memory fidelity verified only for the *tested fixture*, never universally.
 
+**Council R1 privacy and deletion gate:** The owner must explicitly select collection scope, location, retention and any outbound transfer. A `private_data_included=false` field is not enforcement: build restart packets from typed allowlisted fields, reject raw notes, local paths and credentials, show the exact packet before any manually approved cloud transfer, and test invented canaries across fields. Privacy deletion of scoped private payloads overrides “keep raw failures forever”; inventory SQLite active rows, WAL/FTS/search, local logs, exports and backups, and report inaccessible or unverified copies rather than promising secure erasure. Never use a model's own redaction promise as the release gate; the current prompt-only disclosure trials observed failures. Use [remediation contract](../../docs/COUNCIL_FINDINGS_REMEDIATION_R1.md) and [negative matrix](../../docs/labs/COUNCIL_NEGATIVE_EVIDENCE_MATRIX_R1.md). These cases are NOT RUN merely because they are documented.
+
 BEGIN: inspect the existing Stage 2 state read-only and propose one bounded change requiring my approval.
 ## END PROMPT
 

@@ -12,6 +12,10 @@
 
 **[Mandatory output disclosure gate](OUTPUT_DISCLOSURE_GATE.md)** applies to Stage 0 chats, Stage 1 local code, Stage 2 task/evidence, Stage 3 memory, Stage 4 models/knowledge, and each AI-to-AI handoff. Before any output—including logs, code snippets, screenshots, file links, metadata and public Git changes—remove sensitive personal or organizational details, credentials, real infrastructure hints and exploitable vulnerabilities, including inferred or reconstructable combinations. Unknown rights/audience => WITHHOLD. Use fictional examples or protected local references, not raw content. This is a policy in the prompts; a working implementation needs independent enforcement and tests.
 
+## Evidence repairs before claiming verification
+
+The [council R1 remediation contract](COUNCIL_FINDINGS_REMEDIATION_R1.md) explains why false-green tests, unclear deletions, weak journal authentication, accidental information exports, path escapes, task-claim races and incoherent backups can invalidate an apparently working prototype. The [negative-evidence matrix](labs/COUNCIL_NEGATIVE_EVIDENCE_MATRIX_R1.md) is a synthetic **NOT RUN** worksheet. Apply its relevant gates in each Stage 0–4, but do not infer that describing a test makes it passed. Historical v0.4 advisory reviews do **not** approve the newer v0.5 living candidate or any executable software.
+
 ## Which path fits your tools?
 
 | Your setup | Start with | What you really get |

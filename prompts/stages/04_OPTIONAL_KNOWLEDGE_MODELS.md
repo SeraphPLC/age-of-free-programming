@@ -17,6 +17,8 @@ Optionally catalog local or cloud models by actual tag, maker, host, license, da
 
 Run synthetic offline search, rights-gating, stale source, model unavailable, prompt injection inert, and no-network checks. Offer explicit stop/disable controls for future adapters. No private infrastructure, telemetry, webhook, model download, or automatic account connection in the baseline. Report what actually executed and where the owner must approve a next action.
 
+**Council R1 model/rights receipt gate:** For each future reviewer, keep actual interface, observed model selector, underlying model identity if independently known, source digest, complete response, cost/privacy and route. A model name selected inside an aggregator is not proof of first-party provenance; partial answers and model-unknown routes are advisory and cannot quietly satisfy a five-qualified-provider requirement. Any source metadata marked UNKNOWN is not licensed for bulk copying, commercial reuse or training. An approved reference source is not automatically an approved cloud disclosure destination. See the [review remediation contract](../../docs/COUNCIL_FINDINGS_REMEDIATION_R1.md). Do not claim this stage ran an independent council.
+
 BEGIN: verify current functionality, then propose the smallest optional improvement.
 ## END PROMPT
 

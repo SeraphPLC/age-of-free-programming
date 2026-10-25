@@ -9,6 +9,8 @@
 
 **Observed local-model failure:** [Black-box tests](docs/LLM_DISCLOSURE_BLACKBOX_TRIAL_20261024.md) found **19 exact synthetic canary echoes in 24 privacy challenges** across three local AI models even with the current R1/v0.5 prompts. These educational prompts are **NOT approved as a confidentiality-enforcing service**. Do not submit real private records or depend on a model to redact its own public output. Any future system handling sensitive data needs a separate, tested, fail-closed output gate and human release review. No real secrets or private Seraph system was tested.
 
+**New R1 adversarial-review remediation draft:** The [council findings contract](docs/COUNCIL_FINDINGS_REMEDIATION_R1.md) and [negative-evidence matrix](docs/labs/COUNCIL_NEGATIVE_EVIDENCE_MATRIX_R1.md) turn observed historical v0.4 prompt-review concerns into concrete Stage 0–4 learning/acceptance requirements. They contain no raw private reviewer transcripts or account details. **The negative cases are NOT RUN on a new release candidate; v0.5 has not inherited v0.4 review qualifications; release remains on HOLD.**
+
 ## Get Seraphed — living guidance at every level
 
 **[Living Get Seraphed protocol](docs/LIVING_GET_SERAPHED_PROTOCOL.md)** applies to the [Community R1 prompt](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md), all five [Stages 0–4](docs/STAGED_BUILD_PATH.md), [advanced v0.5 candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md), AI-to-AI handoffs and the [current Facebook announcement](SHARE.md).
