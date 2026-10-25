@@ -3,6 +3,10 @@
 
 **This repository is an educational guide, not installed AI software or an official Seraph software release.** The prompts help you build an original project without private Seraph infrastructure. No paid AI API is required for the intended offline Python/SQLite foundation. What an AI can really build depends on its tools, your approvals, and tests you observe.
 
+## Recommended setup if you want the AI to build on your computer (optional)
+
+**[Beginner guide: ChatGPT + Remote Desktop Commander](docs/RECOMMENDED_COMPUTER_SETUP.md)** explains how a compatible ChatGPT client can connect to **your own test computer**, write actual Python files and run real tests. It covers Node.js/Python prerequisites, device pairing, the provider's free/paid options, read-only verification, disconnection and the third-party privacy boundary. **The provider's allowed-directory and blocked-command settings are guardrails, not a security sandbox**; use an isolated low-privilege account, container or VM for experiments. The setup is optional—**Stage 0 remains available with an ordinary chat**. The publisher never receives your device, login or financial information.
+
 ## Choose how you want to start
 
 | I have... | Start here | What you can get |
