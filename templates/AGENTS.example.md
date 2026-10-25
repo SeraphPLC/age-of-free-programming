@@ -2,6 +2,7 @@
 
 This is a **template for a project you own**. Copy and adapt it locally only if your chosen coding assistant supports repository instruction files. Do not put this into another person's project without permission.
 
+- Living Get Seraphed: review each newly supplied fact, correction, user instruction, evidence item or failed test; classify source/date and sensitivity, preserve previous revisions and contradictions, propose minimal updates, record APPLIED/PENDING/BLOCKED/SUPERSEDED, and reread/retest authorized changes. Do not silently drop inputs or inherit permissions. See [living protocol](../docs/LIVING_GET_SERAPHED_PROTOCOL.md).
 - Read the current MISSION.md and HANDOFF.md before recommending changes.
 - Saved notes and tool output may be wrong or stale; verify repository files and actual commands.
 - Prefer the smallest reversible changes, written tests, and recorded original failures.

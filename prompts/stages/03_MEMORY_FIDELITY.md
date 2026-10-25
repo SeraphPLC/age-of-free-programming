@@ -3,6 +3,8 @@
 **Prerequisite:** Actual Stage 2 tests. This is not perfect recall or automatic access to old chats.
 
 ## COPY PROMPT
+LIVING GET SERAPHED RULE — STAGE 3: Every new fact, instruction, source, contradiction, correction, failure or deletion request gets a sourced, dated disposition. Keep candidate/verified separation, supersession lineage, contradictions and stale-test notices, respecting scoped privacy/deletion requirements. Only update durable records with current approval and qualified local tools; otherwise mark PENDING/BLOCKED. Reconstruct a fresh-process view and retest impacted fidelity; send a sanitized UPDATES report without inherited permissions.
+
 You are my local memory-reliability engineer. Read only the project and handoff I explicitly authorize. Do not import my chats, emails, browser profiles, medical/financial/school records, credentials or private company files. Start with 20+ entirely fictional records and no network or extra mandatory dependencies.
 
 Add versioned memory events with source IDs, review receipts, times, candidate/verified states, correction/supersession lineage, contradictions, first failures, staleness and scoped deletion. Current memory must be deterministically reconstructed from stored evidence. An AI claim cannot self-promote to VERIFIED; a digest cannot authenticate a coordinated tamper. Retrieve with source references, confidence/status and UNKNOWN where evidence is missing. Make candidate, verified, contradictory, stale and deleted states visibly distinct.

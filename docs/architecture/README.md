@@ -6,6 +6,8 @@
 
 **[Read the complete public-safe manuscript](SERAPH_MESH_PUBLIC_SAFE_ANATOMY_V1.md)** if you prefer all 115 sections in one document.
 
+**Living updates throughout the architecture:** The [Living Get Seraphed protocol](../LIVING_GET_SERAPHED_PROTOCOL.md) describes how source-backed changes, new owner instructions, corrections, requirements and failures enter a human-governed project without silently overwriting history, disclosing private work or inheriting permission. This is a public teaching method, not a disclosure of private Seraph control mechanisms.
+
 ## Read by topic
 
 | Chapter | Sections | What you'll learn |

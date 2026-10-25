@@ -1,5 +1,13 @@
 # Version history
 
+## 2026-10-24 — Living Get Seraphed (documentation edition)
+
+- Made [SHARE.md](SHARE.md) the maintained public Facebook copy, with a revision date, claims gate and Git history.
+- Introduced the [Living Get Seraphed protocol](docs/LIVING_GET_SERAPHED_PROTOCOL.md) and [synthetic amendment card](templates/LIVING_AMENDMENT_CARD.md): new information/instructions must receive a sourced, reviewed APPLIED/PENDING/BLOCKED/SUPERSEDED disposition.
+- Preserved Community R0 and advanced v0.1–v0.4 as historical snapshots; added [Community R1 Living](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) and [advanced v0.5 candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md).
+- Updated stage prompts 0–4, beginner entry points, routing/handoffs and optional agent instruction templates with the living rule.
+- **Limits:** Markdown instructions only; no auto-capture, background updater, new provider integration, public executable or independent v0.5 implementation. Synthetic cases LC01–LC08 remain NOT RUN.
+
 ## v0.1 — October 2026 — Original Community Preview
 
 - Preserves the free copy-and-paste educational **Build Your Own AI OS** master prompt provided for public distribution.

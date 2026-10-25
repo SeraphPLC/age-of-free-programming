@@ -4,6 +4,8 @@
 
 **Purpose:** Preserve what Seraph's documented way of organizing work requires a learner's independent system to **do and report**, while **not publishing the private implementation** that makes the real Seraph work. The rules below are **behavioral contracts**; they do not reveal private numeric routing weights, live topology, authority internals, registration structures, machine transport, or operational source code.
 
+**Living-input admission:** At any routing decision, new source evidence, requirements, corrections or owner instructions must pass the [Living Get Seraphed protocol](../LIVING_GET_SERAPHED_PROTOCOL.md) before revising a route or mission. Record provenance, scope, conflicts, preserved history, real capability, test status and required permissions. Pass updates to downstream workers without treating old chats or other models as authority.
+
 ## 1. The Seraph-aligned observable contract
 
 For every substantive routed task, the human should be able to establish the following, in this order:
