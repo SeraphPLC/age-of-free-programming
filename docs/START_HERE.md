@@ -2,6 +2,10 @@
 
 **Free educational guides, not an installed AI operating system.** No special Seraph access is needed. Choose a new, empty folder on your own computer only when you approve it. Never share passwords, personal records, chat exports or real databases to prove the prompts work.
 
+## Want the AI to write and test files directly? (Optional setup)
+
+Before Stage 1, see the [recommended ChatGPT + Desktop Commander setup guide](RECOMMENDED_COMPUTER_SETUP.md). It explains how to connect **your own isolated test machine** to a compatible AI client, verify real terminal results and disconnect afterward. Remote mode uses a separate third-party service and account, with its own privacy and pricing; Node.js 18+ is required for the remote agent. The folder allowlist and blocked-command settings do **not** stop every terminal action. Use a separate restricted user, VM or container for stronger isolation. **You do not need this setup for Stage 0** or to copy any of our educational prompts.
+
 ## Three ways to start
 
 **1. Only an AI chat?** Copy [Get Seraphed Community](../prompts/GET_SERAPHED_COMMUNITY_R0.md) or the [short chat-only starter](../prompts/stages/00_CHAT_ONLY_CONTINUITY.md). Save a fictional mission and handoff card yourself; a new chat will not magically have the old one.
