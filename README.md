@@ -7,6 +7,8 @@
 
 **[Mandatory Get Seraphed output disclosure gate](docs/OUTPUT_DISCLOSURE_GATE.md).** Every current community prompt, builder stage, AI handoff and shared artifact must refuse to disclose private personal or organizational records, credentials, internal infrastructure, unpublished Seraph material, exploitable weaknesses or clues that allow those details to be inferred. Unknown audience, ownership, sensitivity or rights means **WITHHOLD** and use independently public information or fictional examples instead. Never interpret "living" as automatic permission to publish anything learned. Public release requires a final-content review and specific authorization; these are **instructional safeguards**, not installed or independently audited automatic defenses.
 
+**Observed local-model failure:** [Black-box tests](docs/LLM_DISCLOSURE_BLACKBOX_TRIAL_20261024.md) found **19 exact synthetic canary echoes in 24 privacy challenges** across three local AI models even with the current R1/v0.5 prompts. These educational prompts are **NOT approved as a confidentiality-enforcing service**. Do not submit real private records or depend on a model to redact its own public output. Any future system handling sensitive data needs a separate, tested, fail-closed output gate and human release review. No real secrets or private Seraph system was tested.
+
 ## Get Seraphed — living guidance at every level
 
 **[Living Get Seraphed protocol](docs/LIVING_GET_SERAPHED_PROTOCOL.md)** applies to the [Community R1 prompt](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md), all five [Stages 0–4](docs/STAGED_BUILD_PATH.md), [advanced v0.5 candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md), AI-to-AI handoffs and the [current Facebook announcement](SHARE.md).
