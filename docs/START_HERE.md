@@ -13,7 +13,7 @@ You do **not** need a Seraph account, private code, paid API, two devices, or a 
 
 ## The five-step beginner path
 
-1. **Choose a prompt:** [Original v0.1](../prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md) or [hardened v0.2 candidate](../prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md). Start with v0.1 if you want the original shared version; try v0.2 for stronger security-oriented tests. The second version is not independently certified.
+1. **Choose a prompt:** [Original v0.1](../prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md), [hardened v0.2 candidate](../prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md), or [expanded v0.3 Knowledge Architect candidate](../prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md). v0.1 is the compact original; v0.2 strengthens integrity requirements; v0.3 adds knowledge-source and model registries for advanced learners. **All remain educational prompts, not independently validated ready-to-install software.**
 2. **Copy the master prompt:** Copy from the visible START/COPY marker through END MASTER PROMPT into a **new** AI chat. You may also paste the full file.
 3. **Verify what the AI can actually do:** Does it have legitimate terminal and file access? Ask it to show the actual commands and output, not just say it ran something. If it lacks those tools, ask for complete files and one short command at a time.
 4. **Approve your own new folder:** Inspect the proposed path before any modifications to your device. Use fabricated task examples, not real private records. For an initial Python check, run `python3 --version` (macOS/Linux) or `py -3 --version` (Windows). If these do not work, ask for platform-specific help.
