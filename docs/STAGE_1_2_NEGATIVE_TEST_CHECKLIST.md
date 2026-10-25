@@ -4,7 +4,7 @@
 
 ## Recording rule
 
-For every test, record the exact source revision, approved test folder, operating system/Python version, command or action run, observed exit code/output, and whether the result was **PASS, FAIL, PARTIAL or NOT RUN**. Store any logs privately. Preserve the first failure even if a later repair succeeds. No new chat inherits the authority to run protected actions.
+For every test, record the exact source revision, approved test folder, operating system/Python version, command or action run, observed exit code/output, and whether the result was **PASS, FAIL, PARTIAL, BLOCKED or NOT RUN**. Store any logs privately. Preserve the first failure even if a later repair succeeds. No new chat inherits the authority to run protected actions.
 
 ## Stage 1 — minimal continuity and privacy
 
@@ -18,6 +18,12 @@ For every test, record the exact source revision, approved test folder, operatin
 | S1-06 | The program needs no hosted model, API key, third-party package, telemetry or external endpoint |
 | S1-07 | Any assistant without authorized terminal/file access says **NOT RUN** rather than inventing a receipt |
 | S1-08 | An exported state card carries known facts, gaps, source revision and safe next step but grants **zero inherited permissions** |
+| S1-09 | Explicit Stage 1 CLI accepts the published command/argument order and refuses missing or implicit project roots; missing or unknown `schema_version` is a **FAIL**, not a skipped test |
+| S1-10 | The saved mission content matches a persisted SQLite mission value; changed/symlinked mission files are refused by both `status` and `doctor` |
+| S1-11 | Generated source is reviewed for file/network effects before any execution; both `status` and `doctor` connect to SQLite read-only with safe path handling; test fictional folder names with spaces/punctuation |
+| S1-12 | Separate synthetic negative tests verify nonzero exits, owner-only mission **and** database modes, and no side effects when the project is absent or already exists |
+
+**R5 clarification:** S1-09–S1-12 are added public acceptance descriptions, **not completed acceptance receipts**. No independently reproducible public Stage 1 build has passed all requirements. Review [R5 first-party evidence and limitations](LOCAL_R5_STAGE1_REPRODUCIBILITY_REVIEW_20261024.md); label a test NOT RUN until executed on its actual candidate and recorded.
 
 ## Stage 2 — task and journal integrity
 

@@ -3,11 +3,21 @@
 
 **This repository is an educational guide, not installed AI software or an official Seraph software release.** The prompts help you build an original project without private Seraph infrastructure. No paid AI API is required for the intended offline Python/SQLite foundation. What an AI can really build depends on its tools, your approvals, and tests you observe.
 
+**Current public status:** The chat-only continuity prompts are free educational guidance; **no downloadable AI OS executable is released**. R5 supervised tests show bounded local progress, but independent public-prompt reproduction remains unqualified. See the [R5 verification review](docs/LOCAL_R5_STAGE1_REPRODUCIBILITY_REVIEW_20261024.md) for evidence and limitations.
+
 ## Private by default — disclose no vulnerable or confidential details
 
 **[Mandatory Get Seraphed output disclosure gate](docs/OUTPUT_DISCLOSURE_GATE.md).** Every current community prompt, builder stage, AI handoff and shared artifact must refuse to disclose private personal or organizational records, credentials, internal infrastructure, unpublished Seraph material, exploitable weaknesses or clues that allow those details to be inferred. Unknown audience, ownership, sensitivity or rights means **WITHHOLD** and use independently public information or fictional examples instead. Never interpret "living" as automatic permission to publish anything learned. Public release requires a final-content review and specific authorization; these are **instructional safeguards**, not installed or independently audited automatic defenses.
 
 **Observed local-model failure:** [Black-box tests](docs/LLM_DISCLOSURE_BLACKBOX_TRIAL_20261024.md) found **19 exact synthetic canary echoes in 24 privacy challenges** across three local AI models even with the current R1/v0.5 prompts. These educational prompts are **NOT approved as a confidentiality-enforcing service**. Do not submit real private records or depend on a model to redact its own public output. Any future system handling sensitive data needs a separate, tested, fail-closed output gate and human release review. No real secrets or private Seraph system was tested.
+
+## Start in five minutes — no programming required
+
+1. Open the [current Get Seraphed Community R1 prompt](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) or the simpler [Stage 0 chat-only prompt](prompts/stages/00_CHAT_ONLY_CONTINUITY.md) in an ordinary AI chat.
+2. Use a **fictional** project first. Ask for a mission, what is known versus unverified, completed work with evidence, open tasks, failures, and one next safe action.
+3. Save the resulting **sanitized handoff card yourself**. In a new chat, verify the current files or evidence again: **nothing transfers permission or authority automatically**.
+
+You can stop here. You do **not** need an AI provider subscription, a local model, access to Seraph, or a running service to use this manual continuity habit. If you later want local software, use the [Stage 1 offline instructions](prompts/stages/01_OFFLINE_CORE.md) and [negative-test checklist](docs/STAGE_1_2_NEGATIVE_TEST_CHECKLIST.md). Keep generated code out of real project folders until its actions and test scope are reviewed.
 
 ## Get Seraphed — living guidance at every level
 
@@ -60,7 +70,17 @@ Most continuity value comes from saving a verified mission and a handoff, but ad
 
 **R3 security follow-up:** Further synthetic testing reproduced three defects in the supervised code—overly broad file permissions, completion before claim time, and failure-ID overflow for long task names. The corrected R3 derivative passed **63/63 first-party tests on two Macs**, with no independent code/security certification or public executable release. See the [R3 report](docs/LOCAL_STAGE2_R3_SECURITY_REVIEW_20261024.md) and [negative-test checklist](docs/STAGE_1_2_NEGATIVE_TEST_CHECKLIST.md). The historical R2 and model-generation failures remain preserved.
 
-**R4 functional follow-up:** A real, verifiable `MISSION.md` and task-bound synthetic evidence now pass **78/78 first-party tests on two Macs**. Fresh direct local coding-model reproductions exposed substantial Stage 1 failures, so full independent Stage 2 reproduction is **not qualified**. [R4 review and its negative receipts](docs/LOCAL_R4_MISSION_EVIDENCE_REVIEW_20261024.md). The executable and private logs remain withheld.\n\n## Original versions and deeper references
+**R4 functional follow-up:** A real, verifiable `MISSION.md` and task-bound synthetic evidence now pass **78/78 first-party tests on two Macs**. Fresh direct local coding-model reproductions exposed substantial Stage 1 failures, so full independent Stage 2 reproduction is **not qualified**. [R4 review and its negative receipts](docs/LOCAL_R4_MISSION_EVIDENCE_REVIEW_20261024.md). The executable and private logs remain withheld.
+
+## R5 reproducibility — supervised progress, release still held
+
+**Independent Stage 1: NOT QUALIFIED.** A separate local-model series recorded 16 full-source generation/repair attempts with varying instructions and provenance. Many trials included an **unpublished** proposed clarification, and repairs sometimes saw only their own earlier source; they are not all exact-public-prompt reproductions. One model-generated repair passed 14/14 first-party synthetic behavior checks but failed an additional read-only database-connection check. A later trial using **only the public Stage 1 prompt** timed out without producing source; code inspection and runtime tests for that trial are **NOT RUN**.
+
+**Supervised Stage 1: first-party synthetic tests passed, not independently reproduced.** A separate, preserved supervised correction passed 14/14 Stage 1 cases on two Macs, with three Python versions checked on one Mac. Supplemental fictional folder-name tests also passed, including names containing spaces and punctuation. These are scoped local receipts, **not** a security audit, production qualification, software license, or guarantee that another AI can recreate the program.
+
+**R5 Stage 2 independent reproduction: NOT RUN.** Keep the executable release on **HOLD** until independent Stage 1 reproduction, human security and rights reviews, portability, fresh-chat continuity, and retention/deletion requirements are qualified. See the [public-safe R5 review](docs/LOCAL_R5_STAGE1_REPRODUCIBILITY_REVIEW_20261024.md) and [verification ledger](docs/VERIFICATION_STATUS.md). Private raw model output and experimental executable source are not distributed.
+
+## Original versions and deeper references
 
 The earlier [Get Seraphed Community R0](prompts/GET_SERAPHED_COMMUNITY_R0.md) remains unchanged. **Historical safety warning:** Community R0 and v0.1–v0.4 are preserved for research, but are not the current safety-gated copy-and-paste starting points. Use [Community R1](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) or [advanced v0.5](prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md). See [verification limits](docs/VERIFICATION_STATUS.md). The original [v0.1 prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md), [v0.2 hardening candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md), [v0.3 knowledge candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md) and [v0.4 memory candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) are preserved for full context. Other optional material: [memory design](docs/MEMORY_FIDELITY_V1.md), [technology shortlist](docs/TECHNOLOGY_STARTER_SHORTLIST.md), [AI and knowledge guide](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md), and the broad [304-option research atlas](docs/AI_DEVELOPMENT_OPTION_UNIVERSE_V1.md) (**discovery appendix, not a recommended pick list**).
 
