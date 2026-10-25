@@ -1,3 +1,6 @@
+> [!WARNING]
+> **ARCHIVED COMMUNITY R0 — NOT THE CURRENT GET SERAPHED PROMPT.** This historical text predates the newer deny-by-default privacy and vulnerability-disclosure gate, the living-amendment procedure, and related checks. **For any new use, copy [Community R1 — Living](GET_SERAPHED_COMMUNITY_R1_LIVING.md)** and follow the [current disclosure gate](../docs/OUTPUT_DISCLOSURE_GATE.md). Do not mistake this archived version for a verified safety-enforced AI system. Original historical text is preserved **unchanged below this notice**.
+
 # Get Seraphed — Community Continuity Prompt R0
 
 **FREE EDUCATIONAL CHAT WORKFLOW • OCTOBER 2026 • NO PRIVATE SERAPH ACCOUNT OR INSTALLATION REQUIRED**

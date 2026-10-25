@@ -4,9 +4,13 @@
 
 | Item | Status | Meaning |
 | --- | --- | --- |
-| Get Seraphed Community | **PUBLISHED — manual chat workflow** | Works as copyable instructions; does not install persistent memory or automatically access old chats |
-| Original v0.1, v0.2, v0.3, v0.4 | **PUBLISHED EDUCATIONAL PROMPTS** | Plans/instructions, not ready-to-run software |
-| New staged prompts 0–4 | **DOCUMENTARY CANDIDATES** | Narrower steps and handoffs; full clean-room build from them **NOT RUN** |
+| [Get Seraphed Community R1 Living](../prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) | **PUBLISHED — CURRENT EDUCATIONAL CHAT WORKFLOW** | Living amendment intake and mandatory disclosure instructions in copyable prompt; not installed memory, unattended service, or security enforcement |
+| [Community R0](../prompts/GET_SERAPHED_COMMUNITY_R0.md) | **ARCHIVED — SAFETY NOTICE ADDED** | Historical underlying prompt retained unmodified; use R1 for new sessions |
+| [Advanced v0.5 Living candidate](../prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md) | **PUBLISHED — UNVERIFIED EDUCATIONAL SPECIFICATION** | Current advanced prompt incorporates privacy and living-update instructions; independent clean-room build and implementation security not demonstrated |
+| Historical v0.1, v0.2, v0.3, v0.4 | **ARCHIVED — SAFETY NOTICES ADDED** | Historic bodies retained unchanged beneath notices; new builds should use current stages or v0.5; no blanket privacy certification |
+| Updated staged prompts 0–4 | **CURRENT EDUCATIONAL CANDIDATES** | All five copyable prompts include disclosure and living-update instructions; full clean-room build from current versions **NOT RUN** |
+| [Disclosure gate](OUTPUT_DISCLOSURE_GATE.md) and inter-model handoffs | **PUBLISHED POLICY — NOT ENFORCED BY SOFTWARE** | Output and inference-risk classifications required by instructions; no model-independent guard, sandbox enforcement, or third-party audit established |
+| OG01–OG12 hypothetical privacy test scenarios | **SPECIFIED — NOT RUN AGAINST THE ACTUAL AI OS** | Synthetic negative-test cases remain future acceptance criteria; no model-compliance evidence exists |
 | Fresh direct-model Stage 1 and Stage 2 experiment | **STAGE 1: 8/8 AFTER A MODEL REPAIR; STAGE 2 MODEL: FAILED 5 OF 13 TESTS** | The independently generated Stage 2 candidate did not implement critical integrity requirements. [Trial details](STAGE2_PUBLIC_PROMPT_TRIAL_20261024.md) |
 | Separate supervised Stage 2 implementation | **57/57 FIRST-PARTY SYNTHETIC TESTS PASSED ON TWO MACS** | Reviewer-authored replacement, not a clean independent model build; executable held locally, not licensed or released. [Trial details](STAGE2_PUBLIC_PROMPT_TRIAL_20261024.md) |
 | R3 supervised privacy and chronology hardening | **63/63 FIRST-PARTY SYNTHETIC TESTS PASSED ON TWO MACS** | Three new reproduced defects corrected; Stage 1 source supervised-edited for safer permissions; original model-generation provenance preserved in R2. No independent review, Linux/Windows verification or public executable. [R3 report](LOCAL_STAGE2_R3_SECURITY_REVIEW_20261024.md) |
@@ -22,6 +26,14 @@
 | Public Git history email privacy | **NOREPLY ON AUDITED REACHABLE COMMITS** | All commits checked on 2026-10-24 used noreply; the count changes when new commits land. Older detached commits and caches **may still be reachable** and require GitHub-side follow-up. |
 | Public Issues / private vulnerability reporting | **Issues disabled / private reporting enabled** | No build reports are requested from users |
 | Public content audit | **STATIC TEXT/JSON ONLY AS CHECKED** | Pattern checks and review do not prove absence of every privacy, security or legal issue |
+
+## October 24 R1/v0.5 documentation-drift reconciliation
+
+The current entry points are **Community R1 Living** and **advanced v0.5 Living candidate** (or the five current stage prompts). R0 and v0.1–v0.4 remain archived with explicit safety notices; their underlying historical text has not been silently rewritten. The [public output disclosure gate](OUTPUT_DISCLOSURE_GATE.md) covers private data, credentials, nonpublic implementations, potentially exploitable information, metadata and reconstructable fragments, and applies before public output or model-to-model handoffs.
+
+**These are documentation requirements, not installed technical safety controls.** The 12 OG test scenarios were published as a specification; **none have been validated against an end-to-end, independently assessed AI OS or fresh-chat model run**. A separate isolated synthetic evaluator may later exercise narrow filtering examples, but must not be misrepresented as a passed public-prompt build, a reliable LLM output guard, or a completed OG01–OG12 implementation qualification.
+
+Review status for this documentation-only correction: historical bodies preserved, current editions linked, existing R3 and other developer-run results left unchanged. Public code release, independent security review and full cross-platform tests remain on hold.
 
 ## October 24 experimental candidate — evidence boundary
 
