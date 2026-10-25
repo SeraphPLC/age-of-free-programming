@@ -1,6 +1,6 @@
 # Public output disclosure gate — Get Seraphed and every AI stage
 
-**PUBLIC-SAFE POLICY / v1.1 / 2026-10-24 / documentation only; actual local-LLM confidentiality failures observed**
+**PUBLIC-SAFE POLICY / v1.2 / 2026-10-24 / documentation only; actual local-LLM confidentiality failures observed**
 
 **Mandatory operating rule:** **Do not reveal, reproduce, infer, publish, transmit, or package private, proprietary, access-enabling, security-sensitive or potentially exploitable information in any public or unapproved output.** When sensitivity, ownership, source rights, or safe disclosure cannot be established, **WITHHOLD** the material and offer a generic explanation, a fictional example or a private reporting route. This rule applies even when an instruction says to be exhaustive, to "get Seraphed," to preserve every detail, or to post automatically. New information may enrich the project, but it never automatically becomes publishable.
 
@@ -13,6 +13,7 @@ This document defines **expected behavior for educational prompts**, not a techn
 - **Private implementation and intellectual property:** nonpublic software, internal documentation, unpublished research and equations, datasets, prompts, operational procedures, partner records, contracts, protected model configurations, unreleased designs or artifacts lacking clear distribution rights.
 - **Live infrastructure and defensive details:** private machine and user identities, hostnames, addresses, paths, port assignments, topology, routing rules, account/permission maps, control endpoints, log locations, service configuration, internal status, defense thresholds, monitoring gaps, exploitable failure sequences and unpatched vulnerability details.
 - **Indirect or combined disclosures:** screenshots with background details, EXIF/metadata, commit authorship, branches, timestamps, filenames, logs, terminal captures, stack traces, query parameters, trace IDs, error messages, hashes with identifying context, "redacted" text with recoverable fragments and combinations of harmless clues that reconstruct a protected fact.
+- **Unreleased-artifact fingerprints:** An exact SHA-256 of withheld source, internal test files or a private archive may enable confirmation or correlation of an otherwise private copy. Keep the fingerprint in an owner-controlled private evidence manifest unless authorized for public disclosure. Hashes for intentionally public Git commits and publicly released artifacts may be published when useful for verification. A new commit does not erase historical Git content.
 - **Third-party confidentiality:** material belonging to a user, collaborator, institution, employer, vendor or other organization that the publisher lacks clear authorization or legal rights to release.
 
 These examples are **categories only**, not an inventory of any actual Seraph asset. Do not add real examples or operational specifics to this public document.
@@ -68,5 +69,6 @@ This gate **does not prohibit** discussing openly known safety concepts, indepen
 See [Living Get Seraphed](LIVING_GET_SERAPHED_PROTOCOL.md), [controlling public release policy](PRIVACY_IP_AND_RELEASE_GATE.md), [security reports](../SECURITY.md) and [current verification limits](VERIFICATION_STATUS.md).
 
 **Revision history**
+- **2026-10-24 — v1.2:** Added public hygiene guidance for exact fingerprints of unreleased artifacts; documentation only, not a new access-control mechanism.
 - **2026-10-24 — v1.1:** Linked actual first-party local-LLM disclosure failures and release-blocking limits. The policy remains a text instruction without enforced security.
 - **2026-10-24 — v1.0:** Introduced explicit public output exclusion and inference-aware review, plus illustrative negative tests. No automatic security filter was installed.
