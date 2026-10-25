@@ -91,7 +91,7 @@ A change to prompt instructions is not proof that AI builders faithfully impleme
 - See [Stage 1–2 Public Prompt Trial](docs/STAGE2_PUBLIC_PROMPT_TRIAL_20261024.md).
 
 
-## R3 local security hardening — October 24, 2026 (documentation only)
+## R4 mission/evidence and clean-room review — 2026-10-24 (documentation only)\n\n- Corrected the supervised local candidate to create and validate a real mission binder, require task-specific synthetic receipt bindings, include the binder in backups, and treat uncertain SQLite writes as unverified.\n- Verified 78/78 first-party synthetic tests on two Macs. The R4 executable remains **local/private**, and R3 schema 1 has no automatic migration to R4 schema 2.\n- Preserved failed independent public-prompt Stage 1 model generations; the full independent Stage 2 release gate is still **NOT VERIFIED**.\n- Updated Stage 1/2 prompts with pre-execution static review and negative acceptance checks. No executable source, software license grant, private records or network callback published.\n\n## R3 local security hardening — October 24, 2026 (documentation only)
 
 - Reproduced and fixed three previously missed synthetic defects: overly broad POSIX project/SQLite permissions, completion/blocking earlier than the active claim's start, and failure-ID overflow at maximum valid task-ID length.
 - Hardened standalone Stage 1 initialization and Stage 2 re-migration privacy; the R3 Stage 1 file is a supervised derivative and the original independently generated R2 file remains preserved.
