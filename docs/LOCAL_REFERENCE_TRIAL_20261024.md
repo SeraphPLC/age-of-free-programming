@@ -35,6 +35,8 @@ SHA-256 fingerprints for the tested local implementation, acceptance tests and r
 
 The ZIP is **not** publicly downloadable. The privately retained fingerprints document byte identity only, not code safety, authorship, legal ownership, or historical authenticity.
 
+**Historical visibility:** Earlier public Git commits and pull-request diffs still expose the previously published fingerprints; forks and caches may retain them. This edit does not erase historical exposure.
+
 ## Known unsolved problems
 
 1. **A same-user attacker who controls the entire local database can coherently rewrite the event chain and its projections.** The M12 test demonstrates that a local hash chain is not tamper-proof; the program explicitly warns about absent independent historical authentication.
