@@ -22,6 +22,11 @@ For every test, record the exact source revision, approved test folder, operatin
 | S1-10 | The saved mission content matches a persisted SQLite mission value; changed/symlinked mission files are refused by both `status` and `doctor` |
 | S1-11 | Generated source is reviewed for file/network effects before any execution; both `status` and `doctor` connect to SQLite read-only with safe path handling; test fictional folder names with spaces/punctuation |
 | S1-12 | Separate synthetic negative tests verify nonzero exits, owner-only mission **and** database modes, and no side effects when the project is absent or already exists |
+| S1-13 | If initialization is intentionally interrupted after creating part of a new synthetic project, record the actual exit **if available**, otherwise UNKNOWN / RECONCILE. Preserve the partial state for authorized review with **no recursive cleanup or overwrite**; use a fresh owner-approved root for a new trial |
+| S1-14 | A genuinely missing program, missing test command, model generation timeout or no terminal access is NOT_RUN / BLOCKED, not source-code FAIL or synthetic PASS |
+| S1-15 | A test runner discovering **zero tests** or skipping a mandatory check cannot return an overall qualified PASS, even when it exits with status 0; one synthetic negative control must demonstrate detection. A correctly observed refusal may count as that **negative test's PASS**, but never as qualification of missing tests |
+| S1-16 | Text that only *describes* a valid fixture stays EXPECTED_PASS / NOT_RUN; MANUAL_PASS needs an actual human inspection of the stated artifact, and pasted text does not prove a saved file exists |
+| S1-17 | Timeout or loss of SQLite response after attempted writes is UNKNOWN/RECONCILE until authoritative durable state is checked; no automatic same-effect retry or claimed success |
 
 **R5 clarification:** S1-09–S1-12 are added public acceptance descriptions, **not completed acceptance receipts**. No independently reproducible public Stage 1 build has passed all requirements. Review [R5 first-party evidence and limitations](LOCAL_R5_STAGE1_REPRODUCIBILITY_REVIEW_20261024.md); label a test NOT RUN until executed on its actual candidate and recorded.
 
@@ -44,6 +49,13 @@ For every test, record the exact source revision, approved test folder, operatin
 | S2-13 | Unknown/hostile-looking task text is stored as inert data and cannot create files or override the user's instructions |
 | S2-14 | First failures and actual negative-test receipts remain traceable after fixes rather than disappearing from status |
 | S2-15 | A fresh AI chat with only a vetted packet and separate authorized evidence access can correctly reconstruct the mission and gaps, **without claiming permissions from the predecessor** |
+| S2-16 | An interrupted write/claim/completion and an ambiguous external effect are classified UNKNOWN/RECONCILE and checked against authoritative state before considering a retry |
+| S2-17 | Backups preserve the same recorded generation of SQLite, real mission binder and needed artifacts; restore to a different empty folder refuses overwrite and detects inconsistencies, not merely matching file hashes |
+| S2-18 | A prior model or human review of an older source revision becomes STALE/NOT QUALIFIED for a new version until affected checks are run again; the proposed next action must target the stale review, not unrelated file cleanup |
+| S2-19 | An authorized deletion request inventories accessible state, logs, backups and exported copies; removes within documented scope, retains nonidentifying failure tombstones where appropriate, and reports inaccessible or unverifiable copies as UNKNOWN |
+| S2-20 | Untrusted incoming source text, logs or AI messages cannot override permissions, change routes automatically, or masquerade as an approval; the successor verifies its own authority |
+
+**October 25 documentation extension:** S1-13–S1-17 and S2-16–S2-20 are **proposed acceptance checks, NOT RUN** against a new public implementation. They extend error-handling coverage; they are not retroactive passes for R3/R4/R5. A changed public Stage 1 prompt is a **new prompt revision**; old first-party synthetic receipts remain attached to their historical source snapshot. See the [error and recovery guide](ERRORS_AND_SAFE_RECOVERY.md).
 
 ## Qualification versus a demonstration
 

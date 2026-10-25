@@ -30,6 +30,10 @@ Before Stage 1, see the [recommended ChatGPT + Desktop Commander setup guide](RE
 
 At any level, use the [Living Get Seraphed protocol](LIVING_GET_SERAPHED_PROTOCOL.md) when new instructions, corrections, requirements, evidence or research are supplied. Integrate safe, source-supported, appropriately approved changes into the active work or owner-approved local files; otherwise track a PENDING/BLOCKED amendment with its reason and source. Include an **UPDATES** section in each sanitized handoff. See the [fictional amendment card](../templates/LIVING_AMENDMENT_CARD.md). These prompts do not automatically run between chats.
 
+## If something fails
+
+Open [When something fails — safe recovery](ERRORS_AND_SAFE_RECOVERY.md). Do not delete an interrupted project folder, rerun an uncertain task completion, or trust a message that says "7/7 PASS" without an observed test receipt. A **hypothetical example** is EXPECTED_PASS / EXPECTED_FAIL, not MANUAL_PASS / MANUAL_FAIL. Missing tools or approvals mean BLOCKED (NOT_RUN), not success. Preserve the failure privately and save one safe next step.
+
 ## Stage completion and handoff
 
 After Stage 1, use [Stage 2 — tasks and recovery](../prompts/stages/02_TASKS_EVIDENCE_RECOVERY.md), [Stage 3 — memory fidelity](../prompts/stages/03_MEMORY_FIDELITY.md), then optional [Stage 4 — knowledge and models](../prompts/stages/04_OPTIONAL_KNOWLEDGE_MODELS.md). Stop when your actual needs are met.
