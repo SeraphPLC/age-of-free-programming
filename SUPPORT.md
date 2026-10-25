@@ -2,48 +2,50 @@
 
 **One prompt. Your computer. Your rules.**
 
-The Age of Free Programming is a free, beginner-friendly educational project. The guides help people build and preserve their own AI projects without needing access to private Seraph systems.
+**Everything here is free, whether you contribute or not.** This public educational project helps people learn to build, supervise, and preserve their own AI work. It does not grant access to any private Seraph system. No purchase, subscription, contribution, or outside payment service is required to use the free guides.
 
-**Everything in this public educational repository remains free whether or not anyone contributes.** There is no subscription, special access, investment offer, ownership interest, or required payment.
+## Optional support — Cash App, Venmo, PayPal
 
-If you would like to support ongoing research, documentation, maintenance and free education, this is the project's single, permanent support information page.
+The image below contains **three personal payment options** plus a QR for this GitHub page. Each QR was rebuilt from the exact destination in the owner's current account screenshots, then independently decoded from the exported final graphic.
 
-## Optional ways to support
+![Single-image optional support graphic with Cash App, Venmo, PayPal and GitHub QRs](assets/support/support-payment-options.png)
 
-We are keeping personal appreciation and business/project support distinct. **Direct payment links are not active yet:** candidate accounts are being checked for correct payee, permitted account use, and protection of personal information. Please do not send money using old QR sheets, unofficial profiles, or unverified payment links.
+**[View the full-size image](assets/support/support-payment-options.png)** · [Vector artwork](assets/support/support-payment-options.svg) · [Copy the official support-page link](https://github.com/SeraphPLC/age-of-free-programming/blob/main/SUPPORT.md)
 
-### Personal appreciation
+The recipient shown in the source screenshots for these personal payment profiles is **Michael Burdge**. All three destinations are **personal support routes, not verified business receiving accounts**. Confirm the name and receiving account inside the official payment app before sending any money. A scanned QR proves its encoded URL, not ongoing control of an account or eligibility for a particular payment type.
 
-This route is intended for optional support **to the individual creator, not to a business**. Cash App, PayPal and any other compatible personal option will be listed **only after the receiving account is confirmed and approved for this use**.
+### Cash App — $SeraphPLC
 
-**Status: not accepting payments through this page yet.**
+[**Open Cash App payment profile**](https://cash.app/$SeraphPLC?qr=1)
 
-### Business / project support
+![Cash App QR for $SeraphPLC](assets/support/cashapp-verified-qr.png)
 
-This route is intended for contributions to **Stay Golden Enterprises LLC**, the for-profit business associated with the Seraph project. Once a business-owned receiving account and an eligible payment method are confirmed, its public business payment link will appear here separately.
+### Venmo — @Michael-Burdge-4
 
-**Status: not accepting business payments through this page yet.**
+[**Open the Venmo code/profile**](https://venmo.com/code?user_id=3164971651301376557&created=1792913852.040818)
 
-The business is not described as a charity or a tax-deductible nonprofit. Neither kind of contribution grants a product license, an equity stake, governance rights, preferential services, or rights in Seraph's private research.
+![Venmo code for @Michael-Burdge-4](assets/support/venmo-verified-qr.png)
 
-## One sign and QR code
+### PayPal — Michael Burdge
 
-The sign below points to **this GitHub support page only**. It does not encode a payment account, financial information, or a person's email address.
+[**Open the PayPal payment code**](https://www.paypal.com/qrcodes/p2pqrc/3XHYCY3JZG3AC)
 
-![Support the Free Project — one QR sign](assets/support/support-poster.png)
+![PayPal payment QR for Michael Burdge](assets/support/paypal-verified-qr.png)
 
-[View full-size sign](assets/support/support-poster.png) · [Vector sign](assets/support/support-poster.svg) · [Central QR image](assets/support/support-hub-qr.png)
+### Business / project payments
 
-**Permanent support-page link:** https://github.com/SeraphPLC/age-of-free-programming/blob/main/SUPPORT.md
+No independently verified payment account for Stay Golden Enterprises LLC has been approved for public use. The personal payment codes above **must not be described as payments to the LLC**. A separate business link may be added later only when the receiving entity, provider eligibility, public display and ownership have been verified.
 
-You may share the sign or link once on your own social media. This repository does not operate a fundraising campaign, recurring solicitation, mailing list, donation-tracking service or payment processor.
+### Zelle privacy restriction
 
-## Before you send financial support
+Zelle is **not included** in this public image or page. The original Zelle QR code contains a personal payment email within the encoded destination, even if the email is visually hidden beneath a new design. Removing the visible words cannot remove the embedded QR payload while keeping the same working payment code.
 
-When links are added, check the visible recipient **inside the official provider app** and confirm whether it identifies the intended individual or the LLC. Do not send money if the name looks wrong. Payment providers may apply their own rules, fees or reporting requirements.
+## Free education, always
 
-Never enter passwords, payment credentials, banking numbers, recovery codes or personal records in a GitHub issue, discussion, AI chat or website claiming to be this project.
+No contribution provides special access, software licenses, project equity, ownership, governance rights, investment returns or preferential permissions. Contributions are **not represented as charitable tax-deductible donations**. Payment services may apply their own eligibility rules, fees and reporting requirements. Use the correct transaction category in each service; never mislabel a commercial payment as a friends-and-family transfer.
 
-To begin using the free materials, go back to the [project homepage](README.md) or the [Get Seraphed Community guide](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md).
+This project is **not running a fundraising campaign**. This is a static, voluntary support sign, not a recurring solicitation, processor, payment form, mailing list or subscription. We do not collect payment credentials, banking records or private contact information through GitHub.
+
+**[Start using the free educational materials](README.md)** · [Get Seraphed community prompt](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md)
 
 **Get Seraphed. The mission outlives the model.**
