@@ -8,6 +8,8 @@ This page explains **public, official ways** to use major AI services as part of
 
 For the **conceptual** reasons to coordinate multiple providers rather than treating them as one mind, see [Mesh anatomy, Chapter VIII](architecture/chapters/08-frontier-ai-ecosystem.md). This is not a claim that all advertised provider routes are active in one user's installation.
 
+**How does the next AI actually get selected?** [Port → AI → next AI public routing maps](learning-routes/02_PORT_TO_AI_TO_AI_MAPS.md) and the [capability/fallback guide](learning-routes/03_PROVIDER_OPTIONS_AND_FALLBACKS.md) explain conditional provider choices, qualifications, source evidence, privacy and stop conditions. None of the named providers is assumed connected or automatically billed.
+
 ## Choose one of three methods
 
 **Method A: Chat-only.** Use an AI's official website or app, copy the free community prompt, and manually save a sanitized project handoff. No computer tool or installed program is implied.
