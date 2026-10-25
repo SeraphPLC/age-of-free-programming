@@ -42,6 +42,6 @@ You do **not** need a Seraph account, private code, paid API, two devices, or a 
 
 ## Report your experience
 
-Open a [Build Report issue](https://github.com/SeraphPLC/age-of-free-programming/issues/new?template=build-report.md). Select what was **BUILT**, what you independently **VERIFIED**, what **FAILED or is UNKNOWN**, and your **NEXT SAFE ACTION**. A self-report is not an independent audit.
+Use the [private offline build-report template](BUILD_REPORT_TEMPLATE_OFFLINE.md) to record what was BUILT, VERIFIED, FAILED or UNKNOWN, and NEXT SAFE ACTION. **Do not upload it. Public Issues are disabled.**
 
 For evidence and release limits, see [Verification Status](VERIFICATION_STATUS.md).

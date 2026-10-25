@@ -4,7 +4,7 @@
 
 This free community project measures **reproducible builds**, not impressions or claims about AI autonomy.
 
-**[Create a new Build Report](https://github.com/SeraphPLC/age-of-free-programming/issues/new?template=build-report.md)**
+**Public Issues are disabled for privacy.** Copy the [private offline self-check template](BUILD_REPORT_TEMPLATE_OFFLINE.md) and fill it out locally. There is no required submission, signup or telemetry.
 
 Please report (only if you wish): your operating system, Python major/minor version, model/chat provider, which prompt version you used, and how far you got.
 

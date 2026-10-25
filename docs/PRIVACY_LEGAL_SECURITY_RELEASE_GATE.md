@@ -23,7 +23,7 @@ PUBLIC does not mean CLEARED FOR REUSE. A source's availability on the web, a un
 
 - GitHub issues/comments, uploads, commit metadata and contribution history are PUBLIC and can be scraped or cached.
 - Do not ask anyone to submit a real system prompt, unredacted chat export, database, task binder, backup, screen recording, account identifier, logs, location, or source code containing credentials.
-- **Public issue reporting is optional.** Contributors can report only a generic OS, generalized model/tool name, which synthetic stage was reached, and sanitized test outcomes.
+- **Public GitHub Issues are disabled.** The project does not request or collect community build reports. Readers may retain an optional private local self-check using the offline template; no personal data submission is required.
 - Do not request anyone's age, medical/disability/student status, employer, income, race, political views, authentication status, or personal contact information.
 - Contributors must remove sensitive data **before submission**; deleting an issue later cannot guarantee removal from caches, notifications, clones, or third-party archives. Moderators should promptly hide/report accidental disclosures and avoid quoting them.
 - Do not add analytics trackers, tracking pixels, mailing lists, third-party forms, cookies, or data collection services without a separate privacy notice and review.

@@ -12,13 +12,13 @@ Suggested Facebook comment (copy/adapt):
 >
 > **Copy it here, free:** https://github.com/SeraphPLC/age-of-free-programming
 >
-> If you try it, please tell us what actually worked and what failed. A real working build matters more than a like or a share.
+> If you try it, keep a local self-check. Publicly share only generic synthetic outcomes, never private logs, real tasks or account information.
 >
 > **The mission outlives the model.**
 
 Alternative shorter comment:
 
-> Want to try building your own local AI continuity system for free? I published the full beginner master prompt here: https://github.com/SeraphPLC/age-of-free-programming — No paid API needed for the offline baseline. Educational preview, not a finished OS. Share your actual build results!
+> Want to try building your own local AI continuity system for free? I published the full beginner master prompt here: https://github.com/SeraphPLC/age-of-free-programming — No paid API needed for the offline baseline. Educational preview, not a finished OS. Keep detailed results private; share only synthetic outcomes!
 
 ## Free Get Seraphed community prompt
 

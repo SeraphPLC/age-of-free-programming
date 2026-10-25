@@ -11,7 +11,7 @@ If you find a potentially dangerous instruction, credential exposure, informatio
 3. State the affected prompt/document version, the type of issue, the smallest *synthetic* example, and suggested safe remediation. Do not attack third-party systems to prove a point.
 4. If a real secret has been exposed, revoke or rotate it with the issuing provider immediately. Removing a line from GitHub does not erase past commits, forks, caches or clones.
 
-If GitHub's private-report option is temporarily unavailable, create only a minimal public Issue requesting a private reporting route, **without providing any confidential details**.
+If the private reporting option is unavailable, **do not publish vulnerability details or personal information**. Public Issues are disabled. Wait for private reporting or contact GitHub through its official support channels.
 
 ## Responsible disclosure and scope
 

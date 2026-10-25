@@ -25,7 +25,7 @@ A free, copy-and-paste educational prompt that guides a capable AI assistant thr
 
 **[Read the expanded v0.3 Knowledge Architect master prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md)** — includes general PLC-style continuity architecture, AI model roles, a rights-aware mass knowledge-base catalog and optional offline search. This is an **advanced educational candidate, not yet clean-room reproduced**.
 
-**[Beginner quickstart](docs/START_HERE.md)** · **[AI models + mass knowledge bases](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md)** · **[Software & exposure inventory](docs/SOFTWARE_INVENTORY_AND_EXPOSURE.md)** · **[Verification limits](docs/VERIFICATION_STATUS.md)** · **[Build report](docs/BUILD_REPORT.md)** · **[Versions](CHANGELOG.md)**
+**[Beginner quickstart](docs/START_HERE.md)** · **[AI models + mass knowledge bases](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md)** · **[Software & exposure inventory](docs/SOFTWARE_INVENTORY_AND_EXPOSURE.md)** · **[Verification limits](docs/VERIFICATION_STATUS.md)** · **[Private self-check](docs/BUILD_REPORT_TEMPLATE_OFFLINE.md)** · **[Versions](CHANGELOG.md)**
 
 To use either version:
 
@@ -39,7 +39,7 @@ To use either version:
 
 ## Did it work?
 
-Community success means **verified local functionality**, not likes or downloads. If you want to contribute, [open a build report](https://github.com/SeraphPLC/age-of-free-programming/issues/new?template=build-report.md). Share your OS, Python version, stage reached, exact test summary, and obstacles **without** account details, private files, IP addresses, credentials, or chat transcripts. A self-report is not an independent audit.
+Community success means **verified local functionality**, not likes or downloads. **Public Issues are disabled for privacy.** Use the [offline self-check template](docs/BUILD_REPORT_TEMPLATE_OFFLINE.md) on your own computer. Do not submit real logs, private tasks, account information or personal details. A self-report is not an independent audit.
 
 A useful report distinguishes:
 

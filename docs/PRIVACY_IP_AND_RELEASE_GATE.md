@@ -13,7 +13,7 @@ This repository publishes educational text for people to guide an AI assistant t
 - Test with made-up tasks and synthetic data. Never upload private databases, real resumes/handoff cards, backups, browser profiles, credential stores or local source collections. Strip metadata, usernames, pathnames, hostnames, IP addresses, time-sensitive links and indirect identifiers from screenshots or output.
 - Users who enter information into an online AI chat must independently review the provider's actual privacy controls and data-processing terms; **this repository does not control provider retention or training**.
 - Report accidental secret disclosure privately. Revoke leaked credentials first; deleting current files or Issues cannot be relied on to erase all historic copies.
-- This repository's historical commit metadata currently includes a personal author email address. It remains a **KNOWN OPEN PRIVACY ITEM** pending an owner-approved cleanup decision. The project will use a GitHub `noreply` author for new protective commits, but that does not remove earlier exposure.
+- Historical public commits include a personal author email address. This remains a KNOWN OPEN PRIVACY ITEM. Future CLI commits on the inspected Macs use a GitHub no-reply identity, but old commits and web/API writes are not automatically corrected. Public Issues are disabled; coordinated history and cache review is still required.
 
 ## Copyright, database rights, and third-party terms
 
