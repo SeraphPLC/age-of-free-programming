@@ -1,5 +1,12 @@
 # Version history
 
+## 2026-10-24 — Isolated synthetic disclosure reference check
+
+- [Report](docs/OUTPUT_DISCLOSURE_SYNTHETIC_TRIAL_20261024.md): 12 OG-shaped and six supplemental fictional unit tests passed for a **temporary reviewer-authored Python reference function** (18/18, exit 0). A separate blind control exposed a contextual false-green when risk flags were omitted.
+- Updated the verification ledger and output-gate document with the **scope-specific** result. **No actual AI OS, LLM, private Seraph runtime or public executable was validated or released**; OG01–OG12 end-to-end qualification remains NOT RUN.
+- Keep manual public-release approval and independent review mandatory. Do not interpret a passing small reference function as a confidentiality guarantee.
+
+
 ## 2026-10-24 — Public disclosure gate across Get Seraphed (documentation only)
 
 - Added [OUTPUT_DISCLOSURE_GATE.md](docs/OUTPUT_DISCLOSURE_GATE.md) with deny-by-default handling for confidential, access-enabling, potentially exploitable and indirectly identifying details.
