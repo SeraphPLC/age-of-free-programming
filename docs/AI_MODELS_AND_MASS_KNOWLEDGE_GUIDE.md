@@ -16,19 +16,19 @@ A personal AI OS should preserve the **operational value** of an original engine
 
 | File or library category | Why keep it? | Beginner-safe example |
 | --- | --- | --- |
-| Origin / foundational publication | Explain mission and what the project actually is | \`docs/PROJECT_ORIGINS.md\` |
-| Controlled vocabulary / dictionary | Prevent terminology drift between AI providers | \`docs/LEXICON.md\` |
-| Mission and purpose | Keep goals above temporary conversations | \`docs/MISSION.md\` |
-| Authority and action policy | Record who can approve what; no model may grant itself permissions | \`docs/AUTHORITY.md\` |
-| Architecture / capability map | Which modules actually exist, not a wish list | \`docs/ARCHITECTURE.md\` |
-| Decision history | Alternatives, reason, date, accepted status | \`docs/DECISIONS.md\` |
-| Defect / failure ledger | Preserve failures, negative tests and repairs | \`docs/FAILURES.md\` |
-| Source-of-truth / knowledge router | Find the right material by task, domain and freshness | \`docs/SOURCE_MAP.md\` |
-| Evidence / citation register | Link assertions to actual files, commands and primary sources | \`docs/EVIDENCE.md\` |
-| Continuity packet / "Get Oriented" | Hand a minimal sanitized mission and next action to a fresh AI chat | \`docs/HANDOFF.md\` |
+| Origin / foundational publication | Explain mission and what the project actually is | `docs/PROJECT_ORIGINS.md` |
+| Controlled vocabulary / dictionary | Prevent terminology drift between AI providers | `docs/LEXICON.md` |
+| Mission and purpose | Keep goals above temporary conversations | `docs/MISSION.md` |
+| Authority and action policy | Record who can approve what; no model may grant itself permissions | `docs/AUTHORITY.md` |
+| Architecture / capability map | Which modules actually exist, not a wish list | `docs/ARCHITECTURE.md` |
+| Decision history | Alternatives, reason, date, accepted status | `docs/DECISIONS.md` |
+| Defect / failure ledger | Preserve failures, negative tests and repairs | `docs/FAILURES.md` |
+| Source-of-truth / knowledge router | Find the right material by task, domain and freshness | `docs/SOURCE_MAP.md` |
+| Evidence / citation register | Link assertions to actual files, commands and primary sources | `docs/EVIDENCE.md` |
+| Continuity packet / "Get Oriented" | Hand a minimal sanitized mission and next action to a fresh AI chat | `docs/HANDOFF.md` |
 | Task and approval register | Separate planned, built, verified, accepted, blocked | SQLite + a read-only report |
-| Analog / offline playbooks | One-page, usable instructions during internet outages | \`cards/POWER_OUTAGE.md\` |
-| Source rights and privacy | Record licenses, provenance and restrictions before adding datasets | \`docs/SOURCE_LICENSES.md\` |
+| Analog / offline playbooks | One-page, usable instructions during internet outages | `cards/POWER_OUTAGE.md` |
+| Source rights and privacy | Record licenses, provenance and restrictions before adding datasets | `docs/SOURCE_LICENSES.md` |
 
 **Do not upload your original employer/company documents, personal records, credentials, private source files or whole Seraph PLC archives to a public GitHub repository or an AI prompt.** General methods can be learned from; private artifacts remain private unless their owners explicitly clear them for release.
 
@@ -55,7 +55,7 @@ An **AI model** is not the same as the service or tool that exposes it. For exam
 - **Code candidate:** Qwen Coder, Devstral or another licensed code-specific model to suggest patches and test cases. Deterministic tests—not the model's confidence—decide whether code works.
 - **Planning/analysis candidate:** Phi, Gemma, GPT-OSS, Mistral or larger Qwen models; compare on your actual task with documented benchmarks, not marketing.
 - **Low-resource fallback:** smaller Llama, Gemma, Phi or Qwen variants; keep instructions short and never assign protected actions.
-- **Search and retrieval:** an embedding model such as \`nomic-embed-text\`; its vectors help find documents, but it is **not** a conversational answer model and does not decide truth.
+- **Search and retrieval:** an embedding model such as `nomic-embed-text`; its vectors help find documents, but it is **not** a conversational answer model and does not decide truth.
 - **Custom/multilingual models:** verify training origin, weight/model license, provenance and intended languages before distribution.
 - **Cloud-identified model tag:** **not offline** even if it appears in a local model manager. Require a new data-disclosure and cost check.
 
@@ -117,7 +117,7 @@ The *best* personal knowledge system does not copy the entire Internet into a pu
 
 ### Source admission card — one per knowledge collection
 
-\`\`\`yaml
+```yaml
 source_id: example-001
 title: Example public reference
 upstream: https://example.org/
@@ -134,13 +134,13 @@ privacy_class: PUBLIC_METADATA_ONLY
 connection_status: LISTED_ONLY
 download_approved: false
 model_access_approved: false
-\`\`\`
+```
 
 **Note:** This is a *template*, not a claim about an actual source or a usable YAML parser. Give every local adapter its own concrete test.
 
 ### Source progression
 
-\`LISTED_ONLY → OFFICIAL_SOURCE_VERIFIED → LICENSE_VERIFIED → READ_ONLY_CONNECTED → OFFLINE_COPY_VERIFIED → RETRIEVAL_TESTED → APPROVED_FOR_SPECIFIED_REUSE\`.
+`LISTED_ONLY → OFFICIAL_SOURCE_VERIFIED → LICENSE_VERIFIED → READ_ONLY_CONNECTED → OFFLINE_COPY_VERIFIED → RETRIEVAL_TESTED → APPROVED_FOR_SPECIFIED_REUSE`.
 
 A resource must not jump from *found on a wiki* to *redistributed commercial library*. Permission to read, download, cite, embed, train and commercially distribute are **different rights**.
 
