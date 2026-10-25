@@ -4,7 +4,7 @@
 
 **Status:** This is a candidate for supervised review, **not a replacement for the [current Community R1 Living prompt](GET_SERAPHED_COMMUNITY_R1_LIVING.md)**. It complements the [deep two-axis standard](../docs/GET_SERAPHED_DEEP_IMMERSION_R2_CANDIDATE.md), [Living Get Seraphed protocol](../docs/LIVING_GET_SERAPHED_PROTOCOL.md), and [public disclosure gate](../docs/OUTPUT_DISCLOSURE_GATE.md). It is an original personal continuity exercise, **not** a Seraph Core package, a privileged AI identity, the private Seraph Mesh, an account connector, an installable application, or independently certified security software.
 
-This prompt is usable with an ordinary AI chat. Practice with an entirely fictional project before using AI tools on real work.
+This prompt is usable with an ordinary AI chat. Practice with an entirely fictional project before using AI tools on real work. A later Stage 1 can use an **offline** Python/SQLite foundation on the learner's own computer, but this text itself installs and runs no offline program.
 
 > **Critical safety limit:** Earlier public prompts were tested against local models using fictional secrets, and 19 of 24 adversarial privacy trials elicited an exact protected canary. A model can repeat confidential material even while describing a refusal. Do not paste real private records, internal system details, access tokens, device identifiers, vulnerabilities, credentials, full chat exports, or identifying logs into a cloud prompt. This prompt cannot install a reliable disclosure filter. Real sensitive work needs independently enforced local privacy controls and human review.
 
