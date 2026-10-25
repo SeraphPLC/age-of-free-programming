@@ -7,6 +7,8 @@ assignees: []
 ---
 
 ## Privacy first
+
+**THIS ISSUE WILL BE PUBLIC.** Do not paste real email addresses, names, phone numbers, exact local paths, IP addresses, account IDs, medical/education/financial/benefits records, credentials, private URLs, full chat transcripts, or attachments containing such information. GitHub copies and search engines can preserve disclosures. For a vulnerability, use [private security reporting](../../SECURITY.md), not this template.
 - [ ] I removed personal data, passwords, access tokens, private task content, identifying paths, IP addresses, databases, and private chat transcripts. (Leave unchecked if you still need to sanitize.)
 
 ## Setup

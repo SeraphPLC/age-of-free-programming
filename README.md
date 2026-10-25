@@ -9,6 +9,8 @@ A free, copy-and-paste educational prompt that guides a capable AI assistant thr
 
 > **What this is:** an experimental educational build specification. **What it is not:** an installed application, a finished operating system, a verified autonomous agent, a professionally audited security product, or an official Seraph 1.0 software release. An AI chat's tool availability determines what it can actually build and run.
 
+> **Privacy, licensing and safety:** [Read the protection policy](docs/PRIVACY_IP_AND_RELEASE_GATE.md), [sharing/license status](docs/SHARING_AND_LICENSE_STATUS.md), and [private security reporting](SECURITY.md) before sharing or running the prompt. Avoid posting personal data in public issues or AI chats. This is an educational preview, not a safety or legal certification.
+
 ## Get started
 
 **[Read the original Community Preview v0.1](prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md)** — the archived public educational prompt.
@@ -42,7 +44,7 @@ A useful report distinguishes:
 
 ## Use and sharing
 
-You are welcome to **copy these educational prompts into your own AI chats** and **share links to this repository without charge**. No membership, Seraph service, or paid subscription is required. The resulting project belongs to its builder, subject to the licenses and terms of software and tools actually used. This repository does **not** include executable Seraph software or private source code. Other reuse/licensing terms have not been formally specified.
+You are welcome to **copy these educational prompts into your own AI chats** and **share links to this repository without charge**. No membership, Seraph service, or paid subscription is required. You can build and control your own project, but rights in particular generated code or data depend on applicable law, provider terms, and licenses of source materials actually used. This repository does **not** include executable Seraph software or private source code. Other reuse/licensing terms have not been formally specified; this is not a blanket open-source software license or permission to redistribute private Seraph or third-party materials.
 
 Built around a simple idea: **the mission outlives the model.**
 
