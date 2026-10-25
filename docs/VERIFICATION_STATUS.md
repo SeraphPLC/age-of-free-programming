@@ -18,3 +18,11 @@
 Early prototype negative tests found and corrected a task/event integrity mismatch and a symlink path-escape backup flaw. This does **not** prove resistance to an active attacker who rewrites all local evidence or that the educational prompt yields equivalent results with any AI.
 
 Actual test counts and user reports must not be elevated to independent certification. See [release and legal gate](PRIVACY_IP_AND_RELEASE_GATE.md), [private security reporting](../SECURITY.md) and [build report](BUILD_REPORT.md).
+
+## v0.4 Memory Fidelity candidate — specification only
+
+The v0.4 public prompt and two machine-readable JSON schemas specify a possible local-first memory system. JSON syntax checks, schema-validation checks and synthetic example checks—if reported separately—establish only that these documents have acceptable *structure*. They do **not** establish that memory software exists, performs correct reconstruction, avoids all personal-data leaks, or passes cross-model recovery tests.
+
+**Implementation tests:** NOT RUN for v0.4. **Independent fresh-chat / cross-model memory reconstruction:** NOT RUN. **Legal/privacy audit of an eventual real-data system:** NOT PERFORMED. **Public executable:** NOT RELEASED.
+
+See the [adversarial acceptance plan](MEMORY_FIDELITY_ACCEPTANCE_V1.md) and [no-backlink constraint](NO_BACKLINK_INDEPENDENCE_V1.md).

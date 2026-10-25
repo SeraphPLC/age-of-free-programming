@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:personal-ai-os:memory-record:1.0",
+  "title": "Local-first memory event (educational contract v1.0)",
+  "description": "Data shape only. Conformance does not establish truth, consent, security, authorization, or privacy clearance.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_id",
+    "event_kind",
+    "subject_key",
+    "statement",
+    "created_at",
+    "source_refs",
+    "verification_status",
+    "privacy_class",
+    "consent_status",
+    "supersedes",
+    "contradicts",
+    "authority_grant"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "record_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_-]{2,63}$"
+    },
+    "event_kind": {
+      "enum": [
+        "candidate_fact",
+        "verification",
+        "correction",
+        "invalidation",
+        "failure_observation",
+        "deletion_request",
+        "deletion_confirmation"
+      ]
+    },
+    "subject_key": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_-]{2,63}$"
+    },
+    "statement": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2048,
+      "description": "May contain private content in a user's own local database. Never publish raw entries."
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "valid_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/local_ref"
+      },
+      "uniqueItems": true,
+      "maxItems": 30
+    },
+    "verification_status": {
+      "enum": [
+        "candidate",
+        "verified",
+        "rejected",
+        "superseded",
+        "stale",
+        "deleted"
+      ]
+    },
+    "review_receipt_id": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/local_ref"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "privacy_class": {
+      "enum": [
+        "synthetic",
+        "public_reference",
+        "local_private"
+      ]
+    },
+    "consent_status": {
+      "enum": [
+        "not_required_synthetic",
+        "pending",
+        "approved",
+        "withdrawn"
+      ]
+    },
+    "supersedes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/local_ref"
+      },
+      "uniqueItems": true,
+      "maxItems": 30
+    },
+    "contradicts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/local_ref"
+      },
+      "uniqueItems": true,
+      "maxItems": 30
+    },
+    "authority_grant": {
+      "const": false,
+      "description": "Persisted memory never authorizes consequential actions."
+    },
+    "content_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "Optional consistency indicator, not a signature or proof of authorship."
+    }
+  },
+  "$defs": {
+    "local_ref": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_-]{2,63}$"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "verification_status": {
+            "const": "verified"
+          }
+        },
+        "required": [
+          "verification_status"
+        ]
+      },
+      "then": {
+        "required": [
+          "review_receipt_id"
+        ],
+        "properties": {
+          "review_receipt_id": {
+            "$ref": "#/$defs/local_ref"
+          }
+        }
+      }
+    }
+  ],
+  "examples": [
+    {
+      "schema_version": "1.0",
+      "record_id": "mem_demo_001",
+      "event_kind": "candidate_fact",
+      "subject_key": "fictional_garden",
+      "statement": "The imaginary greenhouse contains three test pots.",
+      "created_at": "2026-10-24T00:00:00Z",
+      "source_refs": [
+        "src_demo_001"
+      ],
+      "verification_status": "candidate",
+      "review_receipt_id": null,
+      "privacy_class": "synthetic",
+      "consent_status": "not_required_synthetic",
+      "supersedes": [],
+      "contradicts": [],
+      "authority_grant": false
+    }
+  ]
+}
