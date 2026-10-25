@@ -16,7 +16,7 @@ This trial tested whether an AI could follow the public [Stage 1](../prompts/sta
 | Stage 2 narrowly scoped model generation | Direct local coding-model call; public Stage 2 plus generated Stage 1 | **8 PASS / 5 FAIL out of 13 tests**. Important failures: direct task alteration, evidence alteration, event-history corruption, and missing task-detail visibility. |
 | Stage 2 supervised correction | Newly written local Python/SQLite code after the rejected model output was preserved | **57/57 first-party synthetic tests PASS** on each of two macOS computers; further details below. **This was not an independent model-generated Stage 2 build.** |
 
-The original Stage 1 source remained byte-for-byte unchanged; its SHA-256 was `021d2d8f2fbcb732241de560ffda2cd259902bdb3534b01e43c358238536a64b`.
+The original Stage 1 source remained byte-for-byte unchanged; its exact SHA-256 is retained in the owner-controlled private evidence manifest and not published here.
 
 ## What the supervised Stage 2 implements
 
@@ -43,7 +43,9 @@ The program uses Python standard-library modules and SQLite, not a hosted model 
 
 Developer-run tests and a second computer do **not** equal an independent security audit. Synthetic event consistency does **not** mean verified external truth. The test suite includes a deliberate demonstration that a coordinated local attacker can rewrite the entire event history and still pass structural checks: the journal is **not tamper-proof or independently authenticated**.
 
-The supervised local code's Stage 2 engine SHA-256 was `cf4a163a30d706f4a717820b074925fe28d634c5e9826594cd4b3b9537555b47`. The local review ZIP SHA-256 was `72ce73c74537ca1a5f4506506ac43a7b486b7502b801bf19847deb719aae1428`. These hashes identify local reviewed bytes but are not proof of safety, authorship, or ownership. **The ZIP is deliberately not publicly downloadable.**
+The supervised local Stage 2 engine and review ZIP SHA-256 values are retained in the owner-controlled private evidence manifest and not published here. These hashes identify reviewed bytes but are not proof of safety, authorship, or ownership. **The ZIP is deliberately not publicly downloadable.**
+
+**Historical visibility:** Earlier public Git commits and pull-request diffs still expose the previously published fingerprints; forks and caches may retain them. This edit does not erase historical exposure.
 
 ## What this teaches about the free builder guide
 

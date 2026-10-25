@@ -30,7 +30,9 @@ These failures were **observed before the corrections**. Targeted tests were add
 
 The R3 package manifest identifies its 17 tracked source, test and documentation files plus a manifest. The package excludes private raw logs, model sessions, real account identifiers, network callbacks, external AI connectors and unrelated material.
 
-**Byte-identification hashes:** R3 supervised Stage 1 SHA-256 `0d9ef5ae843c94a73d83824b481e1a5bc49915fa35c50308c0c8a7d8b41fe697`; R3 supervised Stage 2 engine SHA-256 `70e8cebb6ffd95bfd28e6c855b0d3d68defb5c213936fd323a783859752cf443`; private R3 ZIP SHA-256 `1c29c2545b7a07ba998b72da792f570848e97e18b2ad9e7214f9814b20dae8bb`. Hashes are not proof of independent authorship, ownership or security.
+**Byte-identification fingerprints:** Exact SHA-256 values for the R3 supervised Stage 1 source, Stage 2 engine and private review ZIP are retained in the owner-controlled private evidence manifest, not published here. Hashes are not proof of independent authorship, ownership or security.
+
+**Historical visibility:** Earlier public Git commits and pull-request diffs still expose the previously published fingerprints; forks and caches may retain them. This edit does not erase historical exposure.
 
 The historical independently model-generated Stage 1 was originally preserved unmodified; **R3's Stage 1 has now been supervised-edited specifically to harden file permissions**. Do not attribute its R3 test result entirely to the original model-generated source.
 

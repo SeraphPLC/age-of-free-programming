@@ -29,7 +29,9 @@ These were first observed on a separate copy; the R3 package and its original lo
 | Genuine fresh browser AI-chat Stage 1–2 recreation | **NOT QUALIFIED** |
 | Windows/Linux qualified portability | **NOT RUN for R4** |
 
-The R4 ZIP has a different fingerprint from R3, is private, and is not a public download. **Review-only ZIP SHA-256:** `f1d58f858b87945117d9136f659d2938c0adfa90044d32f61ed436a63752eae0`. Hashes document byte identity, not code safety or legal ownership.
+The R4 ZIP has a different fingerprint from R3, is private, and is not a public download. Its exact review-only SHA-256 is retained in the owner-controlled private evidence manifest, not published here. Hashes document byte identity, not code safety or legal ownership.
+
+**Historical visibility:** Earlier public Git commits and pull-request diffs still expose the previously published fingerprints; forks and caches may retain them. This edit does not erase historical exposure.
 
 ## Independent public-prompt reproduction: negative receipts
 

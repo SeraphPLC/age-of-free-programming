@@ -25,15 +25,17 @@ The initial developer run failed **one** duplicate-record error-handling check. 
 
 The implementation and tests were authored in the same AI-assisted work session. **They are not independently reproduced from a fresh AI chat or independently security reviewed**, notwithstanding successful execution on two machines.
 
-## Fingerprints for future reproducibility
+## Private fingerprints for authorized reproducibility
 
-The following fingerprints identify the tested original local source files; the files themselves have not been publicly released pending rights and security review:
+SHA-256 fingerprints for the tested local implementation, acceptance tests and review package are retained in an owner-controlled private evidence manifest. The underlying files remain unreleased pending rights and security review:
 
-- Core Python implementation SHA-256: `62792b76332fca80d34ee2aaa3e875d9476037eb6ddde28a13d5701aa64d53b6`.
-- Main acceptance test source SHA-256: `8d13df0f28790c3f454fdf88b87a0484a8d6a83f146f48f11fb90243ddb445d1`.
-- Review-only ZIP SHA-256: `0497f6f384fc4a450160dcd070c4034a69b3831f2011d682b60fcfac4dfa97e4`.
+- Core Python implementation SHA-256: **retained privately; not published**.
+- Main acceptance test source SHA-256: **retained privately; not published**.
+- Review-only ZIP SHA-256: **retained privately; not published**.
 
-The ZIP is **not** publicly downloadable. These hashes document byte identity only, not code safety, authorship, legal ownership, or historical authenticity.
+The ZIP is **not** publicly downloadable. The privately retained fingerprints document byte identity only, not code safety, authorship, legal ownership, or historical authenticity.
+
+**Historical visibility:** Earlier public Git commits and pull-request diffs still expose the previously published fingerprints; forks and caches may retain them. This edit does not erase historical exposure.
 
 ## Known unsolved problems
 
