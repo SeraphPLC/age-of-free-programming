@@ -20,7 +20,7 @@ Before Stage 1, see the [recommended ChatGPT + Desktop Commander setup guide](RE
 
 ## Three ways to start
 
-**1. Only an AI chat?** Copy [Get Seraphed Community R1 (Living)](../prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) or the [short chat-only starter](../prompts/stages/00_CHAT_ONLY_CONTINUITY.md). Save a fictional mission and handoff card yourself; a new chat will not magically have the old one.
+**1. Only an AI chat?** Copy [Get Seraphed Community R1 (Living)](../prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) or the [short chat-only starter](../prompts/stages/00_CHAT_ONLY_CONTINUITY.md). Save a fictional mission and handoff card yourself; a new chat will not magically have the old one. If you are **moving an existing project to a new conversation**, use the [gentle chat-to-chat handoff guide](GENTLE_CHAT_HANDOFF.md) for copy-and-paste prompts, a safe state card, and a fictional rehearsal.
 
 **2. A code-capable AI with authorized computer tools?** Begin with [Stage 1 — Build an offline core](../prompts/stages/01_OFFLINE_CORE.md). It must inspect its real tools, propose a new folder and ask permission. Then create files, run actual `init/status/doctor` commands and record tests. Never accept a story about code as proof code was run.
 
