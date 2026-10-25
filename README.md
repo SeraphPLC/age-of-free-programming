@@ -3,6 +3,10 @@
 
 **This repository is an educational guide, not installed AI software or an official Seraph software release.** The prompts help you build an original project without private Seraph infrastructure. No paid AI API is required for the intended offline Python/SQLite foundation. What an AI can really build depends on its tools, your approvals, and tests you observe.
 
+## Map every AI handoff and fallback
+
+**[Atomic port → AI → next AI routing atlas](docs/learning-routes/README.md)** shows the Seraph-aligned *observable* process for choosing an appropriate model, using a tool, handing verified results to a different AI, recovering from failures, and offering other qualified options at each point. Includes 18 logical ports, task-specific routing maps, human permission boundaries, and 24 fictional acceptance tests. It is a **public independent reference**, not access to private Seraph Mesh wiring or operational secrets.
+
 ## Pick your AI: public setup methods
 
 **[Frontier AI access and computer-building methods](docs/FRONTIER_AI_ACCESS_METHODS.md)** covers ChatGPT/OpenAI, Claude, Gemini, Perplexity, GitHub Copilot, Microsoft Copilot, Grok/xAI, Kimi/Moonshot, Qwen, Ollama and IDE assistants. Use an official app, a qualified coding tool, or a separately approved developer API. **No private Seraph Mesh route, credentials, accounts or machine access is provided.**
