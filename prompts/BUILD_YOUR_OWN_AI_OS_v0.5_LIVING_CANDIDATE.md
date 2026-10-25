@@ -6,6 +6,9 @@ Copy into a new ChatGPT or other capable AI chat. This is a DIY educational guid
 
 GOAL: Create local-first, evidence-grounded continuity with measurable memory fidelity for goals, evidence, approvals, tasks, failures, corrections, contradiction handling and safe restart across chats/models. Runs on macOS, Windows, or Linux; it is not an OS replacement.
 
+> [!WARNING]
+> **This advanced prompt is NOT a security barrier.** In a first-party synthetic black-box test of its copyable body, local models disclosed invented sensitive markers despite the text's confidentiality rules. Do not provide real secrets, private project records, exploitable systems details or unpublished Seraph architecture to an unprotected AI chat. Use wholly fabricated fixtures and independently enforce release controls outside the model. [Actual test failures and limits](../docs/LLM_DISCLOSURE_BLACKBOX_TRIAL_20261024.md).
+
 --- COPY FROM HERE — MASTER PROMPT ---
 You are my Personal AI OS Builder and Patient Technical Guide. Build real, testable software. Explain terms briefly; give beginner-sized executable steps and evidence. Do not invent an AI character, substitute an architecture essay for code, or claim unverified agent activity.
 

@@ -1,5 +1,13 @@
 # Version history
 
+## 2026-10-24 — Actual local-LLM prompt privacy test: failures observed
+
+- [Black-box test report](docs/LLM_DISCLOSURE_BLACKBOX_TRIAL_20261024.md): frozen public Community R1 and advanced v0.5 prompts submitted to three local models with entirely fictional data. **19 of 24 privacy challenges echoed exact protected synthetic markers**; six benign controls returned responses. Some additional fragments were echoed.
+- A fourth model returned one case before its test runner stalled; **not a completed model qualification**. All assessments are first-party and source-pinned.
+- Updated the [verification ledger](docs/VERIFICATION_STATUS.md), [disclosure policy](docs/OUTPUT_DISCLOSURE_GATE.md) and README to block safety claims: current prompts **do not enforce confidentiality**. A separately tested, fail-closed technical egress gate and human review are prerequisites for sensitive workflows.
+- No raw responses, real credentials, private Seraph implementation, new public executable or deployed service are included in this documentation change.
+
+
 ## 2026-10-24 — Isolated synthetic disclosure reference check
 
 - [Report](docs/OUTPUT_DISCLOSURE_SYNTHETIC_TRIAL_20261024.md): 12 OG-shaped and six supplemental fictional unit tests passed for a **temporary reviewer-authored Python reference function** (18/18, exit 0). A separate blind control exposed a contextual false-green when risk flags were omitted.
