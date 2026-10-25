@@ -31,6 +31,10 @@
 
 **Case-specific next action:** A model can produce a plausible status label but suggest an irrelevant recovery step borrowed from another error. Confirm that the proposed action addresses the **observed** failure and exact source revision, requires no extra authority, and cannot alter existing data unexpectedly. A stale review calls for targeted revalidation, **not** automatic folder cleanup.
 
+**Distinguish project state from test result:** A correctly observed refusal of an unsafe operation (for example an existing root, symlink escape, or unsupported schema) can be **PASS for the protective negative test**, while the attempted operation remains REFUSED and the project remains unqualified. If the protection fails to reject the unsafe input, that negative test is **FAIL**. Record both the incident and the test disposition; a nonzero exit is not automatically a failed test.
+
+**Interrupted process caveat:** A forced termination, power loss, or lost process handle might provide **no reliable exit code**. Never invent one. Record the observed partial artifacts and mark unconfirmed effects `UNKNOWN / RECONCILE` until authorized read-only reconciliation is complete.
+
 A required test omitted from discovery is `NOT_RUN` and prevents overall qualification. A required test intentionally skipped remains `SKIPPED / NOT_RUN` for qualification; if a tool cannot run, use `BLOCKED (NOT_RUN)`. A suite with zero tests and exit code 0 is **not PASS**. Keep both the *claim* and the *observed result* when they disagree.
 
 ## 3. What to do for common failures
@@ -43,10 +47,10 @@ These are examples of **expected safe responses**, not claims that an installed 
 | Model generation timed out, returned a placeholder, or produced no source | `GENERATION_BLOCKED / NOT_RUN` | Preserve request boundary and provider outcome; change model/prompt only as a **new** generation, never as a tested software result |
 | Generated source contains unsafe cleanup, unapproved paths, network activity or hidden actions | `SOURCE_REJECTED / FAIL` | Quarantine before execution; never run it just to see what happens |
 | Test runner found zero tests, skipped a mandatory check, or printed a canned PASS | `FALSE_GREEN / NOT_RUN or FAIL` | Fix discovery and independently run positive **and** negative controls; preserve original misleading claim |
-| `init` sees an existing folder, unexpected symlink or path outside approval | `PATH_REFUSED / FAIL` | Refuse overwrite; select a new owner-approved synthetic root; do not silently change permissions on unrelated files |
-| `init` crashes after creating some files or SQLite tables | `PARTIAL_INIT / UNKNOWN` | Inspect the abandoned folder read-only; do not auto-delete or reuse it; seek current approval for any repair or disposal |
-| `MISSION.md` is missing, changed, linked, or disagrees with SQLite | `MISSION_MISMATCH / FAIL` | Refuse `status`/ `doctor` success; preserve both versions; require an explicit reconciliation decision |
-| SQLite is locked, corrupted, or has an unknown schema | `DB_UNAVAILABLE / FAIL or BLOCKED` | Record exact observed condition; don't auto-migrate, recreate or overwrite the database. Recheck active writers before a bounded retry |
+| `init` sees an existing folder, unexpected symlink or path outside approval | `PATH_REFUSED`; protective negative test **PASS** only if refusal was observed | Refuse overwrite; select a new owner-approved synthetic root; do not silently change permissions on unrelated files |
+| `init` is interrupted after creating some files or SQLite tables | `PARTIAL_INIT`; observed artifacts known, final outcome may remain `UNKNOWN / RECONCILE` | Inspect the partial folder read-only; do not invent an exit status, auto-delete, or reuse it; seek current approval for any repair or disposal |
+| `MISSION.md` is missing, changed, linked, or disagrees with SQLite | `MISSION_MISMATCH` in project state; protective test **PASS** if `status` and `doctor` correctly reject the mismatch | Preserve both versions and require an explicit reconciliation decision; failure to detect the mismatch is a test **FAIL** |
+| SQLite is locked, corrupted, or has an unknown schema | `DB_BUSY / BLOCKED` for a lock; `DB_INVALID / FAIL` for confirmed corruption or unsupported schema | Record the exact observation; a correctly observed protective refusal may be a **PASS for the negative test**. Never auto-migrate, recreate, or overwrite; inspect active writers before considering any retry |
 | `status` or `doctor` creates files, writes sidecars, or exits zero on an error | `READ_ONLY_BREACH / FAIL` | Stop promotion; inspect read-only connection and real exit code; test on fictional paths containing spaces or punctuation |
 | Project/database/mission permissions are overbroad | `PERMISSION_FAIL / FAIL` | Stop real-data use; test effective permissions or ACLs on the relevant platform before any further stage |
 | Two workers claim the same task, or a stale lease reports completion | `CLAIM_CONFLICT / FAIL` | Verify durable state and lease/fence before another action; refuse completion from stale credentials |

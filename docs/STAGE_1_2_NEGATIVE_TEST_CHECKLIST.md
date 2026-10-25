@@ -22,9 +22,9 @@ For every test, record the exact source revision, approved test folder, operatin
 | S1-10 | The saved mission content matches a persisted SQLite mission value; changed/symlinked mission files are refused by both `status` and `doctor` |
 | S1-11 | Generated source is reviewed for file/network effects before any execution; both `status` and `doctor` connect to SQLite read-only with safe path handling; test fictional folder names with spaces/punctuation |
 | S1-12 | Separate synthetic negative tests verify nonzero exits, owner-only mission **and** database modes, and no side effects when the project is absent or already exists |
-| S1-13 | If initialization is intentionally interrupted after creating part of the new project, it returns failure, preserves the partial state for authorized review, does **not** perform recursive cleanup or overwrite, and requires a fresh approved root for a new trial |
+| S1-13 | If initialization is intentionally interrupted after creating part of a new synthetic project, record the actual exit **if available**, otherwise UNKNOWN / RECONCILE. Preserve the partial state for authorized review with **no recursive cleanup or overwrite**; use a fresh owner-approved root for a new trial |
 | S1-14 | A genuinely missing program, missing test command, model generation timeout or no terminal access is NOT_RUN / BLOCKED, not source-code FAIL or synthetic PASS |
-| S1-15 | A test runner discovering **zero tests** or skipping a mandatory check cannot return an overall qualified PASS, even when it exits with status 0; one synthetic negative control must demonstrate detection |
+| S1-15 | A test runner discovering **zero tests** or skipping a mandatory check cannot return an overall qualified PASS, even when it exits with status 0; one synthetic negative control must demonstrate detection. A correctly observed refusal may count as that **negative test's PASS**, but never as qualification of missing tests |
 | S1-16 | Text that only *describes* a valid fixture stays EXPECTED_PASS / NOT_RUN; MANUAL_PASS needs an actual human inspection of the stated artifact, and pasted text does not prove a saved file exists |
 | S1-17 | Timeout or loss of SQLite response after attempted writes is UNKNOWN/RECONCILE until authoritative durable state is checked; no automatic same-effect retry or claimed success |
 
