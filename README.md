@@ -11,6 +11,10 @@
 
 **[Beginner guide: ChatGPT + Remote Desktop Commander](docs/RECOMMENDED_COMPUTER_SETUP.md)** explains how a compatible ChatGPT client can connect to **your own test computer**, write actual Python files and run real tests. It covers Node.js/Python prerequisites, device pairing, the provider's free/paid options, read-only verification, disconnection and the third-party privacy boundary. **The provider's allowed-directory and blocked-command settings are guardrails, not a security sandbox**; use an isolated low-privilege account, container or VM for experiments. The setup is optional—**Stage 0 remains available with an ordinary chat**. The publisher never receives your device, login or financial information.
 
+## Understand the Seraph Mesh idea
+
+Explore the **[public-safe Seraph Mesh anatomy](docs/architecture/README.md)**: a 115-section systems-engineering explanation of the network, conceptual neurons/dendrites/synapses, organizational memory, human authority, work coordination, recovery, frontier models, security and evidence. Read it as an educational model, **not as a diagram or release of private Seraph Core**. For practical motivation see [microbusiness use cases](docs/USE_CASES_FOR_MICROBUSINESSES.md).
+
 ## Choose how you want to start
 
 | I have... | Start here | What you can get |
