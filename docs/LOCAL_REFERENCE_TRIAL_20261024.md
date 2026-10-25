@@ -1,4 +1,6 @@
-# Local experimental reference trial — 2026-10-24
+# Local experimental reference trial — 2026-10-24 (historical R0 snapshot)
+
+**Newer R1 hardening results:** [31-test local reference review](LOCAL_REFERENCE_R1_HARDENING_20261024.md). This page preserves the original 26-test R0 evidence; it has not been silently rewritten to claim later passes.
 
 **Status: developer-run synthetic trial, NOT a public code release or independent security certification.**
 
