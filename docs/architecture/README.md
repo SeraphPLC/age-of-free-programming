@@ -8,6 +8,8 @@
 
 **Living updates throughout the architecture:** The [Living Get Seraphed protocol](../LIVING_GET_SERAPHED_PROTOCOL.md) describes how source-backed changes, new owner instructions, corrections, requirements and failures enter a human-governed project without silently overwriting history, disclosing private work or inheriting permission. This is a public teaching method, not a disclosure of private Seraph control mechanisms.
 
+**Mandatory public-output privacy boundary:** [OUTPUT_DISCLOSURE_GATE.md](../OUTPUT_DISCLOSURE_GATE.md) prohibits divulging private Seraph systems, real control routes, access details, unpublished vulnerabilities or inferable identifying clues in an educational diagram, transcript or code sample. Illustrate mechanisms using independent public references and synthetic examples instead. A public-safe conceptual architecture is **not** the private operational topology.
+
 ## Read by topic
 
 | Chapter | Sections | What you'll learn |

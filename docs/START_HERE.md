@@ -2,6 +2,10 @@
 
 **Free educational guides, not an installed AI operating system.** No special Seraph access is needed. Choose a new, empty folder on your own computer only when you approve it. Never share passwords, personal records, chat exports or real databases to prove the prompts work.
 
+## Default privacy gate
+
+Every current Get Seraphed prompt must follow the [mandatory public output disclosure gate](OUTPUT_DISCLOSURE_GATE.md): do not reveal private information, secrets, proprietary systems, security weaknesses or indirectly identifying clues in replies, handoffs, artifacts or links. If sensitivity or rights are unknown, WITHHOLD and offer a synthetic alternative. This is a prompt requirement, not an installed security filter. Public posting requires explicit current approval and final review.
+
 ## Choose the AI you already have
 
 Use the [public frontier-AI access guide](FRONTIER_AI_ACCESS_METHODS.md) to choose a chat-only, coding-tool or optional API method for ChatGPT, Claude, Gemini, Perplexity, Copilot, Grok, Kimi, Qwen and local models. You can start with any one compatible service; no private Seraph Mesh access is needed.

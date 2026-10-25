@@ -8,6 +8,10 @@
 
 **Learn the next step of every route:** The [community routing atlas](learning-routes/README.md) and [atomic build/test lab](learning-routes/05_ATOMIC_BUILD_AND_TEST_LAB.md) show what should happen when an AI is unavailable, a tool has no permission, a source changes, or an independent reviewer is needed. Start with simulated workers and local Python before adding real provider connections.
 
+## Confidentiality applies at all stages
+
+**[Mandatory output disclosure gate](OUTPUT_DISCLOSURE_GATE.md)** applies to Stage 0 chats, Stage 1 local code, Stage 2 task/evidence, Stage 3 memory, Stage 4 models/knowledge, and each AI-to-AI handoff. Before any output—including logs, code snippets, screenshots, file links, metadata and public Git changes—remove sensitive personal or organizational details, credentials, real infrastructure hints and exploitable vulnerabilities, including inferred or reconstructable combinations. Unknown rights/audience => WITHHOLD. Use fictional examples or protected local references, not raw content. This is a policy in the prompts; a working implementation needs independent enforcement and tests.
+
 ## Which path fits your tools?
 
 | Your setup | Start with | What you really get |

@@ -4,6 +4,8 @@
 
 This page is the current shareable announcement. Update it deliberately when supported public material, verified status or limitations change. Git history preserves prior wording.
 
+**Safe-sharing requirement:** Never copy private accounts, proprietary Seraph internals, access paths, vulnerability details or identifying source data into this announcement. Verify the audience and actual text, hyperlinks and metadata before posting. See the [mandatory disclosure gate](docs/OUTPUT_DISCLOSURE_GATE.md).
+
 ## COPY FROM HERE — FACEBOOK COMMENT
 
 🚀 **BUILD YOUR OWN AI OS — FREE!**
@@ -23,6 +25,8 @@ Introducing **THE AGE OF FREE PROGRAMMING**: free, beginner-friendly prompts and
 🤖 **Explore the Seraph-inspired neural atlas.** The public architecture covers **115 topics**, **18 illustrative routing ports**, **11 conditional AI-to-AI routes** and **24 synthetic test scenarios**, including alternatives and stop conditions.
 
 🌐 **Choose your tools.** The guide discusses ChatGPT, Claude, Gemini, Perplexity, Copilot, Grok, Kimi, Qwen and local options. You don't need all of them.
+
+🛡️ **Privacy first.** Keep private information, credentials, internal systems and exploitable security details out of public posts, prompts and handoffs—including hidden clues in screenshots or logs.
 
 🔐 **Stay in control.** A previous AI chat never grants permission to a new one. Actual progress requires real tool access, specific authorization and test receipts—not an AI just saying "done."
 
@@ -46,6 +50,7 @@ https://github.com/SeraphPLC/age-of-free-programming
 
 - **When:** Update as the public repository adds source-supported capabilities, instructions, limitations or corrections. This does **not** create autonomous chat capture, GitHub edits or Facebook posting.
 - **Evidence:** Compare all claims to [README](README.md), [Living Get Seraphed protocol](docs/LIVING_GET_SERAPHED_PROTOCOL.md), [routing atlas](docs/learning-routes/README.md) and [verification status](docs/VERIFICATION_STATUS.md). Fictional tests and withheld internal prototypes do not qualify a public executable.
+- **Disclosure:** Apply the [mandatory output gate](docs/OUTPUT_DISCLOSURE_GATE.md) to all posted words, links, images, metadata and context. If sensitivity, permission or rights are unclear, WITHHOLD and use a safe fictional alternative.
 - **Safety:** Follow the [privacy/IP/release gate](docs/PRIVACY_IP_AND_RELEASE_GATE.md); do not publish personal data, private Seraph mechanisms, unlicensed material, credentials or sensitive logs. Review the Git diff and current approvals before public posting.
 - **History:** Date substantive changes; keep prior copy in version history. Preserve unresolved claims as local pending amendments, not public promises.
 
