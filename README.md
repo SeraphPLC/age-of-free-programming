@@ -5,9 +5,15 @@
 
 **Current public status:** The chat-only continuity prompts are free educational guidance; **no downloadable AI OS executable is released**. R5 supervised tests show bounded local progress, but independent public-prompt reproduction remains unqualified. See the [R5 verification review](docs/LOCAL_R5_STAGE1_REPRODUCIBILITY_REVIEW_20261024.md) for evidence and limitations.
 
-## Support the free project (optional)
+## 💛 Support free AI education — optional
 
-**[Support the free project](SUPPORT.md)** — one simple sign, a central QR code and the official support page. The educational materials remain free whether or not anyone contributes. Personal and business receiving accounts are separate; payment links will appear only when their recipients and permitted uses are verified.
+**[OPEN THE SUPPORT PAGE — CASH APP, VENMO & PAYPAL](SUPPORT.md)**
+
+<a href="SUPPORT.md"><img src="assets/support/support-payment-options.png" width="680" alt="Support The Age of Free Programming — scannable Cash App, Venmo, PayPal and GitHub QR codes"></a>
+
+**Cash App: $SeraphPLC · Venmo: @Michael-Burdge-4 · PayPal: Michael Burdge.** The scannable poster also includes a QR to the official GitHub support page. These are personal receiving accounts, **not verified LLC payment methods**. Check the recipient inside the official app before paying.
+
+**All educational content stays free.** Contributions are voluntary and do not create special access, an ownership interest or a charitable tax deduction claim. Zelle is excluded to avoid disclosing private recipient information.
 
 ## Private by default — disclose no vulnerable or confidential details
 
