@@ -67,3 +67,12 @@ A change to prompt instructions is not proof that AI builders faithfully impleme
 - Added a public report explaining that supervised code/test success is **not** equivalent to independent fresh-chat reproduction or a release certification.
 - **No executable, real personal data, private Seraph source, remote callback, public package, or new software redistribution license added.**
 - See [Stage 1–2 Public Prompt Trial](docs/STAGE2_PUBLIC_PROMPT_TRIAL_20261024.md).
+
+
+## R3 local security hardening — October 24, 2026 (documentation only)
+
+- Reproduced and fixed three previously missed synthetic defects: overly broad POSIX project/SQLite permissions, completion/blocking earlier than the active claim's start, and failure-ID overflow at maximum valid task-ID length.
+- Hardened standalone Stage 1 initialization and Stage 2 re-migration privacy; the R3 Stage 1 file is a supervised derivative and the original independently generated R2 file remains preserved.
+- Recorded **63/63 first-party synthetic tests passed** on two Macs, with three Python versions checked on one Mac and deny-network sandboxes on both. No Windows/Linux portability or independent professional security review claimed.
+- Added Stage 1 and Stage 2 prompt-level negative-test requirements and a small public acceptance checklist.
+- **No executable, private logs, passwords, private infrastructure, third-party corpus or software redistribution license added.** See the [R3 report](docs/LOCAL_STAGE2_R3_SECURITY_REVIEW_20261024.md).
