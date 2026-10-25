@@ -51,8 +51,8 @@ A successor receiving only `H-01` should answer: the event is planned for Room B
 ```text
 PROJECT: fictional-book-club
 MISSION: prepare one accurate invitation draft, do not send
-ANCHOR_SOURCE: S-02 (confirm independently), date: [actual date]
-CURRENT_KNOWN: room B only after E-01; draft check E-02
+ANCHOR_SOURCE: E-01 (human verification of S-02), date: [actual date or UNKNOWN]
+CURRENT_KNOWN: Room B verified by E-01; current draft checked in E-02
 CHANGED: old room A superseded, preserve old record
 CONTRADICTIONS: none open about room; send approval still missing
 FAILED_OR_UNKNOWN: no publication test or approval

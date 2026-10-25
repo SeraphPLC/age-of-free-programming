@@ -35,6 +35,12 @@ Give each condition a fair initial period to work. Interrupt the worker, then in
 
 **Do not** use real health, student, banking, customer, account, family or client records. Do not connect third-party systems as part of this experiment.
 
+## A beginner dry-run before any timed study
+
+Use three pieces of scratch paper marked A, B and C. Put the **same fictional five-fact task** on each. Give each a distinct handoff format as specified above, hide the initial worker's notes from the next reader, and ask a human to identify the corrected fact and missing approval. Record what was found, what was guessed and whether any source was unavailable. This is a **manual rehearsal**, not a three-person independent study or a comparative model benchmark.
+
+Only move to the full ten-fact experiment after the instructions make sense to a learner. If no separate person or genuinely fresh AI session is available, report `DRY_RUN_ONLY` or `SIMULATED`; don't turn familiarity with the answer key into a measured continuity advantage.
+
 ## Define scores *before* collecting outcomes
 
 | Metric | Numerator / denominator or observation | Failure or bias to avoid |

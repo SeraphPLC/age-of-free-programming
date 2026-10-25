@@ -19,6 +19,16 @@ This is derived as an **independent educational scenario** from the general less
 
 **Mission:** in a newly created, isolated folder, prepare a plain-text catalog for an *imaginary* public library. It must contain **exactly three invented entries** with unique identifiers `BK-101`, `BK-102` and `BK-103`; each entry requires a nonempty title and must be free of real personal data.
 
+**Simple example format:** one line per entry, written as `ID | Title`; the identifiers must match `BK-101`, `BK-102` and `BK-103` once each. The space-separated separator is for this teaching exercise, not a general database schema. Example of a **valid fictional catalog** (not a test receipt):
+
+```text
+BK-101 | The Paper Moon
+BK-102 | Lantern Gardens
+BK-103 | The Clockwork Orchard
+```
+
+An empty file, a repeated ID, a missing ID, a blank title or an unexpected fourth entry is **invalid**. If no terminal is available, a human can inspect each line manually and record `MANUAL_CHECK`; do not describe a manual exercise as automated.
+
 **First deliberately weak test:** merely check whether a text file exists. This test can report "PASS" for an empty catalog. The file's existence is a real observation, but **requirement satisfaction was NOT demonstrated**.
 
 **Safety:** do not modify any existing project; never test on real patron records; no file deletion outside the learner's throwaway folder; never publish a catalog as a result of a passing test.
@@ -31,13 +41,13 @@ This is derived as an **independent educational scenario** from the general less
 2. Record the actual candidate revision or local file digest **only if you measured it**. Otherwise write `SOURCE_REVISION: UNKNOWN`.
 3. Define the weak acceptance check: "`catalog.txt` exists."
 4. Run that check with an actually available tool, or mark `NOT RUN` if working only on paper.
-5. The intended expected observation is **exists=true, content requirement=false**. Do not claim that result was observed unless a tool really ran.
+5. The intended expected observation is **exists=true, content requirement=false**. Do not claim that result was observed unless a tool really ran. In the fictional case history, a previous helper **mistakenly** promoted the file-existence check into a `REQUIREMENT_PASS` claim; explicitly label that older claim `FICTIONAL_FALSE_GREEN` rather than presenting it as a real completed test.
 
 ### Phase B — Catch the false green
 
 6. Compare the weak check to the actual requirement: three entries, exact IDs, distinct IDs, nonblank titles.
 7. File `F-001 FALSE_GREEN`: original check could not distinguish empty catalog from valid catalog.
-8. Reclassify the earlier "requirements PASS" as `INVALIDATED`; retain the original check result as a historical `EXISTS_ONLY` observation.
+8. Reclassify the **fictional** `REQUIREMENT_PASS` claim as `INVALIDATED`. Retain any genuinely observed file-existence result separately as `EXISTS_ONLY`; if no test tool ran, record that observation `NOT_RUN` instead.
 9. Record why acceptance was invalid, who assessed it, and which source revision it affected.
 
 ### Phase C — Design a meaningful positive and negative control
@@ -48,7 +58,7 @@ This is derived as an **independent educational scenario** from the general less
 13. **Negative control 3:** blank title or missing `BK-103` must FAIL.
 14. **Negative control 4:** an expected file missing entirely must be `MISSING_REQUIRED_ARTIFACT`, not SKIP or PASS.
 
-A check that cannot reject its negative controls does not qualify the requirement.
+For each control, compare the exact ID set and nonempty titles; also reject extra lines. A beginner can mark each as `MANUAL_PASS` or `MANUAL_FAIL` **only after examining the actual fictional text**. Automated PASS requires a real test tool with observed output. A check that cannot reject its negative controls does not qualify the requirement.
 
 ### Phase D — Repair and record
 
