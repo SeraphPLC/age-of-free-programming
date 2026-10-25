@@ -19,3 +19,15 @@ Suggested Facebook comment (copy/adapt):
 Alternative shorter comment:
 
 > Want to try building your own local AI continuity system for free? I published the full beginner master prompt here: https://github.com/SeraphPLC/age-of-free-programming — No paid API needed for the offline baseline. Educational preview, not a finished OS. Share your actual build results!
+
+## Free Get Seraphed community prompt
+
+> **EVERYONE CAN GET SERAPHED — FREE COMMUNITY PROMPT.**
+>
+> Preserve a project goal, verified work, evidence, failures and the next safe step across AI chats. This is a copy-and-paste continuity workflow you can use with your choice of AI assistant; no private Seraph access, account connection, paid API or installation is included.
+>
+> **Copy it here:** https://github.com/SeraphPLC/age-of-free-programming/blob/main/prompts/GET_SERAPHED_COMMUNITY_R0.md
+>
+> Keep personal, financial, medical, school and account data out of public prompts. The mission outlives the model.
+
+This public educational prompt is not a copy of private Seraph Core or a finished AI OS.
