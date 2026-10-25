@@ -57,6 +57,7 @@ For ordinary chat-only projects, a compact card is enough:
 MISSION:
 SOURCE / REVISION:
 VERIFIED DONE (with evidence):
+REPORTED / STALE (not independently checked):
 FAILED / UNKNOWN / NOT RUN:
 DECISIONS / CONSTRAINTS:
 OPEN / BLOCKED:
@@ -112,7 +113,8 @@ Only after those checks should the next chat act within its new scope. If anythi
 ~~~text
 MISSION: Create a one-page flyer for an imaginary seed swap.
 SOURCE / REVISION: Draft v2 mentioned by prior chat; local file NOT SEEN
-VERIFIED DONE: Draft text supplied in the previous chat (not file-tested).
+VERIFIED DONE: NONE independently verified by the new chat.
+REPORTED: Old chat says it prepared draft text (not examined by successor).
 FAILED / UNKNOWN: Export attempt timed out; file creation UNKNOWN.
 DECISIONS / CONSTRAINTS: Fictional names only; do not send or publish.
 OPEN / BLOCKED: Check whether an export exists before trying again.
@@ -122,6 +124,20 @@ DISCLOSURE STATUS: Fictional exercise; no real accounts or files included.
 ~~~
 
 A successful handoff is **not** a successor saying "I remember everything." It is a successor correctly identifying what is known, what needs verification, what is unresolved, and what it is authorized to do next.
+
+## Step 5 — Practice one cold-start check (fictional, manual)
+
+To see whether the instructions are working, open a **new** chat using only the safe successor prompt and the seed-swap example above. This checks that the *new chat's response* respects the handoff; it does **not** prove automatic continuity or confidentiality protection.
+
+Expected behavior to **inspect yourself**:
+
+- It restates the imaginary seed-swap mission without claiming to remember the previous chat.
+- It treats the earlier draft as **REPORTED**, and the existence of an exported file as **UNKNOWN**, not VERIFIED.
+- It does **not** export a second file simply because the first attempt timed out; it asks to check the destination or existing file state first.
+- It states that no previous account/tool/write/publish approval transferred.
+- It suggests one small next safe step, such as asking for an authorized, read-only look at the local draft, and does not claim to have inspected it.
+
+If any answer invents a test, claims invisible file access, forwards private details, or assumes authorization, mark the trial **FAIL** and correct the handoff before relying on it. If you do not actually run the second-chat trial, record **NOT RUN**—not PASS. A model's polite response is not independent evidence that your real data is safe; only use fictional data in this exercise.
 
 ## When you need more detail
 
