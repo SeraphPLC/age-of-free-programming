@@ -13,7 +13,9 @@ A free, copy-and-paste educational prompt that guides a capable AI assistant thr
 
 **[Read the original Community Preview v0.1](prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md)** — the archived public educational prompt.
 
-**[Read the security-hardened v0.2 candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md)** — recommended for experimenters; still a candidate pending independent cross-model and cross-platform validation.
+**[Read the security-hardened v0.2 candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md)** — compact security-focused revision, not independently qualified.
+
+**[Read the expanded v0.3 Knowledge Architect master prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md)** — includes general PLC-style continuity architecture, AI model roles, a rights-aware mass knowledge-base catalog and optional offline search. This is an **advanced educational candidate, not yet clean-room reproduced**.
 
 **[Beginner quickstart](docs/START_HERE.md)** · **[AI models + mass knowledge bases](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md)** · **[Software & exposure inventory](docs/SOFTWARE_INVENTORY_AND_EXPOSURE.md)** · **[Verification limits](docs/VERIFICATION_STATUS.md)** · **[Build report](docs/BUILD_REPORT.md)** · **[Versions](CHANGELOG.md)**
 
