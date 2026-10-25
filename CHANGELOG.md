@@ -1,5 +1,14 @@
 # Version history
 
+## 2026-10-24 — R5 Stage 1 reproducibility and beginner documentation (review candidate)
+
+- Added a five-minute beginner starting path and clearer Stage 1 test/authority instructions in the README.
+- Specified a small Stage 1 CLI/schema/permission contract and four additional negative-test descriptions (not claimed as executed) to address repeated independent model-generation defects.
+- Added a public-safe R5 evidence summary distinguishing model-generated output from supervised synthetic corrections, preserving failure/timeout status, and keeping R5 independent Stage 2 **NOT RUN**.
+- Recorded the later exact-public-prompt-only generation **BLOCKED (timeout, no source)** and the separately tested supervised Stage 1 correction; neither is an independently qualified or publicly released executable.
+- Corrected historic Markdown line-break rendering and removed a coding-tool-specific recommendation from the staged guide. Raw private receipts, local source, credentials, and operational infrastructure remain excluded.
+- **Release decision HOLD:** no executable, license grant, migration, remote service or production authority is included.
+
 ## 2026-10-24 — Actual local-LLM prompt privacy test: failures observed
 
 - [Black-box test report](docs/LLM_DISCLOSURE_BLACKBOX_TRIAL_20261024.md): frozen public Community R1 and advanced v0.5 prompts submitted to three local models with entirely fictional data. **19 of 24 privacy challenges echoed exact protected synthetic markers**; six benign controls returned responses. Some additional fragments were echoed.
@@ -99,7 +108,14 @@ A change to prompt instructions is not proof that AI builders faithfully impleme
 - See [Stage 1–2 Public Prompt Trial](docs/STAGE2_PUBLIC_PROMPT_TRIAL_20261024.md).
 
 
-## R4 mission/evidence and clean-room review — 2026-10-24 (documentation only)\n\n- Corrected the supervised local candidate to create and validate a real mission binder, require task-specific synthetic receipt bindings, include the binder in backups, and treat uncertain SQLite writes as unverified.\n- Verified 78/78 first-party synthetic tests on two Macs. The R4 executable remains **local/private**, and R3 schema 1 has no automatic migration to R4 schema 2.\n- Preserved failed independent public-prompt Stage 1 model generations; the full independent Stage 2 release gate is still **NOT VERIFIED**.\n- Updated Stage 1/2 prompts with pre-execution static review and negative acceptance checks. No executable source, software license grant, private records or network callback published.\n\n## R3 local security hardening — October 24, 2026 (documentation only)
+## R4 mission/evidence and clean-room review — 2026-10-24 (documentation only)
+
+- Corrected the supervised local candidate to create and validate a real mission binder, require task-specific synthetic receipt bindings, include the binder in backups, and treat uncertain SQLite writes as unverified.
+- Verified 78/78 first-party synthetic tests on two Macs. The R4 executable remains **local/private**, and R3 schema 1 has no automatic migration to R4 schema 2.
+- Preserved failed independent public-prompt Stage 1 model generations; the full independent Stage 2 release gate is still **NOT VERIFIED**.
+- Updated Stage 1/2 prompts with pre-execution static review and negative acceptance checks. No executable source, software license grant, private records or network callback published.
+
+## R3 local security hardening — October 24, 2026 (documentation only)
 
 - Reproduced and fixed three previously missed synthetic defects: overly broad POSIX project/SQLite permissions, completion/blocking earlier than the active claim's start, and failure-ID overflow at maximum valid task-ID length.
 - Hardened standalone Stage 1 initialization and Stage 2 re-migration privacy; the R3 Stage 1 file is a supervised derivative and the original independently generated R2 file remains preserved.
