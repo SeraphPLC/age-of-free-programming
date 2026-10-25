@@ -14,6 +14,12 @@ Before Stage 1, see the [recommended ChatGPT + Desktop Commander setup guide](RE
 
 **Ready to map every neuron handoff?** Read the [public routing atlas](learning-routes/README.md) before connecting multiple AIs. It shows **the exact decision *questions*** the learner must answer, choices at each point, safe fallback, and evidence-based successor recovery. The examples use user-owned interfaces and fictional ports, not private Seraph topology.
 
+## Understand the original public Seraph research (optional)
+
+For the *why* behind continuity, read the [dated public research index](history/PUBLIC_RESEARCH_INDEX.md) and [public PLC continuity method](foundations/PLC_CONTINUITY_METHOD.md). They explain capability loss, source anchors, conflicts, repair and reconvergence without copying private Seraph algorithms. If you already know the basics, skip directly to Stage 0 or Stage 1 below.
+
+After your first synthetic build, try the [qualification rewind lab](labs/QUALIFICATION_REWIND.md). It teaches why an earlier "PASS" may be revoked. Use [the measurement guide](MEASURING_CONTINUITY.md) if you want to compare against chat-only and manual binder baselines. These are **exercises, not previously passed software tests**.
+
 ## Three ways to start
 
 **1. Only an AI chat?** Copy [Get Seraphed Community](../prompts/GET_SERAPHED_COMMUNITY_R0.md) or the [short chat-only starter](../prompts/stages/00_CHAT_ONLY_CONTINUITY.md). Save a fictional mission and handoff card yourself; a new chat will not magically have the old one.

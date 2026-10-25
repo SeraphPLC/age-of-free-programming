@@ -8,6 +8,8 @@
 
 **Learn the next step of every route:** The [community routing atlas](learning-routes/README.md) and [atomic build/test lab](learning-routes/05_ATOMIC_BUILD_AND_TEST_LAB.md) show what should happen when an AI is unavailable, a tool has no permission, a source changes, or an independent reviewer is needed. Start with simulated workers and local Python before adding real provider connections.
 
+**Want to understand the foundations?** The [public research lineage](history/PUBLIC_RESEARCH_INDEX.md) and [PLC continuity method](foundations/PLC_CONTINUITY_METHOD.md) explain why saving information differs from preserving operational capability. After Stage 2, the [qualification rewind lab](labs/QUALIFICATION_REWIND.md) is a practical negative-test exercise; the [measurement protocol](MEASURING_CONTINUITY.md) helps compare manual handoff with a more elaborate local build. They are optional, synthetic and **not test receipts**.
+
 ## Which path fits your tools?
 
 | Your setup | Start with | What you really get |
