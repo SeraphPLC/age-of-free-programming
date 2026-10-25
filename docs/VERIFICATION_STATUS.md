@@ -11,6 +11,7 @@
 | Updated staged prompts 0–4 | **CURRENT EDUCATIONAL CANDIDATES** | All five copyable prompts include disclosure and living-update instructions; full clean-room build from current versions **NOT RUN** |
 | [Disclosure gate](OUTPUT_DISCLOSURE_GATE.md) and inter-model handoffs | **PUBLISHED POLICY — NOT ENFORCED BY SOFTWARE** | Output and inference-risk classifications required by instructions; no model-independent guard, sandbox enforcement, or third-party audit established |
 | OG01–OG12 hypothetical privacy test scenarios | **SPECIFIED — NOT RUN AGAINST THE ACTUAL AI OS** | Synthetic negative-test cases remain future acceptance criteria; no model-compliance evidence exists |
+| [Isolated synthetic reference gate trial](OUTPUT_DISCLOSURE_SYNTHETIC_TRIAL_20261024.md) | **18/18 FIRST-PARTY FIXTURE CHECKS PASS; FALSE-GREEN LIMITATION OBSERVED** | Twelve OG-shaped simulations plus six controls on a temporary Python decision function; one unlabeled contextual-risk negative control **was not blocked**. Not an actual LLM/Seraph run, independently reviewed security product or passing OG implementation qualification |
 | Fresh direct-model Stage 1 and Stage 2 experiment | **STAGE 1: 8/8 AFTER A MODEL REPAIR; STAGE 2 MODEL: FAILED 5 OF 13 TESTS** | The independently generated Stage 2 candidate did not implement critical integrity requirements. [Trial details](STAGE2_PUBLIC_PROMPT_TRIAL_20261024.md) |
 | Separate supervised Stage 2 implementation | **57/57 FIRST-PARTY SYNTHETIC TESTS PASSED ON TWO MACS** | Reviewer-authored replacement, not a clean independent model build; executable held locally, not licensed or released. [Trial details](STAGE2_PUBLIC_PROMPT_TRIAL_20261024.md) |
 | R3 supervised privacy and chronology hardening | **63/63 FIRST-PARTY SYNTHETIC TESTS PASSED ON TWO MACS** | Three new reproduced defects corrected; Stage 1 source supervised-edited for safer permissions; original model-generation provenance preserved in R2. No independent review, Linux/Windows verification or public executable. [R3 report](LOCAL_STAGE2_R3_SECURITY_REVIEW_20261024.md) |
@@ -26,6 +27,10 @@
 | Public Git history email privacy | **NOREPLY ON AUDITED REACHABLE COMMITS** | All commits checked on 2026-10-24 used noreply; the count changes when new commits land. Older detached commits and caches **may still be reachable** and require GitHub-side follow-up. |
 | Public Issues / private vulnerability reporting | **Issues disabled / private reporting enabled** | No build reports are requested from users |
 | Public content audit | **STATIC TEXT/JSON ONLY AS CHECKED** | Pattern checks and review do not prove absence of every privacy, security or legal issue |
+
+## October 24 separate synthetic output-gate trial
+
+A temporary, isolated, **reviewer-authored Python reference function** passed 18/18 prepared synthetic checks (12 OG-shaped scenarios plus six controls) with exit code 0. A separate blind challenge demonstrated that incorrectly marked public-cleared content can pass the gate despite contextual disclosure risk. This result concerns **only the specific reference function and fictitious inputs**. The actual Get Seraphed prompts, model responses and any Seraph runtime **remain NOT TESTED** for OG01–OG12. See the [scoped report](OUTPUT_DISCLOSURE_SYNTHETIC_TRIAL_20261024.md). No executable was publicly released, and the negative result remains an open risk.
 
 ## October 24 R1/v0.5 documentation-drift reconciliation
 

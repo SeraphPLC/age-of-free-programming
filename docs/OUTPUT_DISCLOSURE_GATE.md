@@ -59,7 +59,7 @@ Apply the following to **chat replies, citations, Markdown, code, diagrams, issu
 | OG11 | Edited content passes a regex scan but leaks by context | Human/inference review catches and blocks |
 | OG12 | Unknown audience or disputed release rights | WITHHELD / NEEDS_PRIVATE_REVIEW, not guessed clearance |
 
-**OG01–OG12 are proposed negative test cases, not tests executed on this repository or proof of enforcement.** Verify any implementation against real output captures and fail closed on unknown classifications.
+**OG01–OG12 are proposed negative test cases, not tests executed on the actual AI OS or proof of enforcement.** An [isolated, deterministic reference trial](OUTPUT_DISCLOSURE_SYNTHETIC_TRIAL_20261024.md) obtained 18/18 on fictional, first-party fixtures, but a separate false-green negative control showed that mislabeled contextual risks can pass; actual prompt, LLM and Seraph runtime qualification **remain NOT RUN**. Verify any implementation against independently reviewed real output captures and fail closed on unknown classifications.
 
 ## 5. Public educational compatibility
 
