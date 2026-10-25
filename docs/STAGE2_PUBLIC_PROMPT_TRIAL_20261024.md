@@ -45,6 +45,8 @@ Developer-run tests and a second computer do **not** equal an independent securi
 
 The supervised local Stage 2 engine and review ZIP SHA-256 values are retained in the owner-controlled private evidence manifest and not published here. These hashes identify reviewed bytes but are not proof of safety, authorship, or ownership. **The ZIP is deliberately not publicly downloadable.**
 
+**Historical visibility:** Earlier public Git commits and pull-request diffs still expose the previously published fingerprints; forks and caches may retain them. This edit does not erase historical exposure.
+
 ## What this teaches about the free builder guide
 
 The Stage 1 prompt can generate a working small project using a direct local coding model, after a real syntax repair and real tests. Stage 2 is **substantially harder**: even plausible source code can omit the very security properties that make the system useful. Splitting the project into stages helps, but every stage still needs explicit independent negative tests before the owner calls it finished.
