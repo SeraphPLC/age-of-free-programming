@@ -31,6 +31,8 @@ These were first observed on a separate copy; the R3 package and its original lo
 
 The R4 ZIP has a different fingerprint from R3, is private, and is not a public download. Its exact review-only SHA-256 is retained in the owner-controlled private evidence manifest, not published here. Hashes document byte identity, not code safety or legal ownership.
 
+**Historical visibility:** Earlier public Git commits and pull-request diffs still expose the previously published fingerprints; forks and caches may retain them. This edit does not erase historical exposure.
+
 ## Independent public-prompt reproduction: negative receipts
 
 Separate direct local coding-model calls received the frozen **public Stage 1 prompt**, not the supervised R4 source. Models had no terminal tools; a distinct harness tested their generated source. No Codex was used.
