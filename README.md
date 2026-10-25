@@ -19,6 +19,16 @@
 
 You can stop here. You do **not** need an AI provider subscription, a local model, access to Seraph, or a running service to use this manual continuity habit. If you later want local software, use the [Stage 1 offline instructions](prompts/stages/01_OFFLINE_CORE.md) and [negative-test checklist](docs/STAGE_1_2_NEGATIVE_TEST_CHECKLIST.md). Keep generated code out of real project folders until its actions and test scope are reviewed.
 
+## Gentle handoff — one chat to another
+
+**Don't restart your project just because a conversation ends.** A *gentle handoff* is a short, privacy-checked state card that you save yourself and give to a new AI chat. It explains the mission, **what was actually verified**, what failed or remains unknown, decisions and blockers, and one safe next action. A new chat does **not** inherit the old chat's memory, logins, tools, permissions or approval.
+
+1. **Before leaving the old chat:** Ask, “Prepare a gentle handoff for a fresh chat. Separate verified results (with evidence) from unverified claims, preserve failures and unfinished tasks, identify current source versions, and say what must be checked next. Exclude private or vulnerable details and do not assume any permissions will transfer.”
+2. **Review and save it yourself:** Check the claimed results and privacy of the exact text, links and metadata. Keep sensitive records in your authorized private workspace, never in a public chat or GitHub issue/PR. Use a fictional example to learn.
+3. **Start the new chat:** Say, “Get Seraphed using this sanitized handoff. You are a new worker. Verify the current source and evidence with tools you actually have; mark inaccessible items UNKNOWN; do not repeat uncertain external actions or treat past approvals as current. Tell me the next safe step.” Then paste only the safe card.
+
+**[Open the full gentle handoff guide, with copy-and-paste prompts and a fictional example](docs/GENTLE_CHAT_HANDOFF.md).** This is a manual method, not automatic chat transfer, security enforcement or running software. For deeper multi-AI recovery, see the [technical handoff atlas](docs/learning-routes/04_HANDOFF_EVIDENCE_AND_RECOVERY.md).
+
 ## When a test, chat, or build fails
 
 Use the **[beginner error and safe-recovery guide](docs/ERRORS_AND_SAFE_RECOVERY.md)** before retrying. It explains what a real PASS means, how to preserve a first failure, when an interrupted action might have succeeded, and why no AI should automatically clean up files or repeat a consequential write. If you have only a chat, record **NOT RUN** rather than claiming a test result. A new chat must verify source state and obtain its own permissions.
