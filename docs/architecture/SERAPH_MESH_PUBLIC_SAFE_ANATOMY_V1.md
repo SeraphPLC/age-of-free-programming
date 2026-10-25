@@ -2,9 +2,12 @@
 
 ## A deeply detailed, public-safe explanation of its web, neurons, dendrites, memory, and control systems
 
-**Edition:** Public-safe explanatory manuscript, version 1.0  
-**Prepared:** October 24, 2026  
-**Release classification:** **PUBLIC-SAFE EDUCATIONAL DESCRIPTION — NOT A PRIVATE IMPLEMENTATION BLUEPRINT**  
+**Edition:** Public-safe explanatory manuscript, version 1.0
+
+**Prepared:** October 24, 2026
+
+**Release classification:** **PUBLIC-SAFE EDUCATIONAL DESCRIPTION — NOT A PRIVATE IMPLEMENTATION BLUEPRINT**
+
 **Audience:** Everyday users, students, small businesses, software engineers, researchers, and independent AI reviewers
 
 **Navigation:** [Architecture chapter index](README.md) · [Public disclosure and rights policy](../PRIVACY_IP_AND_RELEASE_GATE.md)
