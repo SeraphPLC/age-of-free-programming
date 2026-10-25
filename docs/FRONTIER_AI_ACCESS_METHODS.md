@@ -6,6 +6,8 @@ This page explains **public, official ways** to use major AI services as part of
 
 **These are options, not connections that are already active for you.** Do not install every AI or buy subscriptions just to begin. A single supported chat can maintain a sanitized handoff card; an authorized local coding tool can build the offline Stage 1 program.
 
+For the **conceptual** reasons to coordinate multiple providers rather than treating them as one mind, see [Mesh anatomy, Chapter VIII](architecture/chapters/08-frontier-ai-ecosystem.md). This is not a claim that all advertised provider routes are active in one user's installation.
+
 ## Choose one of three methods
 
 **Method A: Chat-only.** Use an AI's official website or app, copy the free community prompt, and manually save a sanitized project handoff. No computer tool or installed program is implied.

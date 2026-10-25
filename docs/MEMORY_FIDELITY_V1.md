@@ -6,6 +6,8 @@ A long conversation is not durable memory. A prompt asking an AI to "remember ev
 
 Use this with the [latest builder prompt](../prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md). Core Python + SQLite + standard-library tests must work **without a model, Internet connection, account, subscription, paid API, or private integration**. The current repository only publishes written specifications and synthetic examples.
 
+**Conceptual companion:** [Organizational memory (Mesh anatomy, Chapter IV)](architecture/chapters/04-organizational-memory.md) explains mission, working, evidence, decision, failure, provenance and correction memory. The separate [recovery chapter](architecture/chapters/07-continuity-recovery.md) explains why a new AI reconstructs work rather than inheriting a previous chat's permissions.
+
 ## Memory is not authority or omniscience
 
 A stored event says *what was recorded*, not necessarily *what was true*. A hash shows byte consistency against a separately trusted baseline; it does not authenticate a hostilely rewritten file. An AI opinion, a retrieval result, a chat summary, and a historical approval do **not** grant new permissions.

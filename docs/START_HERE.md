@@ -10,6 +10,8 @@ Use the [public frontier-AI access guide](FRONTIER_AI_ACCESS_METHODS.md) to choo
 
 Before Stage 1, see the [recommended ChatGPT + Desktop Commander setup guide](RECOMMENDED_COMPUTER_SETUP.md). It explains how to connect **your own isolated test machine** to a compatible AI client, verify real terminal results and disconnect afterward. Remote mode uses a separate third-party service and account, with its own privacy and pricing; Node.js 18+ is required for the remote agent. The folder allowlist and blocked-command settings do **not** stop every terminal action. Use a separate restricted user, VM or container for stronger isolation. **You do not need this setup for Stage 0** or to copy any of our educational prompts.
 
+**Curious how the full Seraph idea fits together?** Start with the [public-safe Mesh architecture library](architecture/README.md) and its [neural-analogy glossary](architecture/NEURAL_ANALOGY_GLOSSARY.md). These conceptual descriptions are separate from the actual Stage 1 program you can build.
+
 ## Three ways to start
 
 **1. Only an AI chat?** Copy [Get Seraphed Community](../prompts/GET_SERAPHED_COMMUNITY_R0.md) or the [short chat-only starter](../prompts/stages/00_CHAT_ONLY_CONTINUITY.md). Save a fictional mission and handoff card yourself; a new chat will not magically have the old one.
