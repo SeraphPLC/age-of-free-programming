@@ -24,6 +24,14 @@ Create a single QR landing page at `https://github.com/SeraphPLC/age-of-free-pro
 
 The only QR payload is the public repository URL shown above. No direct payment identifiers are in the public text or graphics. The two generated images and poster vector file are newly created for this project, not imports of private payment screenshots. All identifiers and account names from the original payment sheet were excluded.
 
+## Actual GitHub review checkpoint
+
+- **Draft PR:** https://github.com/SeraphPLC/age-of-free-programming/pull/23
+- **Review branch:** `docs/support-hub-qr-20261025-r2`
+- **Readback:** PR #23 was opened on 2026-10-25 and verified `open`, `draft=true`, `merged=false`. Its `main` support-page link remains unavailable until separately approved publication.
+- **Change scope:** seven files (README, support page, two central QR formats, two poster formats, and this verification record).
+- **No CI qualification:** GitHub reported zero combined status entries when checked; absence of a check is not a passing test.
+
 ## Release sequence
 
 1. Verify intended recipient ownership and explicit public-use permission for any Cash App, Venmo or PayPal destination **outside public GitHub**.
