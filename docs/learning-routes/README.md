@@ -19,6 +19,7 @@
 | 6 — Privacy | [Safe publication and security boundaries](06_PRIVACY_AND_TRUST_BOUNDARIES.md) | Which data stays local and when must a worker stop? |
 | 7 — Demonstration | [Synthetic project traced across three AIs](07_THREE_AI_SYNTHETIC_TRACE.md) | What actually passes from one reasoning worker to the next? |
 | 8 — Behavioral fidelity | [Seraph-aligned observable contract](08_SERAPH_ALIGNED_BEHAVIORAL_CONTRACT.md) | What must happen exactly, what alternatives must be offered, and where private behavior is deliberately not replicated? |
+| 8B — Decision fidelity matrix | [Every decision atom and alternate route](08_FIDELITY_AND_ALTERNATIVE_MATRIX.md) | Detailed side-by-side preferred choices, other options, STOP conditions and observable evidence for each functional decision |
 | 8 — Fidelity | [Seraph-aligned behavioral contract and alternatives](08_SERAPH_ALIGNED_BEHAVIORAL_CONTRACT.md) | Which externally observable Seraph decisions are preserved exactly, and where are private mechanisms withheld? |
 
 Companion resources:
@@ -28,7 +29,7 @@ Companion resources:
 - [Neural-analogy glossary](../architecture/NEURAL_ANALOGY_GLOSSARY.md): analogies are not biological neural implementation.
 - [Privacy/IP release gate](../PRIVACY_IP_AND_RELEASE_GATE.md): public disclosure controls.
 
-The [behavioral fidelity contract](08_SERAPH_ALIGNED_BEHAVIORAL_CONTRACT.md) is the controlling public checklist for remaining faithful to Seraph's **observable** startup, route qualification, fallback, execution evidence, recovery, permission and stop semantics. It cannot be treated as access to private source or an exact copy of hidden algorithms.
+The [behavioral fidelity contract](08_SERAPH_ALIGNED_BEHAVIORAL_CONTRACT.md) and [decision-by-decision alternative matrix](08_FIDELITY_AND_ALTERNATIVE_MATRIX.md) together form the controlling public checklist for remaining faithful to Seraph's **observable** startup, route qualification, fallback, execution evidence, recovery, permission and stop semantics. It cannot be treated as access to private source or an exact copy of hidden algorithms.
 
 ## Seven immutable public principles
 
