@@ -1,59 +1,43 @@
-# BUILD YOUR OWN AI OS
-### One prompt. Your computer. Your rules.
+# The Age of Free Programming
+### Build your own AI continuity layer — free instructions, your computer, your rules.
 
-**The Age of Free Programming — free community preview (October 2026)**
+**This repository is an educational guide, not installed AI software or an official Seraph software release.** The prompts help you build an original project without private Seraph infrastructure. No paid AI API is required for the intended offline Python/SQLite foundation. What an AI can really build depends on its tools, your approvals, and tests you observe.
 
-A free, copy-and-paste educational prompt that guides a capable AI assistant through building a **small, local-first AI continuity layer**. The goal is to preserve project goals, tasks, evidence, failures, approvals, and next steps when an AI chat ends or the model changes.
+## Choose how you want to start
 
-**No purchase. No private Seraph access. No paid AI API required for the offline baseline.**
+| I have... | Start here | What you can get |
+| --- | --- | --- |
+| **Any ordinary AI chat** | **[Get Seraphed — Community Prompt](prompts/GET_SERAPHED_COMMUNITY_R0.md)** or [5-minute chat-only prompt](prompts/stages/00_CHAT_ONLY_CONTINUITY.md) | Mission, known facts, completed work, open items, authority and a handoff card to save yourself. No software installed. |
+| **A computer and a code-capable AI** | **[Staged Build Guide](docs/STAGED_BUILD_PATH.md)**; begin with [Stage 1](prompts/stages/01_OFFLINE_CORE.md) | A step-by-step plan to create and test actual Python/SQLite local software in a new folder you approve. |
+| **A small existing project in Git** | [Simplest valid path](docs/SIMPLEST_VALID_PATH.md) | A versioned handoff file and optional coding-agent instructions; much less engineering overhead. |
+| **An experienced builder** | [Full v0.4 memory-fidelity specification](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) | Complete advanced requirements and [adversarial acceptance tests](docs/MEMORY_FIDELITY_ACCEPTANCE_V1.md), **not** prebuilt executable code. |
 
-> **What this is:** an experimental educational build specification. **What it is not:** an installed application, a finished operating system, a verified autonomous agent, a professionally audited security product, or an official Seraph 1.0 software release. An AI chat's tool availability determines what it can actually build and run.
+## Build it in stages
 
-> **Privacy, licensing and safety:** [Read the protection policy](docs/PRIVACY_IP_AND_RELEASE_GATE.md), [sharing/license status](docs/SHARING_AND_LICENSE_STATUS.md), and [private security reporting](SECURITY.md) before sharing or running the prompt. Avoid posting personal data in public issues or AI chats. This is an educational preview, not a safety or legal certification.
+1. [**Stage 0: Chat-only continuity**](prompts/stages/00_CHAT_ONLY_CONTINUITY.md) — useful immediately without installation.
+2. [**Stage 1: Offline core**](prompts/stages/01_OFFLINE_CORE.md) — `init`, `status`, `doctor` with real test receipts.
+3. [**Stage 2: Task and evidence recovery**](prompts/stages/02_TASKS_EVIDENCE_RECOVERY.md) — task leases, corrected state, failures, backup and restore.
+4. [**Stage 3: Memory fidelity**](prompts/stages/03_MEMORY_FIDELITY.md) — source-backed facts, contradictions, corrections and fresh-process reconstruction.
+5. [**Stage 4: Optional knowledge and models**](prompts/stages/04_OPTIONAL_KNOWLEDGE_MODELS.md) — rights-aware reference sources and user-approved model adapters; not required for an offline system.
 
-**[Explore a broad, mixed-order AI development options atlas](docs/AI_DEVELOPMENT_OPTION_UNIVERSE_V1.md)** — hundreds of possible model, software, service and knowledge-source alternatives, with practical use cases and privacy/licensing checks. **This is not a list of any project's actual tools or systems.**
+Copy **only one stage at a time** into a chat, verify its real results, save source/test artifacts locally, and resume the next stage with a **sanitized** handoff. In a fresh chat, no old approval carries over. A normal chat may generate useful copyable text without having any access to files or a terminal.
 
-## Get Seraphed — community chat mode (new)
+## Why this is different from a simple memory prompt
 
-**[Copy the free Get Seraphed Community Prompt](prompts/GET_SERAPHED_COMMUNITY_R0.md)** to use a privacy-reduced project continuity workflow in your own AI chat today. It does not install software, access private Seraph, run background agents or connect to your accounts. The AI provider may have its own login, privacy rules and charges. Do not paste real sensitive records.
+Most continuity value comes from saving a verified mission and a handoff, but advanced projects benefit from **reproducible negative tests, evidence and failure preservation, history reconciliation, and permissions that do not leak across chats**. A chat summary is not a database; a hash isn't a signature; a model saying PASS isn't a completed test.
 
-## Get started
+**Not verified:** clean-room reproduction of the complete v0.4 build from a fresh AI session, independently audited security, universal long-term memory accuracy, production deployment, or current compatibility with every computer. The historical **30/30** synthetic reference test result belongs to a **different, withheld internal prototype**, not a public executable or a passed public-prompt build. See [verification status](docs/VERIFICATION_STATUS.md).
 
-**[Read the original Community Preview v0.1](prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md)** — the archived public educational prompt.
+## Original versions and deeper references
 
-**[Read the security-hardened v0.2 candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md)** — compact security-focused revision, not independently qualified.
+The original [v0.1 prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md), [v0.2 hardening candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md), [v0.3 knowledge candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md) and [v0.4 memory candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) are preserved for full context. Other optional material: [memory design](docs/MEMORY_FIDELITY_V1.md), [technology shortlist](docs/TECHNOLOGY_STARTER_SHORTLIST.md), [AI and knowledge guide](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md), and the broad [304-option research atlas](docs/AI_DEVELOPMENT_OPTION_UNIVERSE_V1.md) (**discovery appendix, not a recommended pick list**).
 
-**[Read the expanded v0.3 Knowledge Architect master prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md)** — includes source and model registries; still an educational candidate.
+## Privacy, legal rights and feedback
 
-**[Read the NEW v0.4 Long-Term Memory Fidelity builder prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md)** — adds source-grounded memory events, correction lineage, contradiction handling, evidence-aware fresh-chat recovery, independent schema examples, privacy controls and measurable acceptance tests. **Not yet an independently verified software build.**
+**You do not need an account with this project's publisher, nor do you need to give us any personal data.** Use fictional tasks for learning. Do not paste private records, account credentials, exported chats, real database files or unsanitized logs into a cloud AI chat or public repository. No telemetry, callback endpoint, external account connector, private source or bundled AI model is included in these educational materials. User-selected AI vendors and GitHub have their own terms and data handling.
 
-**[Beginner quickstart](docs/START_HERE.md)** · **[Memory-fidelity architecture](docs/MEMORY_FIDELITY_V1.md)** · **[Acceptance tests](docs/MEMORY_FIDELITY_ACCEPTANCE_V1.md)** · **[No-backlink independence](docs/NO_BACKLINK_INDEPENDENCE_V1.md)** · **[AI models + mass knowledge bases](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md)** · **[Software & exposure inventory](docs/SOFTWARE_INVENTORY_AND_EXPOSURE.md)** · **[Verification limits](docs/VERIFICATION_STATUS.md)** · **[Private self-check](docs/BUILD_REPORT_TEMPLATE_OFFLINE.md)** · **[Versions](CHANGELOG.md)**
+**Public GitHub Issues are disabled.** If useful, keep the optional [build self-check](docs/BUILD_REPORT_TEMPLATE_OFFLINE.md) **on your own machine**. Sensitive security findings should use [private vulnerability reporting](SECURITY.md).
 
-To use any of the educational prompt versions:
+Copy the free prompts into your own AI chats and share this repository link. **No repository-wide open-source or broad commercial redistribution license has yet been selected.** Licenses for user-generated code and third-party sources are separate. See [sharing/rights status](docs/SHARING_AND_LICENSE_STATUS.md), [license options—not a grant](docs/LICENSE_DECISION_BRIEF.md), and the [single controlling privacy/IP/release policy](docs/PRIVACY_IP_AND_RELEASE_GATE.md). The [older release policy](docs/PRIVACY_LEGAL_SECURITY_RELEASE_GATE.md) is retained as a pointer for existing links.
 
-1. Open a **new** chat with ChatGPT or another capable AI assistant.
-2. Open a prompt file above. Copy its **master prompt section** into the new chat.
-3. Let the assistant verify whether it has terminal/file access. If not, it must give you copyable instructions rather than pretend to run code.
-4. Approve a **new local project folder** before any changes to your computer. Test with synthetic data only.
-5. Build and verify the offline baseline in order: **init/status/doctor → task claims/handoff → backup/restore**. Then, if you choose the v0.4 candidate, add **source-grounded memory/restart-packet tests** before considering optional AI models or networked modules.
-
-**Safety:** Never paste secrets or personal data into public issues or AI chats. Do not execute commands you do not understand; require permission before changes, publishing, networking, purchases, or account access. A local hash is not proof of authenticity. A claimed PASS is not a measured PASS. Closing the chat does not leave a worker running unless you separately installed and verified a service.
-
-## Did it work?
-
-Community success means **verified local functionality**, not likes or downloads. **Public Issues are disabled for privacy.** Use the [offline self-check template](docs/BUILD_REPORT_TEMPLATE_OFFLINE.md) on your own computer. Do not submit real logs, private tasks, account information or personal details. A self-report is not an independent audit.
-
-A useful report distinguishes:
-
-- **BUILT:** files and commands actually created/executed
-- **VERIFIED:** genuine commands, observed results, and numbers of passed tests
-- **FAILED / UNKNOWN:** original errors and unrun checks, with sensitive details removed
-- **NEXT:** next safe step, including approvals still needed
-
-## Use and sharing
-
-You are welcome to **copy these educational prompts into your own AI chats** and **share links to this repository without charge**. No membership, Seraph service, or paid subscription is required. You can build and control your own project, but rights in particular generated code or data depend on applicable law, provider terms, and licenses of source materials actually used. This repository does **not** include executable Seraph software or private source code. Other reuse/licensing terms have not been formally specified; this is not a blanket open-source software license or permission to redistribute private Seraph or third-party materials.
-
-Built around a simple idea: **the mission outlives the model.**
-
-*An Age of Free Programming community preview. Inspired by the need for AI work to survive its session. Not an official Seraph software release.*
+**The mission outlives the model.**

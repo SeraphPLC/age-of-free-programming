@@ -16,6 +16,6 @@
 
 **No new irrevocable public software or content license is being selected by this policy.** The appropriate rights-holder should choose explicit written licensing terms for any future downloadable executable, public code starter kit, bundled dataset, marketplace product or broader redistribution. Once a Creative Commons license is validly applied to a work it cannot ordinarily be revoked for compliant recipients; do not apply one casually.
 
-Users can copy the instructions for their own learning under the express sharing invitation. For questions about broader redistribution or commercial reuse, obtain a separate rights review. Keep public claims limited to the verified educational scope. See [Privacy, IP and Release Gate](PRIVACY_IP_AND_RELEASE_GATE.md).
+Users can copy the instructions for their own learning under the express sharing invitation. For questions about broader redistribution or commercial reuse, obtain a separate rights review. See the [nonbinding license decision brief](LICENSE_DECISION_BRIEF.md) for possible future licensing choices; **none has been applied**. Keep public claims limited to the verified educational scope. See [Privacy, IP and Release Gate](PRIVACY_IP_AND_RELEASE_GATE.md).
 
 *Information only; not an individualized legal opinion.*

@@ -38,3 +38,15 @@ A change to prompt instructions is not proof that AI builders faithfully impleme
 - Adds a strict no-backlink design contract: no cloud callbacks, telemetry, private systems, secret data, background workers or mandatory external providers.
 - [v0.4 full prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) · [memory design](docs/MEMORY_FIDELITY_V1.md) · [schemas](schemas/memory_record_v1.schema.json) · [test plan](docs/MEMORY_FIDELITY_ACCEPTANCE_V1.md).
 - **No Seraph source, proprietary program, private record, model weight, or private connection is included. No new security or legal certification is claimed.**
+
+## Community usability and documentation revision — 2026-10-24
+
+- Lead visitors to **Get Seraphed Community**, the immediately usable chat-only workflow.
+- Add **five smaller stage-specific prompts (0–4)** for authorized code-capable AI builders; each stage starts from a verified handoff rather than one overloaded 27k-character prompt.
+- Add a beginner [staged build path](docs/STAGED_BUILD_PATH.md), a [simple file-and-Git alternative](docs/SIMPLEST_VALID_PATH.md), and independent *optional* `AGENTS.md` / `CLAUDE.md` example templates.
+- Correct the outdated public history-email status: **24/24 currently visible commits use noreply**, with orphan historical commits/caches still a possible unresolved exposure.
+- Correct `BUILD_REPORT.md` to **private local self-check only**; GitHub public Issues remain disabled.
+- Consolidate two overlapping release policies: `docs/PRIVACY_IP_AND_RELEASE_GATE.md` is controlling; the older path is a compatibility pointer with no new license grants.
+- Relegate the 304-entry option atlas to **background reference** and add a prioritized small [technology shortlist](docs/TECHNOLOGY_STARTER_SHORTLIST.md).
+- Document candidate licensing options without choosing an irrevocable or broad license; reference executable still **HELD**.
+- **No executable, source-data archive, private Seraph file, model weights, or remote callback added** by this documentation revision.

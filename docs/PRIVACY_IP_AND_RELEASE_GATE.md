@@ -13,7 +13,7 @@ This repository publishes educational text for people to guide an AI assistant t
 - Test with made-up tasks and synthetic data. Never upload private databases, real resumes/handoff cards, backups, browser profiles, credential stores or local source collections. Strip metadata, usernames, pathnames, hostnames, IP addresses, time-sensitive links and indirect identifiers from screenshots or output.
 - Users who enter information into an online AI chat must independently review the provider's actual privacy controls and data-processing terms; **this repository does not control provider retention or training**.
 - Report accidental secret disclosure privately. Revoke leaked credentials first; deleting current files or Issues cannot be relied on to erase all historic copies.
-- Historical public commits include a personal author email address. This remains a KNOWN OPEN PRIVACY ITEM. Future CLI commits on the inspected Macs use a GitHub no-reply identity, but old commits and web/API writes are not automatically corrected. Public Issues are disabled; coordinated history and cache review is still required.
+- The currently visible main branch history was rewritten to use GitHub noreply author/committer identity (24 of 24 visible commits checked 2026-10-24). **Old detached commit IDs and GitHub/external caches may still expose prior email metadata**, and complete erasure is not verified. Public Issues are disabled. Future local commits must use noreply; avoid uncoordinated force-pushes.
 
 ## Copyright, database rights, and third-party terms
 
@@ -42,13 +42,15 @@ All items must be checked before a **new** release of executable code, bundled d
 7. **Authority and cost:** no payment, API billing, account changes, messaging, publication, browsing a private account, external provider dispatch, credential operations, production deployment, merge or destructive change without exact separate approval.
 8. **Release controls:** review public diff and history, GitHub repository visibility and commit author privacy; designate a stop/rollback path, vulnerability report channel and incident owner. Then record a human release decision.
 
+Any material change to licensing, privacy policy, executable/code/data distribution or private-source disclosure requires an **independent human/rights-holder review** and a documented scope. A model reviewing its own draft is not independent legal clearance. For every future change classify files PUBLIC CLEARED / PUBLIC CANDIDATE / INTERNAL / BLOCKED, review new content and commit metadata, and preserve a recovery plan.
+
 If any protected requirement is UNKNOWN, **hold the executable or dataset release** and continue only with public-safe educational pointers.
 
 ## Known open issues as of this audit
-- **Historical public commit metadata exposes an author email.** A future `noreply` setting cannot undo earlier commits; a history rewrite may break hashes and not remove forks/caches. No history rewrite is authorized or performed here.
+- **Historical public commit metadata was rewritten on current branches**, but older commit IDs/cache copies may remain accessible; GitHub Support follow-up is unresolved. Current history's noreply emails must not be described as complete deletion of past exposure.
 - The public prompts have no selected repository-wide open-source license for future generated software or unrestricted relicensing. This is not fixed by choosing an irrevocable Creative Commons license without the appropriate rights-holder decision. See [sharing and license status](SHARING_AND_LICENSE_STATUS.md).
 - Full legal, source-by-source license, cross-platform security and independently verified fresh-chat implementation reviews have **not** been completed.
-- GitHub public issue participants may still voluntarily disclose personal information despite warnings. Review submitted reports and escalate confidential disclosures through the private vulnerability channel.
+- **GitHub public Issues are disabled**; do not request or retain individual build reports. Public PRs and external social/chat comments can still disclose private details, so continue private vulnerability routing and minimum-data handling.
 
 ## Verification references
 [GitHub repository licensing](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) · [GitHub historical commit email privacy](https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address) · [GitHub history removal limitations](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository) · [iFixit licensing](https://www.ifixit.com/Info/Licensing) · [PhET licensing](https://phet.colorado.edu/en/licensing/) · [Wikimedia terms](https://foundation.wikimedia.org/wiki/Terms_of_Use)
