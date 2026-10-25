@@ -2,6 +2,8 @@
 
 **Scope:** This repository publishes educational text prompts and instructions. It does not supply an installed operating system, a running agent, secure executable software, remote services or private Seraph code. There is no production software version supported for security patching.
 
+**Mandatory public disclosure boundary:** Follow [the Get Seraphed output disclosure gate](docs/OUTPUT_DISCLOSURE_GATE.md) before any reply, example, repository artifact, AI handoff or public post. Avoid reconstructable fragments of private identifiers and any actionable detail about unpublished security weaknesses. If a concern exists, report it privately without mirroring the sensitive material into a public issue, PR, comment or demonstration.
+
 ## Report a concern privately
 
 If you find a potentially dangerous instruction, credential exposure, information leak, vulnerable dependency suggestion, or a way the guidance could cause unintended privileged actions:

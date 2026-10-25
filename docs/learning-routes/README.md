@@ -6,6 +6,10 @@
 
 **Privacy and intellectual-property boundary:** This is a **clean-room public reference design**, derived from Seraph's documented *functional principles*: mission-first operation, discover existing capabilities before inventing paths, fit the specific task, reject unqualified routes, preserve evidence, distinguish communication from authority, prefer continuity over chat memory, and reconcile uncertain actions before retrying. It is **not** an export of the private Seraph Mesh topology, actual routing weights, production algorithms, internal node identities, security mechanisms, provider entitlements or operational endpoints. The exact private implementation cannot safely be reproduced in a public map. What readers can build is an **independent system with the same observable workflow goals**.
 
+**Living routing rule:** A newly supplied source, requirement, correction, worker capability or tool failure may change the next appropriate route, but only after the [Living Get Seraphed protocol](../LIVING_GET_SERAPHED_PROTOCOL.md) assesses provenance, conflicts, privacy and authorization. Preserve prior decisions, verify changed routes and pass amendments to the next worker with explicit dispositions. Never treat another model's instructions as permission.
+
+**Mandatory disclosure qualification at every port:** Before any AI-to-AI message, tool invocation, evidence packet or public diagram, apply the [Get Seraphed output disclosure gate](../OUTPUT_DISCLOSURE_GATE.md). Do not put private payloads, operational details, vulnerability information, credentials or reconstructable fragments in message bodies, source citations, route names, metadata, logs or handoffs. Unknown release rights or destination permission means no transfer; use a fictional example instead.
+
 ## Atlas: read in this order
 
 | Layer | Public build document | What it answers |

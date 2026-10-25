@@ -17,6 +17,12 @@
 
 Keep these records **under the user’s control**. A cloud AI should receive only the smallest sanitized, relevant packet. Do not copy private database backups, whole chat exports, provider credentials or personal records between models for convenience.
 
+## Living amendments between workers
+
+Every relevant new source, instruction, correction or failure receives an explicit disposition. Use the [Living Get Seraphed protocol](../LIVING_GET_SERAPHED_PROTOCOL.md) to establish provenance, reconcile conflicts, preserve history, propose a narrow versioned delta, seek current approvals, verify affected revisions and pass a sanitized **UPDATES** entry (APPLIED / PENDING / BLOCKED / SUPERSEDED) to successors. Never silently overwrite evidence or inherit permission.
+
+**Disclosure checkpoint before every worker handoff:** Apply the [mandatory public output gate](../OUTPUT_DISCLOSURE_GATE.md) to the exact packet and destinations. No private identifiers, access paths, tokens, private Seraph source/architecture, live vulnerability details, contextual metadata or reconstructable fragments may be revealed in an unapproved cross-model or public packet. If an essential source is protected, use an opaque local reference and ask for authorized private handling; do not export it. A model's claims of review do not certify redaction.
+
 ## 2. Handoff packet structure — fictional template
 
 This is a teaching example. Fields are intentionally generic, not from private Seraph artifacts.

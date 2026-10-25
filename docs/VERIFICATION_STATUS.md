@@ -7,6 +7,9 @@
 | Get Seraphed Community | **PUBLISHED — manual chat workflow** | Works as copyable instructions; does not install persistent memory or automatically access old chats |
 | Original v0.1, v0.2, v0.3, v0.4 | **PUBLISHED EDUCATIONAL PROMPTS** | Plans/instructions, not ready-to-run software |
 | New staged prompts 0–4 | **DOCUMENTARY CANDIDATES** | Narrower steps and handoffs; full clean-room build from them **NOT RUN** |
+| Fresh direct-model Stage 1 and Stage 2 experiment | **STAGE 1: 8/8 AFTER A MODEL REPAIR; STAGE 2 MODEL: FAILED 5 OF 13 TESTS** | The independently generated Stage 2 candidate did not implement critical integrity requirements. [Trial details](STAGE2_PUBLIC_PROMPT_TRIAL_20261024.md) |
+| Separate supervised Stage 2 implementation | **57/57 FIRST-PARTY SYNTHETIC TESTS PASSED ON TWO MACS** | Reviewer-authored replacement, not a clean independent model build; executable held locally, not licensed or released. [Trial details](STAGE2_PUBLIC_PROMPT_TRIAL_20261024.md) |
+| R3 supervised privacy and chronology hardening | **63/63 FIRST-PARTY SYNTHETIC TESTS PASSED ON TWO MACS** | Three new reproduced defects corrected; Stage 1 source supervised-edited for safer permissions; original model-generation provenance preserved in R2. No independent review, Linux/Windows verification or public executable. [R3 report](LOCAL_STAGE2_R3_SECURITY_REVIEW_20261024.md) |
 | Separate withheld synthetic Linux reference | **30/30 TESTS PASSED AFTER FIXES (historical)** | Tests were on a different internal program, **not** a public-prompt-generated build or independent release certification |
 | Public downloadable reference implementation | **NOT RELEASED** | Source ownership, portability, vulnerability/rights review and repeatable test receipts remain gated |
 | Memory schema & synthetic examples | **STATIC JSON DOCUMENTS** | Their syntax/shape can be checked, but no application-level guarantees follow from schema conformity |
@@ -24,7 +27,13 @@
 
 A separate **new local Python/SQLite implementation** now exists. Its hardened R1 first-party suite passed 31/31 tests on macOS 26.6 and macOS 27.0; both machines also passed when a macOS sandbox denied network access. Fixed fictional memory records were reconstructed 20/20. These are **synthetic, developer-run tests** on a withheld local candidate—not proof that a fresh AI chat independently generated the same code, performed a review, or met production security/privacy requirements. The actual code is not a public download and no distribution license has been chosen. Full scope, fingerprints, failures and limitations: [Local Reference Trial](LOCAL_REFERENCE_TRIAL_20261024.md).
 
+## R3 security-test clarification
+
+The [R3 hardening review](LOCAL_STAGE2_R3_SECURITY_REVIEW_20261024.md) records three flaws observed before correction: overly broad local permissions, task completion timestamps preceding their claims, and an oversized failure ID for a valid maximum-length task name. The supervised R3 candidate passed 63/63 first-party synthetic tests on two Macs. Its Stage 1 program is now supervised-edited, and the historic independently generated Stage 1 remains preserved separately. The [negative-test checklist](STAGE_1_2_NEGATIVE_TEST_CHECKLIST.md) also identifies unverified mission-file, evidence-relevance and true fresh-chat behaviors. **R3 is not an independent AI-built Stage 2, a security certificate, or a license grant.**
+
 ## Main unresolved verification gap
+
+The [new Stage 1–2 trial](STAGE2_PUBLIC_PROMPT_TRIAL_20261024.md) showed that a local model could build Stage 1 after repairing a syntax error, but its Stage 2 output **failed five independent integrity and visibility tests**. A later supervised implementation passed 57/57 synthetic checks on two Macs; those tests **must not be represented as an independently model-generated Stage 2 success**. Neither experiment qualifies the full v0.4 memory-fidelity build or public software release.
 
 A capable AI might build strong Python/SQLite continuity software from the specification, but **that has not yet been established by a clean-room, fresh-chat build of the public prompt**. Reproducing Stage 1 is not equivalent to passing all memory-fidelity cases. A JSON Schema validator checking example files is not evidence of working encryption, consent, retention, protected actions, durable service operation, or semantic memory accuracy.
 

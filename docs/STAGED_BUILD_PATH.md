@@ -1,12 +1,16 @@
 # Build a Personal AI OS without overwhelming one AI chat
 
-**Free educational path — no installed app is supplied by this repository.** The long [v0.4 master prompt](../prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) remains available as the detailed specification, but beginners should usually work **one stage at a time**, each with actual test evidence.
+**Free educational path — no installed app is supplied by this repository.** The long [v0.5 living master prompt](../prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md) remains available as the detailed specification, but beginners should usually work **one stage at a time**, each with actual test evidence.
 
 **Different AI service?** See [public methods for frontier AI apps, coding tools and optional APIs](FRONTIER_AI_ACCESS_METHODS.md). You do not need every provider or a paid API. A chat-only AI can help plan and save a handoff; real code/testing requires a computer-capable tool and your permission.
 
 **Want to understand the system before building?** Read the [11-part public Mesh architecture reference](architecture/README.md). Its neurons, connections, memory and human-control mechanisms are educational explanations, **not instructions to connect to private Seraph** or proof that all proposed features are running.
 
 **Learn the next step of every route:** The [community routing atlas](learning-routes/README.md) and [atomic build/test lab](learning-routes/05_ATOMIC_BUILD_AND_TEST_LAB.md) show what should happen when an AI is unavailable, a tool has no permission, a source changes, or an independent reviewer is needed. Start with simulated workers and local Python before adding real provider connections.
+
+## Confidentiality applies at all stages
+
+**[Mandatory output disclosure gate](OUTPUT_DISCLOSURE_GATE.md)** applies to Stage 0 chats, Stage 1 local code, Stage 2 task/evidence, Stage 3 memory, Stage 4 models/knowledge, and each AI-to-AI handoff. Before any output—including logs, code snippets, screenshots, file links, metadata and public Git changes—remove sensitive personal or organizational details, credentials, real infrastructure hints and exploitable vulnerabilities, including inferred or reconstructable combinations. Unknown rights/audience => WITHHOLD. Use fictional examples or protected local references, not raw content. This is a policy in the prompts; a working implementation needs independent enforcement and tests.
 
 ## Which path fits your tools?
 
@@ -23,6 +27,10 @@
 **Stage order:** [0: manual chat](../prompts/stages/00_CHAT_ONLY_CONTINUITY.md) → [1: offline CLI](../prompts/stages/01_OFFLINE_CORE.md) → [2: tasks, evidence, backup](../prompts/stages/02_TASKS_EVIDENCE_RECOVERY.md) → [3: memory fidelity](../prompts/stages/03_MEMORY_FIDELITY.md) → [4: optional knowledge/models](../prompts/stages/04_OPTIONAL_KNOWLEDGE_MODELS.md).
 
 You can stop at any working stage. Stage 4 is optional, and even Stage 3 does not require an AI provider after the local code is built.
+
+## A living, versioned update rule in every stage
+
+New facts, requirements, corrections, owner instructions and test failures can be admitted at **each Stage 0–4**. Follow the [Living Get Seraphed protocol](LIVING_GET_SERAPHED_PROTOCOL.md): establish source and scope, reconcile with previous versions, protect privacy, apply only authorized/supported changes, retest affected behavior, and carry **UPDATES: APPLIED / PENDING / BLOCKED / SUPERSEDED** to the next AI. If there is no qualified file/terminal tool, supply a copyable candidate amendment rather than claiming it was installed. A copied prompt does not provide a background watcher.
 
 ## How to begin and resume
 

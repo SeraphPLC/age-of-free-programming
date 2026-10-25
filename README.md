@@ -3,6 +3,16 @@
 
 **This repository is an educational guide, not installed AI software or an official Seraph software release.** The prompts help you build an original project without private Seraph infrastructure. No paid AI API is required for the intended offline Python/SQLite foundation. What an AI can really build depends on its tools, your approvals, and tests you observe.
 
+## Private by default — disclose no vulnerable or confidential details
+
+**[Mandatory Get Seraphed output disclosure gate](docs/OUTPUT_DISCLOSURE_GATE.md).** Every current community prompt, builder stage, AI handoff and shared artifact must refuse to disclose private personal or organizational records, credentials, internal infrastructure, unpublished Seraph material, exploitable weaknesses or clues that allow those details to be inferred. Unknown audience, ownership, sensitivity or rights means **WITHHOLD** and use independently public information or fictional examples instead. Never interpret "living" as automatic permission to publish anything learned. Public release requires a final-content review and specific authorization; these are **instructional safeguards**, not installed or independently audited automatic defenses.
+
+## Get Seraphed — living guidance at every level
+
+**[Living Get Seraphed protocol](docs/LIVING_GET_SERAPHED_PROTOCOL.md)** applies to the [Community R1 prompt](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md), all five [Stages 0–4](docs/STAGED_BUILD_PATH.md), [advanced v0.5 candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md), AI-to-AI handoffs and the [current Facebook announcement](SHARE.md).
+
+**Every time relevant information, instructions, corrections, evidence or requirements arrive, incorporate the safe, supported and authorized change into the current plan or approved project record.** Preserve its source and prior version, and label unsupported, sensitive or unapproved amendments PENDING or BLOCKED. No prior permission is inherited. This is a live *method*, not a background watcher, automatic memory service or private Seraph release.
+
 ## Map every AI handoff and fallback
 
 **[Atomic port → AI → next AI routing atlas](docs/learning-routes/README.md)** shows the Seraph-aligned *observable* process for choosing an appropriate model, using a tool, handing verified results to a different AI, recovering from failures, and offering other qualified options at each point. Includes 18 logical ports, task-specific routing maps, human permission boundaries, and 24 fictional acceptance tests. It is a **public independent reference**, not access to private Seraph Mesh wiring or operational secrets.
@@ -23,10 +33,10 @@ Explore the **[public-safe Seraph Mesh anatomy](docs/architecture/README.md)**: 
 
 | I have... | Start here | What you can get |
 | --- | --- | --- |
-| **Any ordinary AI chat** | **[Get Seraphed — Community Prompt](prompts/GET_SERAPHED_COMMUNITY_R0.md)** or [5-minute chat-only prompt](prompts/stages/00_CHAT_ONLY_CONTINUITY.md) | Mission, known facts, completed work, open items, authority and a handoff card to save yourself. No software installed. |
+| **Any ordinary AI chat** | **[Get Seraphed — Living Community R1](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md)** or [5-minute chat-only prompt](prompts/stages/00_CHAT_ONLY_CONTINUITY.md) | Mission, known facts, completed work, open items, authority and a handoff card to save yourself. No software installed. |
 | **A computer and a code-capable AI** | **[Staged Build Guide](docs/STAGED_BUILD_PATH.md)**; begin with [Stage 1](prompts/stages/01_OFFLINE_CORE.md) | A step-by-step plan to create and test actual Python/SQLite local software in a new folder you approve. |
 | **A small existing project in Git** | [Simplest valid path](docs/SIMPLEST_VALID_PATH.md) | A versioned handoff file and optional coding-agent instructions; much less engineering overhead. |
-| **An experienced builder** | [Full v0.4 memory-fidelity specification](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) | Complete advanced requirements and [adversarial acceptance tests](docs/MEMORY_FIDELITY_ACCEPTANCE_V1.md), **not** prebuilt executable code. |
+| **An experienced builder** | [Advanced v0.5 Living candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md) | Complete advanced requirements and [adversarial acceptance tests](docs/MEMORY_FIDELITY_ACCEPTANCE_V1.md), **not** prebuilt executable code. |
 
 ## Build it in stages
 
@@ -44,9 +54,13 @@ Most continuity value comes from saving a verified mission and a handoff, but ad
 
 **Not verified:** clean-room reproduction of the complete v0.4 build from a fresh AI session, independently audited security, universal long-term memory accuracy, production deployment, or current compatibility with every computer. The historical **30/30** synthetic reference test result belongs to a **different, withheld internal prototype**, not a public executable or a passed public-prompt build. See [verification status](docs/VERIFICATION_STATUS.md) and the [R1 synthetic local-reference report](docs/LOCAL_REFERENCE_R1_HARDENING_20261024.md) (31 developer-authored tests passed on two Macs; executable held, no independent release approval).
 
+**New Stage 1–2 reproducibility trial:** A direct local model built Stage 1 after a syntax repair (**8/8 tests passed**), but its Stage 2 output **failed 5 of 13 independent checks**. A separate **supervised** Stage 2 candidate later passed **57/57 synthetic tests on two Macs**. It is not a fully independent model build and no public executable is released. [Read the evidence and limitations](docs/STAGE2_PUBLIC_PROMPT_TRIAL_20261024.md).
+
+**R3 security follow-up:** Further synthetic testing reproduced three defects in the supervised code—overly broad file permissions, completion before claim time, and failure-ID overflow for long task names. The corrected R3 derivative passed **63/63 first-party tests on two Macs**, with no independent code/security certification or public executable release. See the [R3 report](docs/LOCAL_STAGE2_R3_SECURITY_REVIEW_20261024.md) and [negative-test checklist](docs/STAGE_1_2_NEGATIVE_TEST_CHECKLIST.md). The historical R2 and model-generation failures remain preserved.
+
 ## Original versions and deeper references
 
-The original [v0.1 prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md), [v0.2 hardening candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md), [v0.3 knowledge candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md) and [v0.4 memory candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) are preserved for full context. Other optional material: [memory design](docs/MEMORY_FIDELITY_V1.md), [technology shortlist](docs/TECHNOLOGY_STARTER_SHORTLIST.md), [AI and knowledge guide](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md), and the broad [304-option research atlas](docs/AI_DEVELOPMENT_OPTION_UNIVERSE_V1.md) (**discovery appendix, not a recommended pick list**).
+The earlier [Get Seraphed Community R0](prompts/GET_SERAPHED_COMMUNITY_R0.md) remains unchanged. The original [v0.1 prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md), [v0.2 hardening candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md), [v0.3 knowledge candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md) and [v0.4 memory candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) are preserved for full context. Other optional material: [memory design](docs/MEMORY_FIDELITY_V1.md), [technology shortlist](docs/TECHNOLOGY_STARTER_SHORTLIST.md), [AI and knowledge guide](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md), and the broad [304-option research atlas](docs/AI_DEVELOPMENT_OPTION_UNIVERSE_V1.md) (**discovery appendix, not a recommended pick list**).
 
 ## Privacy, legal rights and feedback
 
