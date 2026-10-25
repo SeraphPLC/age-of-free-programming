@@ -1,3 +1,6 @@
+> [!WARNING]
+> **ARCHIVED EDUCATIONAL BUILDER PROMPT — NOT THE CURRENT SAFETY-GATED EDITION.** The historical text below predates the current mandatory confidentiality, inference-aware disclosure, and living-amendment instructions. **For a new build use the [v0.5 Living candidate](BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md), the [five current stages](../docs/STAGED_BUILD_PATH.md), and the [public output disclosure gate](../docs/OUTPUT_DISCLOSURE_GATE.md).** These are instructions, not tested enforcement. Do not paste secrets, private exports, real vulnerabilities or internal systems into any public or cloud AI chat. Original historical text is preserved **unchanged below this notice**.
+
 BUILD YOUR OWN AI OS
 One prompt. Your computer. Your rules.
 The Age of Free Programming — Community Preview v0.3 KNOWLEDGE ARCHITECT CANDIDATE

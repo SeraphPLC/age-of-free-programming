@@ -16,6 +16,13 @@
 - Updated stage prompts 0–4, beginner entry points, routing/handoffs and optional agent instruction templates with the living rule.
 - **Limits:** Markdown instructions only; no auto-capture, background updater, new provider integration, public executable or independent v0.5 implementation. Synthetic cases LC01–LC08 remain NOT RUN.
 
+## 2026-10-24 — Archived-prompt safety drift correction
+
+- Prepended prominent historical-snapshot warnings to Community R0 and advanced builder v0.1–v0.4. **The complete original text following each notice is byte-for-byte preserved**; Git remains the audit trail.
+- Linked users to current Community R1, advanced v0.5, and mandatory [output disclosure gate](docs/OUTPUT_DISCLOSURE_GATE.md), including the limits of prompt-only protection.
+- Updated [verification ledger](docs/VERIFICATION_STATUS.md) to explicitly cover R1, v0.5, stages 0–4, and OG01–OG12 test status **NOT RUN AGAINST THE ACTUAL AI OS**. No old test result was promoted, and no executable was released.
+- README now warns against starting new builds from superseded prompt editions.
+
 ## v0.1 — October 2026 — Original Community Preview
 
 - Preserves the free copy-and-paste educational **Build Your Own AI OS** master prompt provided for public distribution.
