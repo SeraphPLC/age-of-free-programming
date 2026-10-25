@@ -44,31 +44,30 @@ The [behavioral fidelity contract](08_SERAPH_ALIGNED_BEHAVIORAL_CONTRACT.md) and
 
 ```mermaid
 flowchart TD
- A["P00 — User's new goal or restart"] --> B["P01 — Minimize sensitive input"]
- B --> C["P02 — Restore mission and verified state"]
- C --> D["P03 — Classify task and required capability"]
- D --> E{"P04 — Qualifying route available?"}
- E -->|Yes| F["P05 — Select task-fit AI or local tool"]
- E -->|No| Z["Manual review / BLOCKED"]
- F --> G{"P06 — Tool action needed?"}
- G -->|No| H["P07 — Reasoning or drafted artifact"]
- G -->|Yes| I{"P08 — Authorized within isolated environment?"}
- I -->|No| Z
- I -->|Yes| J["P09 — Execute with observed tool output"]
- H --> K["P10 — Check claims against evidence"]
- J --> K
- K --> L{"P11 — Pass required verification?"}
- L -->|Yes| M["P12 — Save evidence and handoff"]
- L -->|No| N["P13 — Preserve failure; choose another qualified route"]
- N --> E
- M --> O{"P14 — More independent review required?"}
- O -->|Yes| P["P15 — Separate reviewer; preserve disagreement"]
- O -->|No| Q["P16 — Next task or complete"]
- P --> K
- Q --> R{"P17 — Consequential external step?"}
- R -->|Yes| S["Human authority + actual outcome reconciliation"]
- R -->|No| T["Record progress and stop or continue"]
- S --> T
+ A["P00 — Intake"] --> B["P01 — Privacy"]
+ B --> C["P02 — Grounding"]
+ C --> D["P03 — Task classification"]
+ D --> E["P04 — Capability discovery"]
+ E --> F{"P05 — Eligibility satisfied?"}
+ F -->|No| Z["Manual / BLOCKED"]
+ F -->|Yes| G["P06 — Task-fit selection and alternatives"]
+ G --> H{"Advisory or real tool?"}
+ H -->|Advisory| I["P07 — Bounded model input"]
+ I --> J["P08 — No-tool reasoning"]
+ J --> L["P11 — Actual response ingest"]
+ H -->|Tool| K{"P09 — Action preflight authorized?"}
+ K -->|No| Z
+ K -->|Yes| X["P10 — Bounded tool execution"]
+ X --> L
+ L --> M{"P12 — Evidence sufficient?"}
+ M -->|No| N["P16 — Reconciliation"]
+ N -->|Safe compatible retry| E
+ N -->|Consequence unresolved| Z
+ M -->|Yes| O["P13 — Durable storage"]
+ O --> P{"P14 — Independent review?"}
+ P -->|Yes| Q["P15 — Separate real reviewer"]
+ Q --> L
+ P -->|No| R["P17 — Handoff or bounded completion"]
 ```
 
 This graph shows **logical behavior**, not private node/edge structures or instructions for bypassing authorization. The expanded documents describe every port, fallback and stop point.
