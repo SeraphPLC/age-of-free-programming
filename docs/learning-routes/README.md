@@ -18,6 +18,7 @@
 | 5 — Build | [Atomic learner build and adversarial test plan](05_ATOMIC_BUILD_AND_TEST_LAB.md) | How can an ordinary person build and objectively check an independent router? |
 | 6 — Privacy | [Safe publication and security boundaries](06_PRIVACY_AND_TRUST_BOUNDARIES.md) | Which data stays local and when must a worker stop? |
 | 7 — Demonstration | [Synthetic project traced across three AIs](07_THREE_AI_SYNTHETIC_TRACE.md) | What actually passes from one reasoning worker to the next? |
+| 8 — Fidelity | [Seraph-aligned behavioral contract and alternatives](08_SERAPH_ALIGNED_BEHAVIORAL_CONTRACT.md) | Which externally observable Seraph decisions are preserved exactly, and where are private mechanisms withheld? |
 
 Companion resources:
 - [Frontier AI access methods](../FRONTIER_AI_ACCESS_METHODS.md): official public chat, CLI/IDE, and API choices.
