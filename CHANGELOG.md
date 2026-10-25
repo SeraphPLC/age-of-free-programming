@@ -28,3 +28,13 @@ A change to prompt instructions is not proof that AI builders faithfully impleme
 - Full guide: [AI models and large knowledge resources](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md).
 - Exact builder prompt: [v0.3 Knowledge Architect](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md).
 - No independent cross-model builder replay or complete security/reuse audit has been performed on v0.3.
+
+## v0.4 MEMORY FIDELITY CANDIDATE — 2026-10-24
+
+- Preserves public v0.1–v0.3 unchanged while publishing a new complete v0.4 educational master prompt.
+- Adds model-independent, source-grounded memory event journaling; verified/candidate separation; contradiction, correction, invalidation and deletion lifecycle; fresh-process and fresh-chat reconstruction; explicit non-inheritance of permissions.
+- Adds two **original, standalone, JSON Schema Draft 2020-12** data contracts with fictional example records: memory event and sanitized restart packet. The schemas validate shape; they do not prove consent, authentication, truth or safety.
+- Adds a 22-scenario adversarial test plan with measurable fidelity, data-loss, privacy and authority checks. All new tests are NOT RUN until an actual implementation reports receipts.
+- Adds a strict no-backlink design contract: no cloud callbacks, telemetry, private systems, secret data, background workers or mandatory external providers.
+- [v0.4 full prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) · [memory design](docs/MEMORY_FIDELITY_V1.md) · [schemas](schemas/memory_record_v1.schema.json) · [test plan](docs/MEMORY_FIDELITY_ACCEPTANCE_V1.md).
+- **No Seraph source, proprietary program, private record, model weight, or private connection is included. No new security or legal certification is claimed.**

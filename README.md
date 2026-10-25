@@ -23,17 +23,19 @@ A free, copy-and-paste educational prompt that guides a capable AI assistant thr
 
 **[Read the security-hardened v0.2 candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md)** — compact security-focused revision, not independently qualified.
 
-**[Read the expanded v0.3 Knowledge Architect master prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md)** — includes general PLC-style continuity architecture, AI model roles, a rights-aware mass knowledge-base catalog and optional offline search. This is an **advanced educational candidate, not yet clean-room reproduced**.
+**[Read the expanded v0.3 Knowledge Architect master prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md)** — includes source and model registries; still an educational candidate.
 
-**[Beginner quickstart](docs/START_HERE.md)** · **[AI models + mass knowledge bases](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md)** · **[Software & exposure inventory](docs/SOFTWARE_INVENTORY_AND_EXPOSURE.md)** · **[Verification limits](docs/VERIFICATION_STATUS.md)** · **[Private self-check](docs/BUILD_REPORT_TEMPLATE_OFFLINE.md)** · **[Versions](CHANGELOG.md)**
+**[Read the NEW v0.4 Long-Term Memory Fidelity builder prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md)** — adds source-grounded memory events, correction lineage, contradiction handling, evidence-aware fresh-chat recovery, independent schema examples, privacy controls and measurable acceptance tests. **Not yet an independently verified software build.**
 
-To use either version:
+**[Beginner quickstart](docs/START_HERE.md)** · **[Memory-fidelity architecture](docs/MEMORY_FIDELITY_V1.md)** · **[Acceptance tests](docs/MEMORY_FIDELITY_ACCEPTANCE_V1.md)** · **[No-backlink independence](docs/NO_BACKLINK_INDEPENDENCE_V1.md)** · **[AI models + mass knowledge bases](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md)** · **[Software & exposure inventory](docs/SOFTWARE_INVENTORY_AND_EXPOSURE.md)** · **[Verification limits](docs/VERIFICATION_STATUS.md)** · **[Private self-check](docs/BUILD_REPORT_TEMPLATE_OFFLINE.md)** · **[Versions](CHANGELOG.md)**
+
+To use any of the educational prompt versions:
 
 1. Open a **new** chat with ChatGPT or another capable AI assistant.
 2. Open a prompt file above. Copy its **master prompt section** into the new chat.
 3. Let the assistant verify whether it has terminal/file access. If not, it must give you copyable instructions rather than pretend to run code.
 4. Approve a **new local project folder** before any changes to your computer. Test with synthetic data only.
-5. Build and verify the offline baseline in order: **init/status/doctor → task claims/handoff → backup/restore**. Only then consider optional modules.
+5. Build and verify the offline baseline in order: **init/status/doctor → task claims/handoff → backup/restore**. Then, if you choose the v0.4 candidate, add **source-grounded memory/restart-packet tests** before considering optional AI models or networked modules.
 
 **Safety:** Never paste secrets or personal data into public issues or AI chats. Do not execute commands you do not understand; require permission before changes, publishing, networking, purchases, or account access. A local hash is not proof of authenticity. A claimed PASS is not a measured PASS. Closing the chat does not leave a worker running unless you separately installed and verified a service.
 

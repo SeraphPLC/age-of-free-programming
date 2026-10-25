@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:personal-ai-os:restart-packet:1.0",
+  "title": "Local-first restart packet (educational contract v1.0)",
+  "description": "Bounded reconstruction hints only. Does not transfer permissions or guarantee semantic fidelity.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "packet_id",
+    "generated_at",
+    "state_revision",
+    "mission_summary",
+    "source_index_refs",
+    "verified_record_ids",
+    "candidate_record_ids",
+    "contradiction_record_ids",
+    "open_task_ids",
+    "known_gaps",
+    "next_safe_action",
+    "transport",
+    "privacy_profile",
+    "authority_state",
+    "private_data_included"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "packet_id": {
+      "$ref": "#/$defs/local_ref"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "state_revision": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "mission_summary": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1024
+    },
+    "source_index_refs": {
+      "$ref": "#/$defs/ref_list"
+    },
+    "verified_record_ids": {
+      "$ref": "#/$defs/ref_list"
+    },
+    "candidate_record_ids": {
+      "$ref": "#/$defs/ref_list"
+    },
+    "contradiction_record_ids": {
+      "$ref": "#/$defs/ref_list"
+    },
+    "stale_record_ids": {
+      "$ref": "#/$defs/ref_list"
+    },
+    "first_failure_record_ids": {
+      "$ref": "#/$defs/ref_list"
+    },
+    "open_task_ids": {
+      "$ref": "#/$defs/ref_list"
+    },
+    "known_gaps": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 320
+      },
+      "maxItems": 50
+    },
+    "next_safe_action": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 512
+    },
+    "transport": {
+      "enum": [
+        "offline_only",
+        "sanitized_manual"
+      ]
+    },
+    "privacy_profile": {
+      "enum": [
+        "synthetic_or_redacted",
+        "local_private"
+      ]
+    },
+    "authority_state": {
+      "const": "REAUTHORIZE_EACH_PROTECTED_ACTION"
+    },
+    "private_data_included": {
+      "const": false,
+      "description": "This declarative field is not a PII scanner; manually review actual data before sharing."
+    },
+    "state_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  },
+  "$defs": {
+    "local_ref": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_-]{2,63}$"
+    },
+    "ref_list": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/local_ref"
+      },
+      "uniqueItems": true,
+      "maxItems": 80
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "transport": {
+            "const": "sanitized_manual"
+          }
+        },
+        "required": [
+          "transport"
+        ]
+      },
+      "then": {
+        "properties": {
+          "privacy_profile": {
+            "const": "synthetic_or_redacted"
+          }
+        }
+      }
+    }
+  ],
+  "examples": [
+    {
+      "schema_version": "1.0",
+      "packet_id": "packet_demo_001",
+      "generated_at": "2026-10-24T00:00:00Z",
+      "state_revision": "demo_revision_001",
+      "mission_summary": "Maintain a fictional greenhouse task list.",
+      "source_index_refs": [
+        "src_demo_001"
+      ],
+      "verified_record_ids": [],
+      "candidate_record_ids": [
+        "mem_demo_001"
+      ],
+      "contradiction_record_ids": [],
+      "stale_record_ids": [],
+      "first_failure_record_ids": [],
+      "open_task_ids": [
+        "task_demo_001"
+      ],
+      "known_gaps": [
+        "No fresh-chat reconstruction tested."
+      ],
+      "next_safe_action": "Read the synthetic task record and report what is unknown.",
+      "transport": "offline_only",
+      "privacy_profile": "synthetic_or_redacted",
+      "authority_state": "REAUTHORIZE_EACH_PROTECTED_ACTION",
+      "private_data_included": false
+    }
+  ]
+}

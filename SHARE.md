@@ -31,3 +31,9 @@ Alternative shorter comment:
 > Keep personal, financial, medical, school and account data out of public prompts. The mission outlives the model.
 
 This public educational prompt is not a copy of private Seraph Core or a finished AI OS.
+
+## Long-term memory fidelity (v0.4 educational candidate)
+
+> A stronger personal AI OS prompt is free here: https://github.com/SeraphPLC/age-of-free-programming/blob/main/prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md — It asks your AI to build **local, source-grounded long-term project memory** with corrections, contradiction tracking, offline restarts, privacy controls, and real tests. It does not promise permanent/perfect memory or connect to private systems. No paid API required for the intended offline foundation.
+
+Do not send us personal chat exports, private projects, account credentials or real data for a build report. Keep tests and reporting synthetic and local.

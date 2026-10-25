@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "packet_demo_001",
+  "generated_at": "2026-10-24T00:00:00Z",
+  "state_revision": "demo_revision_001",
+  "mission_summary": "Maintain a fictional greenhouse task list.",
+  "source_index_refs": [
+    "src_demo_001"
+  ],
+  "verified_record_ids": [],
+  "candidate_record_ids": [
+    "mem_demo_001"
+  ],
+  "contradiction_record_ids": [],
+  "stale_record_ids": [],
+  "first_failure_record_ids": [],
+  "open_task_ids": [
+    "task_demo_001"
+  ],
+  "known_gaps": [
+    "No fresh-chat reconstruction tested."
+  ],
+  "next_safe_action": "Read the synthetic task record and report what is unknown.",
+  "transport": "offline_only",
+  "privacy_profile": "synthetic_or_redacted",
+  "authority_state": "REAUTHORIZE_EACH_PROTECTED_ACTION",
+  "private_data_included": false
+}

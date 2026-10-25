@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "record_id": "mem_demo_001",
+  "event_kind": "candidate_fact",
+  "subject_key": "fictional_garden",
+  "statement": "The imaginary greenhouse contains three test pots.",
+  "created_at": "2026-10-24T00:00:00Z",
+  "source_refs": [
+    "src_demo_001"
+  ],
+  "verification_status": "candidate",
+  "review_receipt_id": null,
+  "privacy_class": "synthetic",
+  "consent_status": "not_required_synthetic",
+  "supersedes": [],
+  "contradicts": [],
+  "authority_grant": false
+}
