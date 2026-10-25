@@ -44,6 +44,12 @@ Most continuity value comes from saving a verified mission and a handoff, but ad
 
 **Not verified:** clean-room reproduction of the complete v0.4 build from a fresh AI session, independently audited security, universal long-term memory accuracy, production deployment, or current compatibility with every computer. The historical **30/30** synthetic reference test result belongs to a **different, withheld internal prototype**, not a public executable or a passed public-prompt build. See [verification status](docs/VERIFICATION_STATUS.md) and the [R1 synthetic local-reference report](docs/LOCAL_REFERENCE_R1_HARDENING_20261024.md) (31 developer-authored tests passed on two Macs; executable held, no independent release approval).
 
+## Seraph research lineage and practical proof labs
+
+The [public Seraph research index](docs/history/PUBLIC_RESEARCH_INDEX.md) connects the community guide to dated historical publications without treating older prototype claims as approvals for this project. Learn the [information → knowledge → capability → continuity method](docs/foundations/PLC_CONTINUITY_METHOD.md), then try the [false-green qualification rewind](docs/labs/QUALIFICATION_REWIND.md) and [controlled continuity measurement](docs/MEASURING_CONTINUITY.md). An [evidence-led research method](docs/RESEARCH_AND_DISCOVERY_METHOD.md) and [five fictional case studies](docs/examples/CONTINUITY_CASEBOOK.md) provide further practice.
+
+Optional paper-only experiments: [offline conflict reconciliation](docs/labs/OFFLINE_RECONCILIATION_EXERCISE.md) and a [read-only human control room](docs/labs/READ_ONLY_CONTROL_ROOM.md). **These are new educational documents and acceptance ideas, not new runtime features, passed tests, certified AI councils, or a released software package.**
+
 ## Original versions and deeper references
 
 The original [v0.1 prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md), [v0.2 hardening candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md), [v0.3 knowledge candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md) and [v0.4 memory candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) are preserved for full context. Other optional material: [memory design](docs/MEMORY_FIDELITY_V1.md), [technology shortlist](docs/TECHNOLOGY_STARTER_SHORTLIST.md), [AI and knowledge guide](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md), and the broad [304-option research atlas](docs/AI_DEVELOPMENT_OPTION_UNIVERSE_V1.md) (**discovery appendix, not a recommended pick list**).

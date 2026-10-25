@@ -1,5 +1,14 @@
 # Version history
 
+## Public Seraph research crosswalk — documentation-only proposal (2026-10-24)
+
+- Add a dated, rights-aware index to *publicly readable* historical Seraph/PLC research. Older documents are background references, not release approvals.
+- Explain the information → knowledge → capability → continuity teaching method, plus source anchors, drift, shear, contradiction, repair and reconvergence as **public concepts**, not protected algorithms.
+- Introduce a synthetic qualification-rewind lab that preserves a false-green acceptance, invalidates the earlier qualification, and specifies positive and negative controls.
+- Add a preregistered-style A/B/C continuity measurement protocol, evidence-led research method, five synthetic casebook exercises, and optional offline-reconciliation/read-only-UI labs.
+- Connect these guides to the README, beginner start page, staged builder, architecture library and routing atlas.
+- **No executable source or installer added; no external providers were invoked; no tests, independent councils, legal/rights clearance or master-prompt release have been certified by this documentation work.** Public software and prompt release gates remain separate.
+
 ## v0.1 — October 2026 — Original Community Preview
 
 - Preserves the free copy-and-paste educational **Build Your Own AI OS** master prompt provided for public distribution.

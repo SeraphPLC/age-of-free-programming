@@ -27,6 +27,8 @@ Companion resources:
 - [Staged offline builder](../STAGED_BUILD_PATH.md): build local continuity first.
 - [Neural-analogy glossary](../architecture/NEURAL_ANALOGY_GLOSSARY.md): analogies are not biological neural implementation.
 - [Privacy/IP release gate](../PRIVACY_IP_AND_RELEASE_GATE.md): public disclosure controls.
+- [Historical public research index](../history/PUBLIC_RESEARCH_INDEX.md) and [PLC continuity method](../foundations/PLC_CONTINUITY_METHOD.md): dated origins and a hands-on continuity vocabulary.
+- [Qualification rewind lab](../labs/QUALIFICATION_REWIND.md) and [offline reconciliation lab](../labs/OFFLINE_RECONCILIATION_EXERCISE.md): what to do when a "PASS" or stale state cannot be trusted.
 
 The [behavioral fidelity contract](08_SERAPH_ALIGNED_BEHAVIORAL_CONTRACT.md) and [decision-by-decision alternative matrix](09_ATOMIC_DECISION_ALTERNATIVES.md) together form the controlling public checklist for remaining faithful to Seraph's **observable** startup, route qualification, fallback, execution evidence, recovery, permission and stop semantics. It cannot be treated as access to private source or an exact copy of hidden algorithms.
 

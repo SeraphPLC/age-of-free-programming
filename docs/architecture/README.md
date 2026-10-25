@@ -44,6 +44,8 @@ Explore related subjects:
 - [Model-independent memory and fidelity](../MEMORY_FIDELITY_V1.md)
 - [Public memory-recovery acceptance checks](../MEMORY_FIDELITY_ACCEPTANCE_V1.md)
 - [Realistic applications for solo businesses](../USE_CASES_FOR_MICROBUSINESSES.md)
+- [Public Seraph research lineage](../history/PUBLIC_RESEARCH_INDEX.md) and [continuity method](../foundations/PLC_CONTINUITY_METHOD.md)
+- [Read-only control-room exercise](../labs/READ_ONLY_CONTROL_ROOM.md) (paper specification, not a deployed dashboard)
 - [Privacy, intellectual property and release boundaries](../PRIVACY_IP_AND_RELEASE_GATE.md)
 - [Sharing and license status](../SHARING_AND_LICENSE_STATUS.md)
 
