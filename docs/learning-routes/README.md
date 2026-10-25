@@ -20,7 +20,7 @@
 | 7 — Demonstration | [Synthetic project traced across three AIs](07_THREE_AI_SYNTHETIC_TRACE.md) | What actually passes from one reasoning worker to the next? |
 | 8 — Behavioral fidelity | [Seraph-aligned observable contract](08_SERAPH_ALIGNED_BEHAVIORAL_CONTRACT.md) | What must happen exactly, what alternatives must be offered, and where private behavior is deliberately not replicated? |
 | 8B — Decision fidelity matrix | [Every decision atom and alternate route](08_FIDELITY_AND_ALTERNATIVE_MATRIX.md) | Detailed side-by-side preferred choices, other options, STOP conditions and observable evidence for each functional decision |
-| 8 — Fidelity | [Seraph-aligned behavioral contract and alternatives](08_SERAPH_ALIGNED_BEHAVIORAL_CONTRACT.md) | Which externally observable Seraph decisions are preserved exactly, and where are private mechanisms withheld? |
+| 9 — Decision alternatives | [Every routing atom, preferred choice, fallback and stop condition](09_ATOMIC_DECISION_ALTERNATIVES.md) | Which other model or tool can handle the next step, and what observable check makes it legitimate? |
 
 Companion resources:
 - [Frontier AI access methods](../FRONTIER_AI_ACCESS_METHODS.md): official public chat, CLI/IDE, and API choices.
