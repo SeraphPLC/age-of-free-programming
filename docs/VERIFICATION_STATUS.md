@@ -15,7 +15,7 @@
 | Mac/Windows/Linux general compatibility | **NOT VERIFIED ACROSS ALL CLAIMED PLATFORMS** | A different historical Linux prototype pass is not universal portability |
 | Independent legal/security or multi-provider council review | **NOT PERFORMED FOR THIS RELEASE** | Model-generated agreement is not independent review |
 | Formal whole-repository content/software license | **NOT SELECTED** | See [license discussion](LICENSE_DECISION_BRIEF.md) and [sharing status](SHARING_AND_LICENSE_STATUS.md) |
-| Current public Git history email | **24/24 visible commits use GitHub noreply** | Verified on current reachable main history; older detached commits and caches **may still be reachable** and require GitHub-side follow-up |
+| Public Git history email privacy | **NOREPLY ON AUDITED REACHABLE COMMITS** | All commits checked on 2026-10-24 used noreply; the count changes when new commits land. Older detached commits and caches **may still be reachable** and require GitHub-side follow-up. |
 | Public Issues / private vulnerability reporting | **Issues disabled / private reporting enabled** | No build reports are requested from users |
 | Public content audit | **STATIC TEXT/JSON ONLY AS CHECKED** | Pattern checks and review do not prove absence of every privacy, security or legal issue |
 
@@ -27,6 +27,6 @@ A capable AI might build strong Python/SQLite continuity software from the speci
 
 ## Historical privacy clarification
 
-Main branch history was rewritten to use a GitHub `noreply` commit identity. All **24 current visible commits** inspected today use that identity; this **does not guarantee deletion of old commit objects**, API lookups, forks, external clones or search caches. Do not publish the historical email address or describe complete removal until GitHub can confirm relevant purge behavior. Avoid another uncoordinated force-push; the default branch is protected.
+Main branch history was rewritten to use a GitHub `noreply` commit identity. At the latest 2026-10-24 audit, **all commits then reachable in main's current history used noreply**; their number changes with future commits. This **does not guarantee deletion of old detached commit objects**, API lookups, forks, external clones or search caches. Do not publish the historical email address or describe complete removal until GitHub can confirm relevant purge behavior. Avoid another uncoordinated force-push; the default branch is protected.
 
 See [privacy and release gate](PRIVACY_IP_AND_RELEASE_GATE.md), [private safety reporting](../SECURITY.md), and the [private self-check](BUILD_REPORT_TEMPLATE_OFFLINE.md).
