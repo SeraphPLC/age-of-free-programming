@@ -1,5 +1,7 @@
 # Tell us whether it worked
 
+**Public visibility warning:** GitHub Issues are public and may be indexed, copied or archived. Do not upload full real logs, project archives, screenshots containing identifiers, email/phone/address, account details or personal case history. Security vulnerabilities belong in [private reporting](../SECURITY.md), never in a public Build Report.
+
 This free community project measures **reproducible builds**, not impressions or claims about AI autonomy.
 
 **[Create a new Build Report](https://github.com/SeraphPLC/age-of-free-programming/issues/new?template=build-report.md)**

@@ -1,4 +1,6 @@
-# Start here — Build Your Own AI OS
+# Start here
+
+**Before copying the prompt:** review [privacy, IP and release restrictions](PRIVACY_IP_AND_RELEASE_GATE.md). AI chats and public GitHub reports may disclose data outside your computer. Work only with synthetic examples; never expose private records. — Build Your Own AI OS
 
 **Free · Educational · Local-first · No paid API required for the offline baseline**
 

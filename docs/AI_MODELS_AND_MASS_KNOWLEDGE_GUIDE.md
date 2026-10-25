@@ -2,6 +2,8 @@
 ## AI Models, Original Knowledge Architecture & Massive Open Reference Libraries — Community Guide R0
 **Free educational companion · 24 October 2026 · PUBLIC-SAFE**
 
+**Before using or redistributing a source, read the [Privacy, IP and Release Gate](PRIVACY_IP_AND_RELEASE_GATE.md) and [Sharing/License Status](SHARING_AND_LICENSE_STATUS.md).** No publisher-specific catalog is a blanket permission to copy, train, sell or redistribute its content.
+
 **One prompt. Your computer. Your rules.** This guide explains the **kinds of AI models, software, old-school knowledge files, public reference libraries, and data tools** someone may choose to combine with a personal AI continuity layer. It does **not** ship private Seraph PLC source, PLC records, a collection of copyrighted books, downloaded model weights, an installer, network service, or a background agent.
 
 **Crucial distinctions:** **listed ≠ installed ≠ locally cached ≠ working ≠ task-qualified ≠ authorized**. No source or model is connected just because it appears below. The safe baseline is only Python 3 + built-in SQLite and unittest + user-owned Markdown/text files. All other software, model downloads, APIs and knowledge repositories are optional additions requiring user selection, licensing checks, and appropriate permission.
