@@ -119,6 +119,16 @@ The durable project record keeps each result separate. A review of version 2 doe
 
 A failed connection is not a reason to reset the mission, and a new worker is not permitted to clear unresolved ambiguity by choosing another provider.
 
+### Additional error-handling distinctions
+
+The table above describes broad routing choices. When an error happens inside a real tool, apply the [canonical public error/stop/reconcile guide](../ERRORS_AND_SAFE_RECOVERY.md) **before** selecting another AI. In particular:
+
+- `EXPECTED_PASS` means a sample *should* pass; `MANUAL_PASS` requires an actual person's inspection; a claimed `PASS` without a real test or with **zero discovered tests** cannot promote the task to VERIFIED.
+- An interrupted `init` may leave partial files. Do **not** recursively clean or reuse the same folder automatically; inspect it read-only, retain the first failure, and seek approval for a fresh synthetic workspace.
+- A timed-out or lost response **after an attempted write** is `UNKNOWN / RECONCILE`; inspect the durable task, journal, and target before any repeat. Swapping AI models does not make replay safe.
+- Missing schemas, changed missions, unexpected symlinks or mismatched backups are **STOP conditions**, not requests to repair evidence silently. A file hash is not an external proof of authorship.
+- An error report containing protected data or a retention/deletion request must follow the disclosure and user-data controls. Do not preserve unnecessary sensitive text forever in the name of failure memory.
+
 ## 7. Evidence packets and receipt truth
 
 A genuine **test observation** should be attributable to:
