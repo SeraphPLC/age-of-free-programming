@@ -4,6 +4,8 @@
 
 **Different AI service?** See [public methods for frontier AI apps, coding tools and optional APIs](FRONTIER_AI_ACCESS_METHODS.md). You do not need every provider or a paid API. A chat-only AI can help plan and save a handoff; real code/testing requires a computer-capable tool and your permission.
 
+**Want to understand the system before building?** Read the [11-part public Mesh architecture reference](architecture/README.md). Its neurons, connections, memory and human-control mechanisms are educational explanations, **not instructions to connect to private Seraph** or proof that all proposed features are running.
+
 ## Which path fits your tools?
 
 | Your setup | Start with | What you really get |
