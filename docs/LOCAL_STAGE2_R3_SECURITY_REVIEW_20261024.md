@@ -32,6 +32,8 @@ The R3 package manifest identifies its 17 tracked source, test and documentation
 
 **Byte-identification fingerprints:** Exact SHA-256 values for the R3 supervised Stage 1 source, Stage 2 engine and private review ZIP are retained in the owner-controlled private evidence manifest, not published here. Hashes are not proof of independent authorship, ownership or security.
 
+**Historical visibility:** Earlier public Git commits and pull-request diffs still expose the previously published fingerprints; forks and caches may retain them. This edit does not erase historical exposure.
+
 The historical independently model-generated Stage 1 was originally preserved unmodified; **R3's Stage 1 has now been supervised-edited specifically to harden file permissions**. Do not attribute its R3 test result entirely to the original model-generated source.
 
 ## What these tests do not prove
