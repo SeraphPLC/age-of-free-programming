@@ -16,11 +16,15 @@ Before Stage 1, see the [recommended ChatGPT + Desktop Commander setup guide](RE
 
 ## Three ways to start
 
-**1. Only an AI chat?** Copy [Get Seraphed Community](../prompts/GET_SERAPHED_COMMUNITY_R0.md) or the [short chat-only starter](../prompts/stages/00_CHAT_ONLY_CONTINUITY.md). Save a fictional mission and handoff card yourself; a new chat will not magically have the old one.
+**1. Only an AI chat?** Copy [Get Seraphed Community R1 (Living)](../prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) or the [short chat-only starter](../prompts/stages/00_CHAT_ONLY_CONTINUITY.md). Save a fictional mission and handoff card yourself; a new chat will not magically have the old one.
 
 **2. A code-capable AI with authorized computer tools?** Begin with [Stage 1 — Build an offline core](../prompts/stages/01_OFFLINE_CORE.md). It must inspect its real tools, propose a new folder and ask permission. Then create files, run actual `init/status/doctor` commands and record tests. Never accept a story about code as proof code was run.
 
-**3. Want the advanced blueprint?** Read the [full v0.4 specification](../prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) and [memory test plan](MEMORY_FIDELITY_ACCEPTANCE_V1.md). They are requirements, not runnable software. The much shorter [staged build guide](STAGED_BUILD_PATH.md) is recommended for actually building.
+**3. Want the advanced blueprint?** Read the [advanced v0.5 Living specification](../prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md) and [memory test plan](MEMORY_FIDELITY_ACCEPTANCE_V1.md). They are requirements, not runnable software. The much shorter [staged build guide](STAGED_BUILD_PATH.md) is recommended for actually building.
+
+## Get Seraphed grows with new information
+
+At any level, use the [Living Get Seraphed protocol](LIVING_GET_SERAPHED_PROTOCOL.md) when new instructions, corrections, requirements, evidence or research are supplied. Integrate safe, source-supported, appropriately approved changes into the active work or owner-approved local files; otherwise track a PENDING/BLOCKED amendment with its reason and source. Include an **UPDATES** section in each sanitized handoff. See the [fictional amendment card](../templates/LIVING_AMENDMENT_CARD.md). These prompts do not automatically run between chats.
 
 ## Stage completion and handoff
 

@@ -1,39 +1,53 @@
-# Share this free community prompt
+# The Age of Free Programming — living Facebook announcement
 
-Suggested Facebook comment (copy/adapt):
+**Maintained edition: 2026-10-24 | Public-safe text | Not an automatic social-media post**
 
-> **BUILD YOUR OWN AI OS — FREE.**
->
-> One prompt. Your computer. Your rules.
->
-> I'm giving away a beginner-friendly AI builder prompt that walks you through creating your own small, local-first AI continuity system: tasks, mission notes, evidence, approvals, restart recovery, and a handoff to a fresh AI chat. It uses Python and SQLite, and the intended offline version doesn't need a paid AI API or private Seraph access.
->
-> This is an **educational project**, not a finished app or an official Seraph software release. The AI must show what it really built and tested, and ask before changing your computer.
->
-> **Copy it here, free:** https://github.com/SeraphPLC/age-of-free-programming
->
-> If you try it, keep a local self-check. Publicly share only generic synthetic outcomes, never private logs, real tasks or account information.
->
-> **The mission outlives the model.**
+This page is the current shareable announcement. Update it deliberately when supported public material, verified status or limitations change. Git history preserves prior wording.
 
-Alternative shorter comment:
+## COPY FROM HERE — FACEBOOK COMMENT
 
-> Want to try building your own local AI continuity system for free? I published the full beginner master prompt here: https://github.com/SeraphPLC/age-of-free-programming — No paid API needed for the offline baseline. Educational preview, not a finished OS. Keep detailed results private; share only synthetic outcomes!
+🚀 **BUILD YOUR OWN AI OS — FREE!**
 
-## Free Get Seraphed community prompt
+**One prompt. Your computer. Your rules.**
 
-> **EVERYONE CAN GET SERAPHED — FREE COMMUNITY PROMPT.**
->
-> Preserve a project goal, verified work, evidence, failures and the next safe step across AI chats. This is a copy-and-paste continuity workflow you can use with your choice of AI assistant; no private Seraph access, account connection, paid API or installation is included.
->
-> **Copy it here:** https://github.com/SeraphPLC/age-of-free-programming/blob/main/prompts/GET_SERAPHED_COMMUNITY_R0.md
->
-> Keep personal, financial, medical, school and account data out of public prompts. The mission outlives the model.
+What if you could use AI to build your own personal system that keeps a project's mission, decisions, verified progress, mistakes and next steps—even when a chat ends?
 
-This public educational prompt is not a copy of private Seraph Core or a finished AI OS.
+Introducing **THE AGE OF FREE PROGRAMMING**: free, beginner-friendly prompts and build guides inspired by the public educational principles of Seraph.
 
-## Long-term memory fidelity (v0.4 educational candidate)
+🧠 **Start in minutes.** Copy the free "Get Seraphed" community prompt into an ordinary AI chat and make a reusable, privacy-conscious handoff card.
 
-> A stronger personal AI OS prompt is free here: https://github.com/SeraphPLC/age-of-free-programming/blob/main/prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md — It asks your AI to build **local, source-grounded long-term project memory** with corrections, contradiction tracking, offline restarts, privacy controls, and real tests. It does not promise permanent/perfect memory or connect to private systems. No paid API required for the intended offline foundation.
+🔄 **Keep growing.** New information, new instructions, corrections and lessons learned can be added **at every level** through reviewed, versioned amendments—not silently lost or mistaken for verified results.
 
-Do not send us personal chat exports, private projects, account credentials or real data for a build report. Keep tests and reporting synthetic and local.
+🛠️ **Build local tools.** With an authorized computer-capable AI, follow staged instructions to develop and test your own Python/SQLite continuity software. Keep your records under your control.
+
+🤖 **Explore the Seraph-inspired neural atlas.** The public architecture covers **115 topics**, **18 illustrative routing ports**, **11 conditional AI-to-AI routes** and **24 synthetic test scenarios**, including alternatives and stop conditions.
+
+🌐 **Choose your tools.** The guide discusses ChatGPT, Claude, Gemini, Perplexity, Copilot, Grok, Kimi, Qwen and local options. You don't need all of them.
+
+🔐 **Stay in control.** A previous AI chat never grants permission to a new one. Actual progress requires real tool access, specific authorization and test receipts—not an AI just saying "done."
+
+The educational prompts are free to copy for the described personal learning use. The intended offline Python/SQLite foundation needs no paid AI API, although optional AI services and computer tools may have their own fees or terms. **This is not a finished application or a release of private Seraph software.**
+
+👇 **GET THE FREE BUILD-YOUR-OWN-AI PROMPTS:**
+https://github.com/SeraphPLC/age-of-free-programming
+
+**GET SERAPHED.**
+*The mission outlives the model.*
+
+#GetSeraphed #AgeOfFreeProgramming #BuildYourOwnAI #AIAgents #FreeProgramming
+
+## END FACEBOOK COMMENT
+
+## Short comment
+
+**BUILD YOUR OWN AI OS — FREE.** Start with Get Seraphed in an ordinary AI chat, then explore staged guides to build your own local Python/SQLite continuity tools. New information and instructions can be incorporated at every level as reviewed, versioned amendments. No paid API needed for the intended offline foundation. Educational guides—not a finished AI product. https://github.com/SeraphPLC/age-of-free-programming
+
+## Rules for maintaining this living announcement
+
+- **When:** Update as the public repository adds source-supported capabilities, instructions, limitations or corrections. This does **not** create autonomous chat capture, GitHub edits or Facebook posting.
+- **Evidence:** Compare all claims to [README](README.md), [Living Get Seraphed protocol](docs/LIVING_GET_SERAPHED_PROTOCOL.md), [routing atlas](docs/learning-routes/README.md) and [verification status](docs/VERIFICATION_STATUS.md). Fictional tests and withheld internal prototypes do not qualify a public executable.
+- **Safety:** Follow the [privacy/IP/release gate](docs/PRIVACY_IP_AND_RELEASE_GATE.md); do not publish personal data, private Seraph mechanisms, unlicensed material, credentials or sensitive logs. Review the Git diff and current approvals before public posting.
+- **History:** Date substantive changes; keep prior copy in version history. Preserve unresolved claims as local pending amendments, not public promises.
+
+**Revision history**
+- **2026-10-24:** Living edition reflecting the public Seraph routing atlas and amendment protocol; text only.

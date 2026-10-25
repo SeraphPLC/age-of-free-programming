@@ -3,6 +3,12 @@
 
 **This repository is an educational guide, not installed AI software or an official Seraph software release.** The prompts help you build an original project without private Seraph infrastructure. No paid AI API is required for the intended offline Python/SQLite foundation. What an AI can really build depends on its tools, your approvals, and tests you observe.
 
+## Get Seraphed — living guidance at every level
+
+**[Living Get Seraphed protocol](docs/LIVING_GET_SERAPHED_PROTOCOL.md)** applies to the [Community R1 prompt](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md), all five [Stages 0–4](docs/STAGED_BUILD_PATH.md), [advanced v0.5 candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md), AI-to-AI handoffs and the [current Facebook announcement](SHARE.md).
+
+**Every time relevant information, instructions, corrections, evidence or requirements arrive, incorporate the safe, supported and authorized change into the current plan or approved project record.** Preserve its source and prior version, and label unsupported, sensitive or unapproved amendments PENDING or BLOCKED. No prior permission is inherited. This is a live *method*, not a background watcher, automatic memory service or private Seraph release.
+
 ## Map every AI handoff and fallback
 
 **[Atomic port → AI → next AI routing atlas](docs/learning-routes/README.md)** shows the Seraph-aligned *observable* process for choosing an appropriate model, using a tool, handing verified results to a different AI, recovering from failures, and offering other qualified options at each point. Includes 18 logical ports, task-specific routing maps, human permission boundaries, and 24 fictional acceptance tests. It is a **public independent reference**, not access to private Seraph Mesh wiring or operational secrets.
@@ -23,10 +29,10 @@ Explore the **[public-safe Seraph Mesh anatomy](docs/architecture/README.md)**: 
 
 | I have... | Start here | What you can get |
 | --- | --- | --- |
-| **Any ordinary AI chat** | **[Get Seraphed — Community Prompt](prompts/GET_SERAPHED_COMMUNITY_R0.md)** or [5-minute chat-only prompt](prompts/stages/00_CHAT_ONLY_CONTINUITY.md) | Mission, known facts, completed work, open items, authority and a handoff card to save yourself. No software installed. |
+| **Any ordinary AI chat** | **[Get Seraphed — Living Community R1](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md)** or [5-minute chat-only prompt](prompts/stages/00_CHAT_ONLY_CONTINUITY.md) | Mission, known facts, completed work, open items, authority and a handoff card to save yourself. No software installed. |
 | **A computer and a code-capable AI** | **[Staged Build Guide](docs/STAGED_BUILD_PATH.md)**; begin with [Stage 1](prompts/stages/01_OFFLINE_CORE.md) | A step-by-step plan to create and test actual Python/SQLite local software in a new folder you approve. |
 | **A small existing project in Git** | [Simplest valid path](docs/SIMPLEST_VALID_PATH.md) | A versioned handoff file and optional coding-agent instructions; much less engineering overhead. |
-| **An experienced builder** | [Full v0.4 memory-fidelity specification](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) | Complete advanced requirements and [adversarial acceptance tests](docs/MEMORY_FIDELITY_ACCEPTANCE_V1.md), **not** prebuilt executable code. |
+| **An experienced builder** | [Advanced v0.5 Living candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md) | Complete advanced requirements and [adversarial acceptance tests](docs/MEMORY_FIDELITY_ACCEPTANCE_V1.md), **not** prebuilt executable code. |
 
 ## Build it in stages
 
@@ -48,7 +54,7 @@ Most continuity value comes from saving a verified mission and a handoff, but ad
 
 ## Original versions and deeper references
 
-The original [v0.1 prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md), [v0.2 hardening candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md), [v0.3 knowledge candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md) and [v0.4 memory candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) are preserved for full context. Other optional material: [memory design](docs/MEMORY_FIDELITY_V1.md), [technology shortlist](docs/TECHNOLOGY_STARTER_SHORTLIST.md), [AI and knowledge guide](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md), and the broad [304-option research atlas](docs/AI_DEVELOPMENT_OPTION_UNIVERSE_V1.md) (**discovery appendix, not a recommended pick list**).
+The earlier [Get Seraphed Community R0](prompts/GET_SERAPHED_COMMUNITY_R0.md) remains unchanged. The original [v0.1 prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md), [v0.2 hardening candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md), [v0.3 knowledge candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md) and [v0.4 memory candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) are preserved for full context. Other optional material: [memory design](docs/MEMORY_FIDELITY_V1.md), [technology shortlist](docs/TECHNOLOGY_STARTER_SHORTLIST.md), [AI and knowledge guide](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md), and the broad [304-option research atlas](docs/AI_DEVELOPMENT_OPTION_UNIVERSE_V1.md) (**discovery appendix, not a recommended pick list**).
 
 ## Privacy, legal rights and feedback
 
