@@ -2,6 +2,8 @@
 
 **Free educational path — no installed app is supplied by this repository.** The long [v0.4 master prompt](../prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) remains available as the detailed specification, but beginners should usually work **one stage at a time**, each with actual test evidence.
 
+**Different AI service?** See [public methods for frontier AI apps, coding tools and optional APIs](FRONTIER_AI_ACCESS_METHODS.md). You do not need every provider or a paid API. A chat-only AI can help plan and save a handoff; real code/testing requires a computer-capable tool and your permission.
+
 ## Which path fits your tools?
 
 | Your setup | Start with | What you really get |
