@@ -1,5 +1,13 @@
 # Version history
 
+## 2026-10-24 — Public disclosure gate across Get Seraphed (documentation only)
+
+- Added [OUTPUT_DISCLOSURE_GATE.md](docs/OUTPUT_DISCLOSURE_GATE.md) with deny-by-default handling for confidential, access-enabling, potentially exploitable and indirectly identifying details.
+- Strengthened active Community R1, advanced v0.5 and Stages 0–4 with the mandatory gate **inside each copyable prompt**; archived older prompt editions are retained for historical fidelity.
+- Updated beginner navigation, living amendment protocol, public Facebook copy, policy/security reporting and coding-agent/routing/handoff templates.
+- Added proposed synthetic negative tests **OG01–OG12**, all **NOT RUN**. A text rule, manual review and regex inspection are not an automatically enforced security boundary.
+- Public output with UNKNOWN audience, disclosure rights or security risk must be withheld rather than guessed safe. Legitimate educational explanations should use synthetic, public-cleared examples.
+
 ## 2026-10-24 — Living Get Seraphed (documentation edition)
 
 - Made [SHARE.md](SHARE.md) the maintained public Facebook copy, with a revision date, claims gate and Git history.
