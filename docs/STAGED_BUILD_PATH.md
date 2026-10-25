@@ -7,9 +7,12 @@
 | Your setup | Start with | What you really get |
 | --- | --- | --- |
 | Ordinary AI chat, no computer control | [Stage 0](../prompts/stages/00_CHAT_ONLY_CONTINUITY.md) | A manual, privacy-safe state card; no installed software |
+| ChatGPT with a connected and approved **Remote Desktop Commander** test device | **[Recommended setup and security guide](RECOMMENDED_COMPUTER_SETUP.md)**, then [Stage 1](../prompts/stages/01_OFFLINE_CORE.md) | The AI can create and test files on **your own isolated computer**, with a separate third-party trust boundary |
 | AI can read/write/execute on **your approved** computer (Codex, Claude Code, similar) | [Stage 1](../prompts/stages/01_OFFLINE_CORE.md) | A chance to actually build and test a Python/SQLite program |
 | You can run a few commands by copying files from chat | [Stage 1](../prompts/stages/01_OFFLINE_CORE.md) | Smaller file batches and manual verification; takes more effort |
 | You only want basic continuity | [Simple alternative](SIMPLEST_VALID_PATH.md) | A local handoff file plus version control; no elaborate database |
+
+**Safety:** Remote computer access is optional and powerful. Read the setup's security warning: configured allowed directories and blocked commands are **not** an operating-system sandbox. Start with a throwaway VM or restricted user, fictional records, and the smallest approved folder.
 
 **Stage order:** [0: manual chat](../prompts/stages/00_CHAT_ONLY_CONTINUITY.md) → [1: offline CLI](../prompts/stages/01_OFFLINE_CORE.md) → [2: tasks, evidence, backup](../prompts/stages/02_TASKS_EVIDENCE_RECOVERY.md) → [3: memory fidelity](../prompts/stages/03_MEMORY_FIDELITY.md) → [4: optional knowledge/models](../prompts/stages/04_OPTIONAL_KNOWLEDGE_MODELS.md).
 
