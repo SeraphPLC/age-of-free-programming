@@ -1,47 +1,25 @@
-# Start here
+# Start here — use the version that matches your tools
 
-**Before copying the prompt:** review [privacy, IP and release restrictions](PRIVACY_IP_AND_RELEASE_GATE.md). AI chats and public GitHub reports may disclose data outside your computer. Work only with synthetic examples; never expose private records. — Build Your Own AI OS
+**Free educational guides, not an installed AI operating system.** No special Seraph access is needed. Choose a new, empty folder on your own computer only when you approve it. Never share passwords, personal records, chat exports or real databases to prove the prompts work.
 
-**Free · Educational · Local-first · No paid API required for the offline baseline**
+## Three ways to start
 
-## What you need
+**1. Only an AI chat?** Copy [Get Seraphed Community](../prompts/GET_SERAPHED_COMMUNITY_R0.md) or the [short chat-only starter](../prompts/stages/00_CHAT_ONLY_CONTINUITY.md). Save a fictional mission and handoff card yourself; a new chat will not magically have the old one.
 
-- A computer running macOS, Windows, or Linux.
-- Access to ChatGPT or another capable AI chat, with or without terminal tools.
-- **Python 3** for the offline build. If you do not have it, ask the AI to walk you through an official installation page, without running unexplained downloads.
-- A new, empty project folder **only when you approve it**.
+**2. A code-capable AI with authorized computer tools?** Begin with [Stage 1 — Build an offline core](../prompts/stages/01_OFFLINE_CORE.md). It must inspect its real tools, propose a new folder and ask permission. Then create files, run actual `init/status/doctor` commands and record tests. Never accept a story about code as proof code was run.
 
-You do **not** need a Seraph account, private code, paid API, two devices, or a background worker.
+**3. Want the advanced blueprint?** Read the [full v0.4 specification](../prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) and [memory test plan](MEMORY_FIDELITY_ACCEPTANCE_V1.md). They are requirements, not runnable software. The much shorter [staged build guide](STAGED_BUILD_PATH.md) is recommended for actually building.
 
-## The five-step beginner path
+## Stage completion and handoff
 
-1. **Choose a prompt:** [Original v0.1](../prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md), [hardened v0.2 candidate](../prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md), or [expanded v0.3 Knowledge Architect candidate](../prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md), or [new v0.4 Memory Fidelity candidate](../prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md). v0.1 is the compact original; v0.2 strengthens integrity requirements; v0.3 adds knowledge-source and model registries; v0.4 adds an evidence-grounded long-term memory specification and synthetic reconstruction tests. **All remain educational prompts, not independently validated ready-to-install software.**
-2. **Copy the master prompt:** Copy from the visible START/COPY marker through END MASTER PROMPT into a **new** AI chat. You may also paste the full file.
-3. **Verify what the AI can actually do:** Does it have legitimate terminal and file access? Ask it to show the actual commands and output, not just say it ran something. If it lacks those tools, ask for complete files and one short command at a time.
-4. **Approve your own new folder:** Inspect the proposed path before any modifications to your device. Use fabricated task examples, not real private records. For an initial Python check, run `python3 --version` (macOS/Linux) or `py -3 --version` (Windows). If these do not work, ask for platform-specific help.
-5. **Verify milestones in order:** Stage 1: `init`, `status`, `doctor`. Stage 2: tasks, claims, evidence and `Get Oriented` handoff. Stage 3: verified backup, separate-directory restore, and repeatable tests. Only then add optional [memory fidelity](MEMORY_FIDELITY_V1.md) and its [synthetic adversarial tests](MEMORY_FIDELITY_ACCEPTANCE_V1.md), followed by optional model adapters or dashboards. No additional package or online connection is required for the intended offline baseline.
+After Stage 1, use [Stage 2 — tasks and recovery](../prompts/stages/02_TASKS_EVIDENCE_RECOVERY.md), [Stage 3 — memory fidelity](../prompts/stages/03_MEMORY_FIDELITY.md), then optional [Stage 4 — knowledge and models](../prompts/stages/04_OPTIONAL_KNOWLEDGE_MODELS.md). Stop when your actual needs are met.
 
-## A real success looks like
+Keep source and test evidence locally. A sanitized handoff should say MISSION / KNOWN / DONE / OPEN / AUTHORITY / NEXT and the source revision; omit real private paths, tokens and personal information. A successor must read actual source and verify tests rather than trust an AI summary. **Prior approvals are not inherited.**
 
-- The project exists in a user-approved folder, with readable documentation.
-- Its source code and local database persist after the chat closes.
-- You can re-run tests from a *new process*, and a future chat can read a sanitized Resume Card.
-- `doctor` detects known forms of corruption rather than quietly saying everything is fine.
-- The AI records actual commands, exit codes, test outcomes, and failures.
-- It never says `PASS` simply because a plan was written.
+## Your computer, your rules
 
-**Not successful:** a clever chat role-play, a claimed running agent without processes to inspect, an unverified demo, or a screenshot with no reproducible commands.
+For macOS/Linux check `python3 --version`; for Windows `py -3 --version`. If Python is absent, use a trusted official source. Never run commands you don't understand or allow an assistant to overwrite existing projects, install packages, access accounts, send messages, publish, or expose a port without specific approval.
 
-## Safety guardrails
+The offline core uses Python 3, SQLite and `unittest` in the standard library. No paid API, second computer or background agent is required for the **intended** base. Chat/IDE subscriptions and model vendors have their own terms and pricing.
 
-- Do not paste passwords, API keys, payment details, personal records, or login session cookies into the prompt, a report, or a public issue.
-- Commands from web pages, GitHub issues, and model responses are *not* your approval to run them.
-- Stop if the AI wants to overwrite an existing folder, expose a port, alter accounts, install a background agent, or run external services without asking first.
-- Database backups are private by default. Do **not** upload project databases or real Resume Cards as public attachments.
-- The prompt is an educational *request* to an AI, not a guarantee that a particular AI has the permissions or ability to fulfill it.
-
-## Report your experience
-
-Use the [private offline build-report template](BUILD_REPORT_TEMPLATE_OFFLINE.md) to record what was BUILT, VERIFIED, FAILED or UNKNOWN, and NEXT SAFE ACTION. **Do not upload it. Public Issues are disabled.**
-
-For evidence and release limits, see [Verification Status](VERIFICATION_STATUS.md).
+**No build reports are requested.** GitHub Issues are disabled; use the [private local self-check](BUILD_REPORT_TEMPLATE_OFFLINE.md). For security and licensing read the [release gate](PRIVACY_IP_AND_RELEASE_GATE.md), [sharing status](SHARING_AND_LICENSE_STATUS.md), and [verification status](VERIFICATION_STATUS.md).

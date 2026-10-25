@@ -1,27 +1,11 @@
-# Tell us whether it worked
+# Private build self-check — no submission requested
 
-**Public visibility warning:** GitHub Issues are public and may be indexed, copied or archived. Do not upload full real logs, project archives, screenshots containing identifiers, email/phone/address, account details or personal case history. Security vulnerabilities belong in [private reporting](../SECURITY.md), never in a public Build Report.
+This is a compatibility page for earlier documentation links. **Public GitHub Issues are disabled** and the Age of Free Programming project does not request individual build reports, account data, personal information or telemetry.
 
-This free community project measures **reproducible builds**, not impressions or claims about AI autonomy.
+Use the optional [offline self-check template](BUILD_REPORT_TEMPLATE_OFFLINE.md) on your own machine. Do **not** upload its completed copy to GitHub, social media or a general AI chat.
 
-**Public Issues are disabled for privacy.** Copy the [private offline self-check template](BUILD_REPORT_TEMPLATE_OFFLINE.md) and fill it out locally. There is no required submission, signup or telemetry.
+A useful self-check records which stage you attempted; actual source revision, platform and test commands; observed PASS/FAIL/NOT RUN; first failures; private data you deliberately excluded; and the next safe action. A claimed PASS is not an independently reproduced test.
 
-Please report (only if you wish): your operating system, Python major/minor version, model/chat provider, which prompt version you used, and how far you got.
+Only share generic synthetic demonstrations if you choose to discuss the project publicly. For a vulnerability affecting the public educational instructions, follow the [private reporting policy](../SECURITY.md); never publish secrets or real personal case files.
 
-## Outcome definitions
-
-- **Stage 0 / NOT STARTED:** Prompt read, no commands executed.
-- **Stage 1 / INIT + STATUS:** A new project initialized, status and doctor were executed with visible receipts.
-- **Stage 2 / TASKS + HANDOFF:** A task was created, safely claimed, checked, and resumed from a new process or chat.
-- **Stage 3 / BACKUP + RESTORE:** A SQLite backup restored into a different, empty directory and matched expected records.
-- **PARTIAL / BLOCKED:** The build stopped for missing tools, permission, errors, or unsupported steps.
-
-Do not claim a stage PASSED unless you can identify commands that ran and what they returned. A self-report is not a third-party verification.
-
-## Keep your report safe
-
-No names of family members, identifying task content, full file paths containing personal names, addresses, account emails, private IP addresses, authentication tokens, actual databases, raw private logs, or real Resume Cards. Replace sensitive material with `[redacted]`. Use synthetic examples only.
-
-When something fails, share a **sanitized** error and exact *non-secret* command. Reporting a failure is useful progress.
-
-**Reviewers:** label outcomes `SELF-REPORTED`, `REPRODUCED`, or `INDEPENDENTLY REVIEWED` only when corresponding evidence exists. Never upgrade a claim because an AI says it reviewed its own output.
+See the [staged build guide](STAGED_BUILD_PATH.md) and [verification boundaries](VERIFICATION_STATUS.md).
