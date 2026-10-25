@@ -18,3 +18,13 @@
 ### Release discipline
 
 A change to prompt instructions is not proof that AI builders faithfully implement it. Candidate promotion requires independent clean-room runs, evidence, correction of observed defects, and clear limitation statements.
+
+## v0.3 KNOWLEDGE ARCHITECT CANDIDATE — 2026-10-24
+
+- Adds a self-contained optional knowledge architecture to the v0.2 educational master prompt, without changing the archived v0.1 original.
+- Recreates only the **general functions** of older-style engineering canon, lexicons, evidence registries, defect records, historical archives, and restart packets; it does not reproduce private Seraph files.
+- Introduces source rights and metadata registers, a tiny local-first search index, explicit Kiwix/encyclopedia/public-domain/scientific source categories, safe admission gates, and model/provider routing with clear intended roles.
+- All downloads, installs, APIs, network and bulk archiving remain **OFF BY DEFAULT**.
+- Full guide: [AI models and large knowledge resources](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md).
+- Exact builder prompt: [v0.3 Knowledge Architect](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md).
+- No independent cross-model builder replay or complete security/reuse audit has been performed on v0.3.
