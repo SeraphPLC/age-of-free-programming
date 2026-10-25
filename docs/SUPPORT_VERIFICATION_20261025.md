@@ -2,6 +2,16 @@
 
 **2026-10-25 · public-safe, pre-release review · draft**
 
+## October 25 — simplified publication decision
+
+**Owner decision:** one static sign for a single Facebook share and the public GitHub repository, **not a fundraising campaign**, subscription or recurring solicitation. The owner approved publication of the public-safe sign and GitHub support page.
+
+**Published content boundary:** the sign encodes only the proposed public GitHub `SUPPORT.md` address. The page separates personal appreciation and LLC/project support, but direct payee handles and links remain withheld until recipient identity, control and provider eligibility are verified. An owner approval to publish an informational sign is not evidence that an unverified account belongs to the intended payee.
+
+**Retest after final art edit:** Apple Vision barcode decoding returned **exactly one QR** from the stand-alone PNG and **exactly one QR** from the final poster PNG. Both decode to the intended GitHub `SUPPORT.md` address. Final SVG and PNG metadata, path and identifier checks passed. Publication must be followed by actual GitHub main-branch link readback.
+
+**Still unresolved:** provider account verification, business receiving link, applicable payment-provider restrictions, and the owner's actual Facebook-profile posting session. Do not imply that the sign itself can take payments.
+
 ## Scope
 
 Create a single QR landing page at `https://github.com/SeraphPLC/age-of-free-programming/blob/main/SUPPORT.md`, a stable README link, and optional donation-poster assets. This does not install a processor, payment service, data collection system, or automatic donation tracker.

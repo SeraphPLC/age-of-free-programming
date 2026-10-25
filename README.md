@@ -7,7 +7,7 @@
 
 ## Support the free project (optional)
 
-**[Support the free project](SUPPORT.md)** — a single GitHub support-page link and scannable poster. The educational materials remain free whether or not anyone contributes. Payment destinations are **pending recipient verification and owner approval**; no payment account is currently linked from the support page.
+**[Support the free project](SUPPORT.md)** — one simple sign, a central QR code and the official support page. The educational materials remain free whether or not anyone contributes. Personal and business receiving accounts are separate; payment links will appear only when their recipients and permitted uses are verified.
 
 ## Private by default — disclose no vulnerable or confidential details
 

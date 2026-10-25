@@ -2,49 +2,48 @@
 
 **One prompt. Your computer. Your rules.**
 
-The Age of Free Programming is a free educational project helping people learn to build, supervise, and preserve their own AI projects using ordinary tools and documented evidence. It is inspired by public Seraph operating principles, but **does not provide access to any private Seraph system**.
+The Age of Free Programming is a free, beginner-friendly educational project. The guides help people build and preserve their own AI projects without needing access to private Seraph systems.
 
-If these materials help you, you may choose to support continued research, documentation, maintenance, and educational development. **Giving is completely voluntary: no contribution is needed to read the guides, copy the permitted community prompts, or use the free educational materials.**
+**Everything in this public educational repository remains free whether or not anyone contributes.** There is no subscription, special access, investment offer, ownership interest, or required payment.
 
-> **Payment links are not yet enabled.** This page is being prepared for public review. Please do not send money using old graphics, unofficial profiles, messages, or previously circulated payment handles. Approved payment destinations will appear here only after the owner verifies the recipient and authorizes public disclosure.
+If you would like to support ongoing research, documentation, maintenance and free education, this is the project's single, permanent support information page.
 
-## Support options
+## Optional ways to support
 
-| Method | Current status |
-| --- | --- |
-| Cash App | **Pending** recipient verification and public-use authorization |
-| Venmo | **Pending** recipient verification and public-use authorization |
-| PayPal | **Pending** recipient verification and public-use authorization |
-| Other payment methods | **Not enabled**; subject to owner review and privacy checks |
+We are keeping personal appreciation and business/project support distinct. **Direct payment links are not active yet:** candidate accounts are being checked for correct payee, permitted account use, and protection of personal information. Please do not send money using old QR sheets, unofficial profiles, or unverified payment links.
 
-No banking details, account identifiers, personal email addresses, phone numbers, payment requests, or direct-payment QR codes are published on this page.
+### Personal appreciation
 
-## Save or share the support-page QR
+This route is intended for optional support **to the individual creator, not to a business**. Cash App, PayPal and any other compatible personal option will be listed **only after the receiving account is confirmed and approved for this use**.
 
-![QR code for the official GitHub support page](assets/support/support-hub-qr.png)
+**Status: not accepting payments through this page yet.**
 
-**QR destination:** https://github.com/SeraphPLC/age-of-free-programming/blob/main/SUPPORT.md
+### Business / project support
 
-The QR links to **this GitHub page**, not to a payment provider or personal account. The link is intended to remain stable as payment options are separately reviewed and enabled. Until the page is on the main branch, scanning may lead to a page that does not exist.
+This route is intended for contributions to **Stay Golden Enterprises LLC**, the for-profit business associated with the Seraph project. Once a business-owned receiving account and an eligible payment method are confirmed, its public business payment link will appear here separately.
 
-[Preview the shareable donation poster](assets/support/support-poster.png) · [Vector poster](assets/support/support-poster.svg) · [QR image](assets/support/support-hub-qr.png)
+**Status: not accepting business payments through this page yet.**
 
-The poster is marked *draft* while payment options remain unverified. Do not represent the graphics as confirmation that donations can already be accepted.
+The business is not described as a charity or a tax-deductible nonprofit. Neither kind of contribution grants a product license, an equity stake, governance rights, preferential services, or rights in Seraph's private research.
 
-## What a contribution means
+## One sign and QR code
 
-- **Not a purchase:** Educational materials remain free whether or not you contribute.
-- **No special rights:** Contributions do not grant private access, AI accounts, extra permissions, voting rights, intellectual-property rights, or project ownership.
-- **Not an investment:** There are no shares, returns, profit participation, or guaranteed outcomes.
-- **Not a charitable deduction claim:** Contributions are not represented as tax-deductible charitable donations.
-- **Separate from business transactions:** Any commercial services, organizational partnerships, or equity proposals require their own documented terms and channels.
+The sign below points to **this GitHub support page only**. It does not encode a payment account, financial information, or a person's email address.
 
-When verified payment options are published, always confirm the recipient **inside the payment provider's official app or website before sending funds**. This educational repository does not request payment credentials and does not process donations directly.
+![Support the Free Project — one QR sign](assets/support/support-poster.png)
 
-## Keep this project free and safe
+[View full-size sign](assets/support/support-poster.png) · [Vector sign](assets/support/support-poster.svg) · [Central QR image](assets/support/support-hub-qr.png)
 
-The free [Get Seraphed community guide](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) and [beginner start page](README.md) remain available without payment. Financial records, private Seraph information, and payment credentials must not be submitted to GitHub issues, pull requests, or AI chats.
+**Permanent support-page link:** https://github.com/SeraphPLC/age-of-free-programming/blob/main/SUPPORT.md
 
-For this project's confidentiality, rights, and release practices, see the [public output disclosure gate](docs/OUTPUT_DISCLOSURE_GATE.md) and [release policy](docs/PRIVACY_IP_AND_RELEASE_GATE.md).
+You may share the sign or link once on your own social media. This repository does not operate a fundraising campaign, recurring solicitation, mailing list, donation-tracking service or payment processor.
+
+## Before you send financial support
+
+When links are added, check the visible recipient **inside the official provider app** and confirm whether it identifies the intended individual or the LLC. Do not send money if the name looks wrong. Payment providers may apply their own rules, fees or reporting requirements.
+
+Never enter passwords, payment credentials, banking numbers, recovery codes or personal records in a GitHub issue, discussion, AI chat or website claiming to be this project.
+
+To begin using the free materials, go back to the [project homepage](README.md) or the [Get Seraphed Community guide](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md).
 
 **Get Seraphed. The mission outlives the model.**
