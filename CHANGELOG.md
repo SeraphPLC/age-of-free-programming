@@ -50,3 +50,12 @@ A change to prompt instructions is not proof that AI builders faithfully impleme
 - Relegate the 304-entry option atlas to **background reference** and add a prioritized small [technology shortlist](docs/TECHNOLOGY_STARTER_SHORTLIST.md).
 - Document candidate licensing options without choosing an irrevocable or broad license; reference executable still **HELD**.
 - **No executable, source-data archive, private Seraph file, model weights, or remote callback added** by this documentation revision.
+
+
+## Stage 1–2 reproducibility review — 2026-10-24 (documentation only)
+
+- Preserved an honest failed local model-generation trial: Stage 1 passed 8/8 synthetic tests after a model syntax correction, whereas the independently model-generated Stage 2 passed only 8/13 and failed critical integrity/visibility checks.
+- Recorded a separate supervised Stage 2 candidate with 57/57 first-party synthetic tests passing on two Macs, three tested Python versions on one Mac, and macOS deny-network sandbox checks on both machines.
+- Added a public report explaining that supervised code/test success is **not** equivalent to independent fresh-chat reproduction or a release certification.
+- **No executable, real personal data, private Seraph source, remote callback, public package, or new software redistribution license added.**
+- See [Stage 1–2 Public Prompt Trial](docs/STAGE2_PUBLIC_PROMPT_TRIAL_20261024.md).
