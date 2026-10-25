@@ -11,6 +11,8 @@ A free, copy-and-paste educational prompt that guides a capable AI assistant thr
 
 > **Privacy, licensing and safety:** [Read the protection policy](docs/PRIVACY_IP_AND_RELEASE_GATE.md), [sharing/license status](docs/SHARING_AND_LICENSE_STATUS.md), and [private security reporting](SECURITY.md) before sharing or running the prompt. Avoid posting personal data in public issues or AI chats. This is an educational preview, not a safety or legal certification.
 
+**[Explore a broad, mixed-order AI development options atlas](docs/AI_DEVELOPMENT_OPTION_UNIVERSE_V1.md)** — hundreds of possible model, software, service and knowledge-source alternatives, with practical use cases and privacy/licensing checks. **This is not a list of any project's actual tools or systems.**
+
 ## Get Seraphed — community chat mode (new)
 
 **[Copy the free Get Seraphed Community Prompt](prompts/GET_SERAPHED_COMMUNITY_R0.md)** to use a privacy-reduced project continuity workflow in your own AI chat today. It does not install software, access private Seraph, run background agents or connect to your accounts. The AI provider may have its own login, privacy rules and charges. Do not paste real sensitive records.

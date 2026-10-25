@@ -12,6 +12,8 @@ Start with the [free master prompt](../prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md), [s
 
 ---
 
+**[Expanded options atlas: many possible AI-development tools and services](AI_DEVELOPMENT_OPTION_UNIVERSE_V1.md)** — deliberately mixed alternatives, not a real-world stack inventory or product endorsement.
+
 ## 1. The original continuity/PLC ideas: preserve the *functions*, not private content
 
 A personal AI OS should preserve the **operational value** of an original engineering project without copying its private documents. An existing project may have its own canon, lexicon, historical record, verification doctrine, and mistakes. The following are general file patterns; create independent materials with your own text.
