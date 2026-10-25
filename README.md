@@ -23,6 +23,10 @@
 
 You can stop here. You do **not** need an AI provider subscription, a local model, access to Seraph, or a running service to use this manual continuity habit. If you later want local software, use the [Stage 1 offline instructions](prompts/stages/01_OFFLINE_CORE.md) and [negative-test checklist](docs/STAGE_1_2_NEGATIVE_TEST_CHECKLIST.md). Keep generated code out of real project folders until its actions and test scope are reviewed.
 
+## When a test, chat, or build fails
+
+Use the **[beginner error and safe-recovery guide](docs/ERRORS_AND_SAFE_RECOVERY.md)** before retrying. It explains what a real PASS means, how to preserve a first failure, when an interrupted action might have succeeded, and why no AI should automatically clean up files or repeat a consequential write. If you have only a chat, record **NOT RUN** rather than claiming a test result. A new chat must verify source state and obtain its own permissions.
+
 ## Get Seraphed — living guidance at every level
 
 **[Living Get Seraphed protocol](docs/LIVING_GET_SERAPHED_PROTOCOL.md)** applies to the [Community R1 prompt](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md), all five [Stages 0–4](docs/STAGED_BUILD_PATH.md), [advanced v0.5 candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md), AI-to-AI handoffs and the [current Facebook announcement](SHARE.md).

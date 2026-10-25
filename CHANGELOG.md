@@ -1,5 +1,12 @@
 # Version history
 
+## 2026-10-25 — Error taxonomy and safe-recovery review (documentation candidate)
+
+- Added an original [beginner error and safe-recovery guide](docs/ERRORS_AND_SAFE_RECOVERY.md) covering timeout/uncertain writes, partial initialization, false PASS and test discovery, privacy, schema/mission mismatch, backup consistency, permission failures and authorized deletion.
+- Integrated focused stop/check/reconcile guidance into Stage 0–2 prompts, the staged-start guide, private build-report template, handoff/recovery atlas, and Stage 1–2 negative-test checklist. Corrected a self-check template's stage labeling: backup/restore belongs to Stage 2, not Stage 3.
+- **New tests S1-13–S1-17 and S2-16–S2-20 are NOT RUN.** A documentation change is not executable code, model qualification, an independent audit, or permission to retry uncertain external actions.
+- R3/R4 checkpoints and the recorded R5 first-party successes and failures remain historical and revision-specific; the new public Stage 1 prompt requires its own independent reproduction. Executable distribution, licensing and deployment remain **HOLD**.
+
 ## 2026-10-24 — R5 Stage 1 reproducibility and beginner documentation (review candidate)
 
 - Added a five-minute beginner starting path and clearer Stage 1 test/authority instructions in the README.

@@ -34,6 +34,8 @@ You can stop at any working stage. Stage 4 is optional, and even Stage 3 does no
 
 New facts, requirements, corrections, owner instructions and test failures can be admitted at **each Stage 0–4**. Follow the [Living Get Seraphed protocol](LIVING_GET_SERAPHED_PROTOCOL.md): establish source and scope, reconcile with previous versions, protect privacy, apply only authorized/supported changes, retest affected behavior, and carry **UPDATES: APPLIED / PENDING / BLOCKED / SUPERSEDED** to the next AI. If there is no qualified file/terminal tool, supply a copyable candidate amendment rather than claiming it was installed. A copied prompt does not provide a background watcher.
 
+**Failure before progress:** The [error-handling and recovery guide](ERRORS_AND_SAFE_RECOVERY.md) is a stop/check/reconcile procedure, not an automatic retry engine. A partial Stage 1 initialization, a timed-out Stage 2 write, a zero-test suite or an uncertain external effect does **not** permit silent retry, cleanup, or promotion to PASS. Keep any side-effect-free troubleshooting inside an approved synthetic workspace.
+
 ## How to begin and resume
 
 1. **Copy just the current stage's prompt** into the AI you chose, not all five stages at once.
