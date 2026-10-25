@@ -5,6 +5,10 @@
 
 **Current public status:** The chat-only continuity prompts are free educational guidance; **no downloadable AI OS executable is released**. R5 supervised tests show bounded local progress, but independent public-prompt reproduction remains unqualified. See the [R5 verification review](docs/LOCAL_R5_STAGE1_REPRODUCIBILITY_REVIEW_20261024.md) for evidence and limitations.
 
+## Support the free project (optional)
+
+**[Support the free project](SUPPORT.md)** — a single GitHub support-page link and scannable poster. The educational materials remain free whether or not anyone contributes. Payment destinations are **pending recipient verification and owner approval**; no payment account is currently linked from the support page.
+
 ## Private by default — disclose no vulnerable or confidential details
 
 **[Mandatory Get Seraphed output disclosure gate](docs/OUTPUT_DISCLOSURE_GATE.md).** Every current community prompt, builder stage, AI handoff and shared artifact must refuse to disclose private personal or organizational records, credentials, internal infrastructure, unpublished Seraph material, exploitable weaknesses or clues that allow those details to be inferred. Unknown audience, ownership, sensitivity or rights means **WITHHOLD** and use independently public information or fictional examples instead. Never interpret "living" as automatic permission to publish anything learned. Public release requires a final-content review and specific authorization; these are **instructional safeguards**, not installed or independently audited automatic defenses.
