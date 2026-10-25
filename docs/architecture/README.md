@@ -34,6 +34,8 @@ The concepts in this library have **mixed maturity**:
 - **Research and long-term aspirations:** autonomous coordination, broadly reliable cross-provider recovery and advanced governance. These are not proven simply by documentation.
 - **Public software status:** The [Age of Free Programming](../../README.md) primarily distributes educational prompts and instructions; it does **not** include the protected private Seraph Core implementation or a qualified production deployment.
 
+**Go from analogy to user-owned routes:** [Community Neural Routing Atlas](../learning-routes/README.md) maps the observable flow from intake port to task-qualified AI or local tool, then to verification, alternate reviewer, and successor. This is an independently authored **public teaching map**, not private Seraph's exact topology, provider entitlements, numeric routing weights, security implementation or proprietary algorithms.
+
 ## Practical directions from this architecture
 
 For a working example built on **your own computer**, start with [Get Seraphed Community](../../prompts/GET_SERAPHED_COMMUNITY_R0.md), then select the [staged offline builder](../STAGED_BUILD_PATH.md). The [frontier AI methods guide](../FRONTIER_AI_ACCESS_METHODS.md) and [optional remote-computer setup](../RECOMMENDED_COMPUTER_SETUP.md) explain user-authorized tools, provider choice and privacy tradeoffs.

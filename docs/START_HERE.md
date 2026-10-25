@@ -12,6 +12,8 @@ Before Stage 1, see the [recommended ChatGPT + Desktop Commander setup guide](RE
 
 **Curious how the full Seraph idea fits together?** Start with the [public-safe Mesh architecture library](architecture/README.md) and its [neural-analogy glossary](architecture/NEURAL_ANALOGY_GLOSSARY.md). These conceptual descriptions are separate from the actual Stage 1 program you can build.
 
+**Ready to map every neuron handoff?** Read the [public routing atlas](learning-routes/README.md) before connecting multiple AIs. It shows **the exact decision *questions*** the learner must answer, choices at each point, safe fallback, and evidence-based successor recovery. The examples use user-owned interfaces and fictional ports, not private Seraph topology.
+
 ## Three ways to start
 
 **1. Only an AI chat?** Copy [Get Seraphed Community](../prompts/GET_SERAPHED_COMMUNITY_R0.md) or the [short chat-only starter](../prompts/stages/00_CHAT_ONLY_CONTINUITY.md). Save a fictional mission and handoff card yourself; a new chat will not magically have the old one.

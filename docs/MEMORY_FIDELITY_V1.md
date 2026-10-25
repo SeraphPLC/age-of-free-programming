@@ -8,6 +8,8 @@ Use this with the [latest builder prompt](../prompts/BUILD_YOUR_OWN_AI_OS_v0.4_M
 
 **Conceptual companion:** [Organizational memory (Mesh anatomy, Chapter IV)](architecture/chapters/04-organizational-memory.md) explains mission, working, evidence, decision, failure, provenance and correction memory. The separate [recovery chapter](architecture/chapters/07-continuity-recovery.md) explains why a new AI reconstructs work rather than inheriting a previous chat's permissions.
 
+For a stepwise AI A → AI B → successor example, see the [public routing atlas's handoff and evidence guide](learning-routes/04_HANDOFF_EVIDENCE_AND_RECOVERY.md). A new AI must reconstruct source-backed state and re-evaluate permission rather than inherit old chat authority.
+
 ## Memory is not authority or omniscience
 
 A stored event says *what was recorded*, not necessarily *what was true*. A hash shows byte consistency against a separately trusted baseline; it does not authenticate a hostilely rewritten file. An AI opinion, a retrieval result, a chat summary, and a historical approval do **not** grant new permissions.

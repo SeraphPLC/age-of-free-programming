@@ -6,6 +6,8 @@
 
 **Want to understand the system before building?** Read the [11-part public Mesh architecture reference](architecture/README.md). Its neurons, connections, memory and human-control mechanisms are educational explanations, **not instructions to connect to private Seraph** or proof that all proposed features are running.
 
+**Learn the next step of every route:** The [community routing atlas](learning-routes/README.md) and [atomic build/test lab](learning-routes/05_ATOMIC_BUILD_AND_TEST_LAB.md) show what should happen when an AI is unavailable, a tool has no permission, a source changes, or an independent reviewer is needed. Start with simulated workers and local Python before adding real provider connections.
+
 ## Which path fits your tools?
 
 | Your setup | Start with | What you really get |
