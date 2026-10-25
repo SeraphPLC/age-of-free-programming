@@ -38,7 +38,7 @@ Copy **only one stage at a time** into a chat, verify its real results, save sou
 
 Most continuity value comes from saving a verified mission and a handoff, but advanced projects benefit from **reproducible negative tests, evidence and failure preservation, history reconciliation, and permissions that do not leak across chats**. A chat summary is not a database; a hash isn't a signature; a model saying PASS isn't a completed test.
 
-**Not verified:** clean-room reproduction of the complete v0.4 build from a fresh AI session, independently audited security, universal long-term memory accuracy, production deployment, or current compatibility with every computer. The historical **30/30** synthetic reference test result belongs to a **different, withheld internal prototype**, not a public executable or a passed public-prompt build. See [verification status](docs/VERIFICATION_STATUS.md).
+**Not verified:** clean-room reproduction of the complete v0.4 build from a fresh AI session, independently audited security, universal long-term memory accuracy, production deployment, or current compatibility with every computer. The historical **30/30** synthetic reference test result belongs to a **different, withheld internal prototype**, not a public executable or a passed public-prompt build. See [verification status](docs/VERIFICATION_STATUS.md) and the [R1 synthetic local-reference report](docs/LOCAL_REFERENCE_R1_HARDENING_20261024.md) (31 developer-authored tests passed on two Macs; executable held, no independent release approval).
 
 ## Original versions and deeper references
 
