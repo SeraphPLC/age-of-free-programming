@@ -13,6 +13,10 @@ A free, copy-and-paste educational prompt that guides a capable AI assistant thr
 
 **[Explore a broad, mixed-order AI development options atlas](docs/AI_DEVELOPMENT_OPTION_UNIVERSE_V1.md)** — hundreds of possible model, software, service and knowledge-source alternatives, with practical use cases and privacy/licensing checks. **This is not a list of any project's actual tools or systems.**
 
+## Get Seraphed — community chat mode (new)
+
+**[Copy the free Get Seraphed Community Prompt](prompts/GET_SERAPHED_COMMUNITY_R0.md)** to use a privacy-reduced project continuity workflow in your own AI chat today. It does not install software, access private Seraph, run background agents or connect to your accounts. The AI provider may have its own login, privacy rules and charges. Do not paste real sensitive records.
+
 ## Get started
 
 **[Read the original Community Preview v0.1](prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md)** — the archived public educational prompt.
