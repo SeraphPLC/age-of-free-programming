@@ -10,8 +10,9 @@
 | Separate withheld synthetic Linux reference | **30/30 TESTS PASSED AFTER FIXES (historical)** | Tests were on a different internal program, **not** a public-prompt-generated build or independent release certification |
 | Public downloadable reference implementation | **NOT RELEASED** | Source ownership, portability, vulnerability/rights review and repeatable test receipts remain gated |
 | Memory schema & synthetic examples | **STATIC JSON DOCUMENTS** | Their syntax/shape can be checked, but no application-level guarantees follow from schema conformity |
-| Separate local executable prototype guided by public v0.4 | **26/26 FIRST-PARTY TESTS PASSED ON TWO MACS (19/21 fully covered)** | Developer-authored synthetic code, **not publicly released**; M02 and M19 have scope limits. [Trial details](LOCAL_REFERENCE_TRIAL_20261024.md) |\n| Independent fresh-chat full v0.4 build / M01–M21 acceptance | **NOT VERIFIED** | A new Python process is not a genuinely fresh AI chat or independent code reviewer |
-| M22 cross-model cold restart | **NOT RUN** | A single chat role-play does not establish independently reproduced state |
+| Separate local executable candidate guided by public v0.4 | **31/31 FIRST-PARTY TESTS PASSED ON TWO MACS (19/21 fully covered)** | Developer-authored, synthetic-only, **not publicly released**; M02/M19 remain partial. [R1 review](LOCAL_REFERENCE_R1_HARDENING_20261024.md), [historical R0](LOCAL_REFERENCE_TRIAL_20261024.md) |
+| Independent fresh-chat full v0.4 build / M01–M21 acceptance | **NOT VERIFIED** | A new Python process is not a genuinely fresh AI chat or independent code reviewer |
+| M22 cross-model cold restart | **PARTIAL — TWO ACTUAL LOCAL MODELS TESTED** | Separate fictional-evidence calls captured; complete cross-model state recovery and independent security review remain unverified. [R1 results](LOCAL_REFERENCE_R1_HARDENING_20261024.md) |
 | Mac/Windows/Linux general compatibility | **NOT VERIFIED ACROSS ALL CLAIMED PLATFORMS** | A different historical Linux prototype pass is not universal portability |
 | Independent legal/security or multi-provider council review | **NOT PERFORMED FOR THIS RELEASE** | Model-generated agreement is not independent review |
 | Formal whole-repository content/software license | **NOT SELECTED** | See [license discussion](LICENSE_DECISION_BRIEF.md) and [sharing status](SHARING_AND_LICENSE_STATUS.md) |
@@ -19,11 +20,15 @@
 | Public Issues / private vulnerability reporting | **Issues disabled / private reporting enabled** | No build reports are requested from users |
 | Public content audit | **STATIC TEXT/JSON ONLY AS CHECKED** | Pattern checks and review do not prove absence of every privacy, security or legal issue |
 
-## October 24 experimental candidate — evidence boundary\n\nA separate **new local Python/SQLite implementation** now exists. Its first-party suite passed 26/26 tests on macOS 26.6 and macOS 27.0; both machines also passed when a macOS sandbox denied network access. Fixed fictional memory records were reconstructed 20/20. These are **synthetic, developer-run tests** on a withheld local candidate—not proof that a fresh AI chat independently generated the same code, performed a review, or met production security/privacy requirements. The actual code is not a public download and no distribution license has been chosen. Full scope, fingerprints, failures and limitations: [Local Reference Trial](LOCAL_REFERENCE_TRIAL_20261024.md).\n\n## Main unresolved verification gap
+## October 24 experimental candidate — evidence boundary
+
+A separate **new local Python/SQLite implementation** now exists. Its hardened R1 first-party suite passed 31/31 tests on macOS 26.6 and macOS 27.0; both machines also passed when a macOS sandbox denied network access. Fixed fictional memory records were reconstructed 20/20. These are **synthetic, developer-run tests** on a withheld local candidate—not proof that a fresh AI chat independently generated the same code, performed a review, or met production security/privacy requirements. The actual code is not a public download and no distribution license has been chosen. Full scope, fingerprints, failures and limitations: [Local Reference Trial](LOCAL_REFERENCE_TRIAL_20261024.md).
+
+## Main unresolved verification gap
 
 A capable AI might build strong Python/SQLite continuity software from the specification, but **that has not yet been established by a clean-room, fresh-chat build of the public prompt**. Reproducing Stage 1 is not equivalent to passing all memory-fidelity cases. A JSON Schema validator checking example files is not evidence of working encryption, consent, retention, protected actions, durable service operation, or semantic memory accuracy.
 
-**Highest-value remaining experiments:** independent reviewer inspection of the separate local reference code and its failure receipts; a genuinely **fresh AI chat** that builds or reconstructs state from a frozen packet; actual cross-model M22 with provenance; Windows/Linux test environments; stronger privacy deletion and trusted history anchors. A test run by the authoring AI is not independent review. Keep failures as evidence and never silently upgrade NOT RUN or PARTIAL to PASS.
+**Highest-value remaining experiments:** independent reviewer inspection of the separate local reference code and its failure receipts; a genuinely **fresh AI chat** that builds or reconstructs state from a frozen packet; full cross-model project-state recovery beyond the two local-model toy calls; Windows/Linux test environments; stronger privacy deletion and trusted history anchors. A test run by the authoring AI is not independent review. Keep failures as evidence and never silently upgrade NOT RUN or PARTIAL to PASS.
 
 ## Historical privacy clarification
 
