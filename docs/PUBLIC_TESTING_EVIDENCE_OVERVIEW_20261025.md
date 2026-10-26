@@ -2,7 +2,7 @@
 
 **The Age of Free Programming · Public-safe research summary · 2026-10-25**
 
-> **Scope:** This is a summary of *bounded, first-party* tests and limitations relevant to this public educational project. It is **not** a publication of the private Seraph benchmark register, a new executable release, a comparative AI ranking, or independent security certification.
+> **Scope:** This is a summary of *bounded, first-party* educational tests and their limits. It is **not** a complete benchmark database, a new executable release, a comparative AI ranking, or independent security certification.
 
 ## How to read a result
 
@@ -27,15 +27,15 @@ Test counts from different revisions, languages, machines or suites **must not b
 | Output-disclosure fixture | 18/18 defined first-party checks PASS, yet an additional context-sensitive case went **false-green** | That any prompt or detector safely filters all confidential material | [Synthetic disclosure trial](OUTPUT_DISCLOSURE_SYNTHETIC_TRIAL_20261024.md) |
 | Actual local-model confidentiality probe | **FAIL:** 19 exact echoes of invented protected markers in 24 privacy challenges | A trustworthy privacy-enforcement service; no real secret was involved | [Black-box trial](LLM_DISCLOSURE_BLACKBOX_TRIAL_20261024.md) |
 
-The public guide remains educational. It does **not** distribute private Seraph software, provide a full independently qualified AI OS, or imply that a new chat inherits permissions.
+The public guide remains educational. It does **not** provide a full independently qualified AI OS, make a new AI chat inherit permissions, or establish the security of any user's future implementation.
 
 ## Long-term memory: simulated years, not demonstrated years
 
-A separately maintained, non-public continuity component was evaluated with entirely fictional records in a first-party [25-year **time-compressed** tabletop exercise](LONGEVITY_TABLETOP_R0_PUBLIC_SUMMARY_20261025.md).
+A separate **offline, fictional continuity experiment** explored memory reconstruction over timestamps spanning 25 years. It is summarized in the [time-compressed tabletop report](LONGEVITY_TABLETOP_R0_PUBLIC_SUMMARY_20261025.md).
 
-The test produced promising recovery results, **and** unresolved adversarial findings. A complete ordinary event-log baseline matched the tested fact-reconstruction result. Consequently this experiment is **not evidence of Seraph being superior** to well-engineered persistent-memory systems, and it does not qualify this public DIY prompt as a tested implementation.
+The exercise reported 12,000/12,000 expected current facts recovered from 13,500 generated events, with an ordinary complete event-log comparison producing the same result. This illustrates the value of retaining full evidence and correction history, **not** a superiority claim, years of actual operation, or a test of a system built from the public prompt.
 
-No protected source code, unreleased defect reproduction, private infrastructure detail or internal evidence repository is included here.
+The linked report offers conclusions and limitations without publishing its experimental software or raw lab materials.
 
 ## What remains unqualified
 
