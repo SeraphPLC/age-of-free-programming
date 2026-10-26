@@ -1,54 +1,43 @@
-# Can an AI continuity system preserve a project for 25 years?
+# Time-compressed continuity exercise — 25-year fictional history
 
-**Synthetic longevity tabletop R0 · Public-safe first-party summary · 2026-10-25**
+**The Age of Free Programming · Public educational research summary · October 2026**
 
-**Answer:** In one time-compressed, fully fictional exercise, a separate non-public memory component reconstructed the expected records correctly. That does **not** establish 25 real years of reliability or superior performance against all existing memory systems.
+> **Test status: first-party, simulated, not independently certified.** This page describes an offline educational research exercise. It does **not** demonstrate a completed application built from the public master prompt, a production-ready AI operating system, or reliable memory over 25 real years.
 
-This is **not** a test of the downloadable software in this public repository: there is no publicly released AI OS. It is a bounded research demonstration. Its underlying private implementation, local receipts, exact source, and detailed security review material are **not distributed**.
+## What was tested
 
-## What was exercised
+The first-party exercise generated dated, **wholly fictional** facts, later corrections, preserved failures, and unfinished tasks. The timestamps spanned about 25 years; the actual computation took seconds. No personal documents, credentials, browser profiles, real conversations, or AI-provider calls were needed for the exercise.
 
-An offline test created timestamped fictional facts, corrections, retained failures, open tasks and simulated changes over a 25-year time span. The evaluation used frozen expected answers, deterministic reconstruction and fresh-process replay; no real user data or AI provider was required during the test.
-
-| Measured scenario | First-party observation | Important limitation |
+| Test or comparison | Reported first-party result | What the result does not establish |
 | --- | --- | --- |
-| Basic memory regressions | 12/12 previously defined checks PASS on each of two Macs | The tests were not conducted by an unrelated third party |
-| Longitudinal functional checks | 9/9 checks PASS on each Mac | Synthetic, local and narrow; a new AI chat/provider was NOT exercised |
-| Time-compressed history | 13,500 fictional events across timestamps spanning 25 years | Wall-clock duration was seconds, **not** years |
-| Current facts | 12,000/12,000 matched the frozen expected values | Source authenticity and open-world truth were not evaluated |
-| Corrections | 900 scripted lineage changes incorporated | Invalid and hostile lineage cases have separate unresolved review findings |
-| Historical failures/open items | 300 failure events and 300 blocked open items retained in the scripted history | Not actual unattended task supervision |
-| Deterministic replay | Memory-state digest matched despite input-order permutation and across both Macs | Not proof of storage-device durability or external source signatures |
-| Randomized additional histories | 1,000 seed-fixed synthetic histories and 3,000 shuffled replays passed in the local test | First-party structural testing, not 1,000 independent deployments |
-| Tamper negatives | 1,000 unsigned changes to fictional payloads were detected | Detecting a changed local hash does not authenticate a coordinated rewrite |
+| Bounded continuity checks | 9/9 scenario checks passed on each of two Macs | Independent third-party verification, full-system qualification or a new-model handoff |
+| Generated fictional history | 13,500 events, including 12,000 original facts and 900 scripted corrections | Real years of uptime or survival of unknown future formats |
+| State reconstruction | 12,000/12,000 expected current fact values recovered | Truth or provenance of arbitrary outside information |
+| Failures and unfinished work | 300 simulated failure events and 300 blocked open items retained | Background supervision or real-world recovery |
+| Additional deterministic stress | 1,000 seeded histories; 3,000 reordered replays; 1,000 altered-input checks passed within the tested scope | A broad security audit, real deployments, or independent users |
+| Complete conventional event-log comparison | Recovered the same 12,000 expected fact values | A unique advantage over conventional event sourcing |
+| Deliberately truncated recent-history comparison | Covered about 3.33% of the original fact subjects | A fair comparison with a well-designed long-term memory system |
 
-## The crucial comparison
+**Important:** Counts are fixture-specific and some checks exercise overlapping behavior. Do not add these figures together as independent cases.
 
-A **complete simple event log**, given the same correction rules and fictional expected answers, also recovered all 12,000 facts correctly. A deliberately lossy baseline using just the **most recent 1,000 records** had enough fact identifiers to cover approximately **3.33%** of the original fact subjects.
+## What the comparison teaches
 
-This comparison favors preserving full evidence and correction lineage over truncating history. It **does not** demonstrate unique technological superiority: a properly engineered conventional event-sourcing system can preserve the same information.
+A system retaining the full history and its corrections can recover details that a deliberately truncated recent-history summary no longer contains. But a complete, properly implemented **ordinary event log matched the tested recovery result**. This exercise supports evaluating evidence-preserving design; it does not prove that any proprietary or public AI memory architecture is universally superior.
 
-## Adversarial findings and remediation status
+## Uncertainty and test boundaries
 
-Six exploratory adversarial probes were recorded in the separate private lab. They showed that the tested scope still needs stronger validation and careful handling of unverified or incomplete information. Detailed unreleased implementation and defect-reproduction material is intentionally withheld from this educational repository.
+Not all exploratory checks were accepted as passes. Additional negative cases and their original observations remain part of the research evidence, and no general security or privacy conclusion is claimed here.
 
-A bounded isolated correction candidate passed 18/18 focused inherited and additional checks on one Mac, but **was not merged, deployed, independently security-approved or demonstrated to fix every remaining issue**. Earlier failing tests remain part of the evidence.
+The following have **NOT** been demonstrated: physical multi-decade durability, truly unknown future migrations, a new chat or provider rebuilding the project, independently authenticated external sources, robust protection against every possible data alteration, cross-platform certification, a public executable, or an unrelated human security assessment.
 
-## What we have **not** demonstrated
+The current public instructions also cannot themselves enforce confidentiality. See the [documented synthetic model-output privacy failures](LLM_DISCLOSURE_BLACKBOX_TRIAL_20261024.md). Never rely on prompt wording as a security boundary.
 
-- 25 years of continuous runtime, hardware stability or long-term backup survival.
-- Fully reliable migrations between unknown future formats and models.
-- A successful fresh-chat handoff in a real unrelated AI provider.
-- General privacy/security guarantees, authenticity of externally supplied records or zero unauthorized actions outside the tested contract.
-- A fair independent comparison with specialist persistent-memory systems.
-- The ability of a novice to build this component from [the public v0.5 prompt](../prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md).
+## Try a harmless tabletop
 
-## Try a safe educational tabletop yourself
+Use 20 **invented** statements and a written expected-answer table. Introduce dated changes, corrections, contradictions and missing evidence. Restart the exercise in a new process and check whether every reconstructed conclusion is supported. Record mistakes, information loss and NOT RUN cases. If comparing methods, give a simple complete event log the same facts and correction rules.
 
-Use *fabricated* goals, facts and evidence. Write an immutable list of 20 made-up statements, add corrections and contradictions, simulate a source becoming stale, then restart in a new process. Compare every resulting claim against the original written truth table. Record all missed, invented, stale and contradicted claims; verify that no approval transfers to the new process or model.
+This is a classroom-style exercise. It does not grant permission to collect chat histories, inspect unrelated local files, use credentials, access protected systems, or publish other people's information.
 
-For a longer experiment, grow the fictional record set in batches, include a normal full event-log comparator, and keep a distinct blind holdout. **Do not** place real passwords, medical files, company data or unreleased systems in model prompts or public screenshots.
+Continue with the [public evidence overview](PUBLIC_TESTING_EVIDENCE_OVERVIEW_20261025.md), [memory-fidelity acceptance guide](MEMORY_FIDELITY_ACCEPTANCE_V1.md), and [verification ledger](VERIFICATION_STATUS.md).
 
-Continue with the [memory fidelity acceptance guide](MEMORY_FIDELITY_ACCEPTANCE_V1.md), [negative-test checklist](STAGE_1_2_NEGATIVE_TEST_CHECKLIST.md), and [public testing overview](PUBLIC_TESTING_EVIDENCE_OVERVIEW_20261025.md).
-
-**Status: FIRST-PARTY EXPERIMENTAL RESULTS; NO PUBLIC EXECUTABLE, INDEPENDENT SECURITY CERTIFICATION OR PROVEN LONG-TERM SUPERIORITY.**
+**Disposition: first-party research observation; public DIY implementation, long-term reliability, independent comparison and security certification remain unqualified.**
