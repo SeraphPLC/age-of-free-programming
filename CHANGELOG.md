@@ -1,5 +1,12 @@
 # Version history
 
+## 2026-10-25 — Beginner SHA-256 event-memory and recovery explanation (documentation only)
+
+- Added [how SHA-256, SQLite memory, linked event journals, trusted checkpoints, Git revisions and backups fit together](docs/SHA256_MEMORY_INTEGRITY_AND_RECOVERY.md), with a fictional in-memory Python illustration and synthetic negative-test requirements.
+- Linked the guide from README, staged build instructions and maintained Facebook announcement. Strengthened the copyable Stage 2 and advanced v0.5 prompts without replacing existing source/tests or modifying archived prompt versions.
+- Corrected common misconceptions: SHA-256 does not save data, encrypt information, attest authorship, prove factual correctness or replace a consistent backup. Git commit IDs are not necessarily SHA-256 event digests. The separate MISSION.md binder must match the database snapshot generation.
+- **Documentation-only:** A new public executable, runtime hashing implementation, real test receipts and independent security review are **NOT RUN/NOT QUALIFIED**. Historical privacy failures and release holds remain unchanged.
+
 ## 2026-10-25 — Error taxonomy and safe-recovery review (documentation candidate)
 
 - Added an original [beginner error and safe-recovery guide](docs/ERRORS_AND_SAFE_RECOVERY.md) covering timeout/uncertain writes, partial initialization, false PASS and test discovery, privacy, schema/mission mismatch, backup consistency, permission failures and authorized deletion.

@@ -2,6 +2,8 @@
 
 **Checked 2026-10-24 against current public GitHub history and documentation.** Test outcomes are version- and scope-specific. No completed public executable, independent security audit or guaranteed memory fidelity is claimed.
 
+**2026-10-25 documentation-only addition:** [SHA-256, saved memory and safe recovery](SHA256_MEMORY_INTEGRITY_AND_RECOVERY.md) explains event hashes, trusted checkpoints, Git commit IDs and consistent SQLite/mission backups. The Stage 2 and advanced v0.5 prompt copy received educational requirements; **no new AI-generated app, end-to-end integrity implementation, adversarial qualification or independent review was executed**. Earlier model privacy failures and all stage test results remain pinned to their originally tested prompt/source revisions. This does not close any existing release hold.
+
 | Item | Status | Meaning |
 | --- | --- | --- |
 | [Get Seraphed Community R1 Living](../prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) | **PUBLISHED — CURRENT EDUCATIONAL CHAT WORKFLOW** | Living amendment intake and mandatory disclosure instructions in copyable prompt; not installed memory, unattended service, or security enforcement |

@@ -26,6 +26,8 @@
 
 **Stage 1 qualification gate:** The [current Stage 1 prompt](../prompts/stages/01_OFFLINE_CORE.md) specifies the command interface, saved mission/SQLite binding, owner-only local permissions and required negative tests. Generated code must pass source inspection **before** it is executed, and Stage 2 stays closed until a real Stage 1 pass is recorded. The [R5 reproducibility review](LOCAL_R5_STAGE1_REPRODUCIBILITY_REVIEW_20261024.md) documents why a locally supervised passing demonstration does not qualify fresh-chat reproduction.
 
+**How saving and SHA-256 actually work:** [Read the beginner guide to SQLite, linked event fingerprints, Git revision IDs, trusted checkpoints and safe backup/restore](SHA256_MEMORY_INTEGRITY_AND_RECOVERY.md). A hash is neither the saved record nor an authentication signature. Stage 2 builders should test actual journal replay, alteration detection and restoration; the guide is educational documentation, not an implemented feature.
+
 **Stage order:** [0: manual chat](../prompts/stages/00_CHAT_ONLY_CONTINUITY.md) → [1: offline CLI](../prompts/stages/01_OFFLINE_CORE.md) → [2: tasks, evidence, backup](../prompts/stages/02_TASKS_EVIDENCE_RECOVERY.md) → [3: memory fidelity](../prompts/stages/03_MEMORY_FIDELITY.md) → [4: optional knowledge/models](../prompts/stages/04_OPTIONAL_KNOWLEDGE_MODELS.md).
 
 You can stop at any working stage. Stage 4 is optional, and even Stage 3 does not require an AI provider after the local code is built.
