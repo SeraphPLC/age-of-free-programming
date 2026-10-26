@@ -94,6 +94,14 @@ Most continuity value comes from saving a verified mission and a handoff, but ad
 
 **R5 Stage 2 independent reproduction: NOT RUN.** Keep the executable release on **HOLD** until independent Stage 1 reproduction, human security and rights reviews, portability, fresh-chat continuity, and retention/deletion requirements are qualified. See the [public-safe R5 review](docs/LOCAL_R5_STAGE1_REPRODUCIBILITY_REVIEW_20261024.md) and [verification ledger](docs/VERIFICATION_STATUS.md). Private raw model output and experimental executable source are not distributed.
 
+## Public testing evidence and time-compressed continuity research
+
+**[PUBLIC TESTING OVERVIEW](docs/PUBLIC_TESTING_EVIDENCE_OVERVIEW_20261025.md)** — first-party results, documented failures, and unqualified release gates for the educational project.
+
+**[25-YEAR FICTIONAL CONTINUITY EXERCISE](docs/LONGEVITY_TABLETOP_R0_PUBLIC_SUMMARY_20261025.md)** — a separate offline simulation explored 13,500 invented events and recovered 12,000/12,000 scripted fact values. A complete conventional event log matched the recovery result. These timestamps are **not 25 real years of operation**, and the experiment is **not a successful build or security qualification of this public prompt**.
+
+The materials are research summaries, not downloadable software or permission to transfer private data to an AI. Continue to the [verification ledger](docs/VERIFICATION_STATUS.md) and [privacy/release policy](docs/PRIVACY_IP_AND_RELEASE_GATE.md).
+
 ## Original versions and deeper references
 
 The earlier [Get Seraphed Community R0](prompts/GET_SERAPHED_COMMUNITY_R0.md) remains unchanged. **Historical safety warning:** Community R0 and v0.1–v0.4 are preserved for research, but are not the current safety-gated copy-and-paste starting points. Use [Community R1](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) or [advanced v0.5](prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md). See [verification limits](docs/VERIFICATION_STATUS.md). The original [v0.1 prompt](prompts/BUILD_YOUR_OWN_AI_OS_v0.1.md), [v0.2 hardening candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.2_CANDIDATE.md), [v0.3 knowledge candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.3_KNOWLEDGE_ARCHITECT_CANDIDATE.md) and [v0.4 memory candidate](prompts/BUILD_YOUR_OWN_AI_OS_v0.4_MEMORY_FIDELITY_CANDIDATE.md) are preserved for full context. Other optional material: [memory design](docs/MEMORY_FIDELITY_V1.md), [technology shortlist](docs/TECHNOLOGY_STARTER_SHORTLIST.md), [AI and knowledge guide](docs/AI_MODELS_AND_MASS_KNOWLEDGE_GUIDE.md), and the broad [304-option research atlas](docs/AI_DEVELOPMENT_OPTION_UNIVERSE_V1.md) (**discovery appendix, not a recommended pick list**).
