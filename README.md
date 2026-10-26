@@ -72,6 +72,8 @@ Explore the **[public-safe Seraph Mesh anatomy](docs/architecture/README.md)**: 
 4. [**Stage 3: Memory fidelity**](prompts/stages/03_MEMORY_FIDELITY.md) — source-backed facts, contradictions, corrections and fresh-process reconstruction.
 5. [**Stage 4: Optional knowledge and models**](prompts/stages/04_OPTIONAL_KNOWLEDGE_MODELS.md) — rights-aware reference sources and user-approved model adapters; not required for an offline system.
 
+**How is memory actually saved and checked?** Read the new [beginner SHA-256, SQLite event-journal and backup guide](docs/SHA256_MEMORY_INTEGRITY_AND_RECOVERY.md). The records live in actual storage; hash fingerprints help detect inconsistent history, a trusted checkpoint strengthens verification, and a verified backup enables recovery. Neither a hash nor a handoff grants authority or proves factual correctness.
+
 Copy **only one stage at a time** into a chat, verify its real results, save source/test artifacts locally, and resume the next stage with a **sanitized** handoff. In a fresh chat, no old approval carries over. A normal chat may generate useful copyable text without having any access to files or a terminal.
 
 ## Why this is different from a simple memory prompt
