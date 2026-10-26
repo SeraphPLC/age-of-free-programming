@@ -94,13 +94,13 @@ Most continuity value comes from saving a verified mission and a handoff, but ad
 
 **R5 Stage 2 independent reproduction: NOT RUN.** Keep the executable release on **HOLD** until independent Stage 1 reproduction, human security and rights reviews, portability, fresh-chat continuity, and retention/deletion requirements are qualified. See the [public-safe R5 review](docs/LOCAL_R5_STAGE1_REPRODUCIBILITY_REVIEW_20261024.md) and [verification ledger](docs/VERIFICATION_STATUS.md). Private raw model output and experimental executable source are not distributed.
 
-## Public testing evidence and long-term continuity research
+## Public testing evidence and time-compressed continuity research
 
-**[READ THE PUBLIC TESTING EVIDENCE OVERVIEW](docs/PUBLIC_TESTING_EVIDENCE_OVERVIEW_20261025.md)** — a source-bounded summary of what has actually passed, failed, or remains NOT RUN in this educational project. It does **not** reproduce any private Seraph benchmark register, operational receipts, vulnerabilities, source files or restricted links.
+**[PUBLIC TESTING OVERVIEW](docs/PUBLIC_TESTING_EVIDENCE_OVERVIEW_20261025.md)** — first-party results, documented failures, and unqualified release gates for the educational project.
 
-**[25-YEAR SYNTHETIC LONGEVITY TABLETOP — RESULTS AND LIMITS](docs/LONGEVITY_TABLETOP_R0_PUBLIC_SUMMARY_20261025.md)** — a separate private-component test used 13,500 wholly fictional events and correctly reconstructed the 12,000 scripted current facts on two Macs. The 9/9 scenario checks passed on each Mac, with additional seeded replay checks and preserved adversarial findings. **These were time-compressed simulations, not years of runtime.** A conventional full event log also recovered the facts, so this is **not evidence of superiority** over established persistent-memory systems.
+**[25-YEAR FICTIONAL CONTINUITY EXERCISE](docs/LONGEVITY_TABLETOP_R0_PUBLIC_SUMMARY_20261025.md)** — a separate offline simulation explored 13,500 invented events and recovered 12,000/12,000 scripted fact values. A complete conventional event log matched the recovery result. These timestamps are **not 25 real years of operation**, and the experiment is **not a successful build or security qualification of this public prompt**.
 
-The tested component is **not the AI OS described in this public repository**. No downloadable executable, independent security qualification, fresh-chat cross-provider build, or public model-memory certification is claimed. Keep real records out of unprotected chats; see the [verification ledger](docs/VERIFICATION_STATUS.md) and [release gate](docs/PRIVACY_IP_AND_RELEASE_GATE.md).
+The materials are research summaries, not downloadable software or permission to transfer private data to an AI. Continue to the [verification ledger](docs/VERIFICATION_STATUS.md) and [privacy/release policy](docs/PRIVACY_IP_AND_RELEASE_GATE.md).
 
 ## Original versions and deeper references
 
