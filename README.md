@@ -5,6 +5,20 @@
 
 **Current public status:** The chat-only continuity prompts are free educational guidance; **no downloadable AI OS executable is released**. R5 supervised tests show bounded local progress, but independent public-prompt reproduction remains unqualified. See the [R5 verification review](docs/LOCAL_R5_STAGE1_REPRODUCIBILITY_REVIEW_20261024.md) for evidence and limitations.
 
+## Start in five minutes — no programming required
+
+1. Open the [current Get Seraphed Community R1 prompt](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) or the simpler [Stage 0 chat-only prompt](prompts/stages/00_CHAT_ONLY_CONTINUITY.md) in an ordinary AI chat.
+2. Use a **fictional** project first. Ask for a mission, what is known versus unverified, completed work with evidence, open tasks, failures, and one next safe action.
+3. Save the resulting **sanitized handoff card yourself**. In a new chat, verify the current files or evidence again: **nothing transfers permission or authority automatically**. If your AI app remembers earlier chats, run that new chat in a different AI or with cross-chat memory off, so the result reflects only your card.
+
+You can stop here. You do **not** need an AI provider subscription, a local model, access to Seraph, or a running service to use this manual continuity habit. If you later want local software, use the [Stage 1 offline instructions](prompts/stages/01_OFFLINE_CORE.md) and [negative-test checklist](docs/STAGE_1_2_NEGATIVE_TEST_CHECKLIST.md). Keep generated code out of real project folders until its actions and test scope are reviewed.
+
+## Private by default — disclose no vulnerable or confidential details
+
+**[Mandatory Get Seraphed output disclosure gate](docs/OUTPUT_DISCLOSURE_GATE.md).** Every current community prompt, builder stage, AI handoff and shared artifact must refuse to disclose private personal or organizational records, credentials, internal infrastructure, unpublished Seraph material, exploitable weaknesses or clues that allow those details to be inferred. Unknown audience, ownership, sensitivity or rights means **WITHHOLD** and use independently public information or fictional examples instead. Never interpret "living" as automatic permission to publish anything learned. Public release requires a final-content review and specific authorization; these are **instructional safeguards**, not installed or independently audited automatic defenses.
+
+**Observed local-model failure:** [Black-box tests](docs/LLM_DISCLOSURE_BLACKBOX_TRIAL_20261024.md) found **19 exact synthetic canary echoes in 24 privacy challenges** across three local AI models even with the current R1/v0.5 prompts. These educational prompts are **NOT approved as a confidentiality-enforcing service**. Do not submit real private records or depend on a model to redact its own public output. Any future system handling sensitive data needs a separate, tested, fail-closed output gate and human release review. No real secrets or private Seraph system was tested.
+
 ## 💛 Support free AI education — optional
 
 **[OPEN THE SUPPORT PAGE — CASH APP, VENMO & PAYPAL](SUPPORT.md)**
@@ -14,20 +28,6 @@
 **Cash App: $SeraphPLC · Venmo: @Michael-Burdge-4 · PayPal: Michael Burdge.** The scannable poster also includes a QR to the official GitHub support page. These are personal receiving accounts, **not verified LLC payment methods**. Check the recipient inside the official app before paying.
 
 **All educational content stays free.** Contributions are voluntary and do not create special access, an ownership interest or a charitable tax deduction claim. Zelle is excluded to avoid disclosing private recipient information.
-
-## Private by default — disclose no vulnerable or confidential details
-
-**[Mandatory Get Seraphed output disclosure gate](docs/OUTPUT_DISCLOSURE_GATE.md).** Every current community prompt, builder stage, AI handoff and shared artifact must refuse to disclose private personal or organizational records, credentials, internal infrastructure, unpublished Seraph material, exploitable weaknesses or clues that allow those details to be inferred. Unknown audience, ownership, sensitivity or rights means **WITHHOLD** and use independently public information or fictional examples instead. Never interpret "living" as automatic permission to publish anything learned. Public release requires a final-content review and specific authorization; these are **instructional safeguards**, not installed or independently audited automatic defenses.
-
-**Observed local-model failure:** [Black-box tests](docs/LLM_DISCLOSURE_BLACKBOX_TRIAL_20261024.md) found **19 exact synthetic canary echoes in 24 privacy challenges** across three local AI models even with the current R1/v0.5 prompts. These educational prompts are **NOT approved as a confidentiality-enforcing service**. Do not submit real private records or depend on a model to redact its own public output. Any future system handling sensitive data needs a separate, tested, fail-closed output gate and human release review. No real secrets or private Seraph system was tested.
-
-## Start in five minutes — no programming required
-
-1. Open the [current Get Seraphed Community R1 prompt](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) or the simpler [Stage 0 chat-only prompt](prompts/stages/00_CHAT_ONLY_CONTINUITY.md) in an ordinary AI chat.
-2. Use a **fictional** project first. Ask for a mission, what is known versus unverified, completed work with evidence, open tasks, failures, and one next safe action.
-3. Save the resulting **sanitized handoff card yourself**. In a new chat, verify the current files or evidence again: **nothing transfers permission or authority automatically**. If your AI app remembers earlier chats, run that new chat in a different AI or with cross-chat memory off, so the result reflects only your card.
-
-You can stop here. You do **not** need an AI provider subscription, a local model, access to Seraph, or a running service to use this manual continuity habit. If you later want local software, use the [Stage 1 offline instructions](prompts/stages/01_OFFLINE_CORE.md) and [negative-test checklist](docs/STAGE_1_2_NEGATIVE_TEST_CHECKLIST.md). Keep generated code out of real project folders until its actions and test scope are reviewed.
 
 ## When a test, chat, or build fails
 
