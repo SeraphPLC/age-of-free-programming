@@ -16,4 +16,6 @@ Start with a **fictional** gardening-guide project containing three dependent ta
 
 To test: open a fresh chat, paste the same prompt and only your saved **synthetic** state card, then verify whether it recovers the task, failure and authority boundaries. This tests manual habits, **not** installed memory fidelity.
 
+**Make the fresh chat really fresh.** Many AI apps can remember or search your earlier conversations. If that is switched on, the second chat may recall details that are not on your card, and recovery will look better than it really is. For an honest test, use a different AI provider, or a temporary chat or a chat with cross-chat memory turned off if your app offers one, and paste only the prompt and the card. Note which AI and memory setting you used next to the result.
+
 **Want a longer chat-only version?** [Get Seraphed Community R1 (Living)](../GET_SERAPHED_COMMUNITY_R1_LIVING.md). **Want software?** [Stage 1](01_OFFLINE_CORE.md).

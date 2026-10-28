@@ -25,7 +25,7 @@
 
 1. Open the [current Get Seraphed Community R1 prompt](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) or the simpler [Stage 0 chat-only prompt](prompts/stages/00_CHAT_ONLY_CONTINUITY.md) in an ordinary AI chat.
 2. Use a **fictional** project first. Ask for a mission, what is known versus unverified, completed work with evidence, open tasks, failures, and one next safe action.
-3. Save the resulting **sanitized handoff card yourself**. In a new chat, verify the current files or evidence again: **nothing transfers permission or authority automatically**.
+3. Save the resulting **sanitized handoff card yourself**. In a new chat, verify the current files or evidence again: **nothing transfers permission or authority automatically**. If your AI app remembers earlier chats, run that new chat in a different AI or with cross-chat memory off, so the result reflects only your card.
 
 You can stop here. You do **not** need an AI provider subscription, a local model, access to Seraph, or a running service to use this manual continuity habit. If you later want local software, use the [Stage 1 offline instructions](prompts/stages/01_OFFLINE_CORE.md) and [negative-test checklist](docs/STAGE_1_2_NEGATIVE_TEST_CHECKLIST.md). Keep generated code out of real project folders until its actions and test scope are reviewed.
 
