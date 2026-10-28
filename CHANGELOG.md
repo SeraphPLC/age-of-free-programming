@@ -1,5 +1,12 @@
 # Version history
 
+## 2026-10-28 — Beginner path consistency fixes (documentation only)
+
+- Repointed four starter links in the [architecture library](docs/architecture/README.md), [microbusiness use cases](docs/USE_CASES_FOR_MICROBUSINESSES.md) and [frontier AI access guide](docs/FRONTIER_AI_ACCESS_METHODS.md) from the archived Community R0 to [Community R1 Living](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md). Intentional historical references to R0 and the archived R0 file are unchanged.
+- Added a "make the fresh chat really fresh" note to the [Stage 0](prompts/stages/00_CHAT_ONLY_CONTINUITY.md), [Community R1](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) and README recovery tests: AI apps that remember or search earlier chats can fill gaps the card does not cover. Use a different provider or a temporary/memory-off chat, and record which was used. The note sits outside the copyable prompt bodies, so prompt text and pinned results are unchanged.
+- Moved the README five-minute start above the privacy rule and the optional support section. Pure reorder; no wording changed.
+- **Documentation only:** no new tests, executable, prompt-body change or release decision. All existing holds remain.
+
 ## 2026-10-25 — Beginner SHA-256 event-memory and recovery explanation (documentation only)
 
 - Added [how SHA-256, SQLite memory, linked event journals, trusted checkpoints, Git revisions and backups fit together](docs/SHA256_MEMORY_INTEGRITY_AND_RECOVERY.md), with a fictional in-memory Python illustration and synthetic negative-test requirements.

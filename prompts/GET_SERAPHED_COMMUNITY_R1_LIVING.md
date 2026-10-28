@@ -132,6 +132,8 @@ After pasting the prompt, write:
 
 Then start a fresh chat with the prompt and the synthetic handoff. Ask the successor to resume safely. Compare its result against your saved state.
 
+**Make the fresh chat really fresh.** Many AI apps can remember or search your earlier conversations. If that is switched on, the successor may recall details that are not on your card, and recovery will look better than it really is. For an honest test, use a different AI provider, or a temporary chat or a chat with cross-chat memory turned off if your app offers one, and give the successor only the prompt and the card. Note which AI and memory setting you used next to the result.
+
 **Want to build an actual offline local continuity application?** Use the [Age of Free Programming builder prompt](../README.md) and begin with the Python/SQLite educational path. The prompts describe what an AI should build; they do not prove the software was built on your computer.
 
 **PUBLIC RELEASE BOUNDARY:** No private Seraph code, PLC research documents, passwords, bank records, operator identities, machine hostnames, control-plane endpoints, internal source paths, paid API keys, or undisclosed company material is included in this prompt. Do not add them when sharing.
