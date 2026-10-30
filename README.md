@@ -1,13 +1,39 @@
 # The Age of Free Programming
 
-**Learn to use AI for real projects — without learning to code first.**
+**THE GOAL: NO AI DRIFT. Your project stays on track — even when the conversation changes.**
 
-This is a **free set of lessons and copy-and-paste instructions**. Start with a normal AI chat. If you want to go further, learn how to build and test your own small AI-related tools on your computer.
+Ever spend hours working with AI, only for it to **forget your instructions, change the plan, repeat finished work, or act like something is done when it isn't?**
 
-**What this is:** A learning guide you can use right now.  
-**What this is not:** A downloadable AI operating system, automatic AI memory, or access to private Seraph software.
+That's **AI drift**. You started with one goal. Little by little, the AI moves away from it. You waste time explaining everything again — or worse, you don't notice the change until you've gone in the wrong direction.
 
-You don't need to pay this project or use a paid AI API to try the basic chat exercise or the intended offline foundation.
+**What if your project had its own memory of what matters?**
+
+Imagine starting a business, building a website, creating an app, writing a book, or solving a problem that takes months. You could close a chat, come back next week, even try a different AI, and use a saved record to show **the original goal, the decisions already made, what actually got done, what failed, and what comes next**.
+
+That's what **The Age of Free Programming** helps you work toward: **an AI-powered project that keeps its direction instead of becoming a pile of disconnected conversations**.
+
+### The payoff: less drift, more real progress
+
+- **Keep the goal in sight.** Your original instructions and important decisions don't have to disappear when a chat ends.
+- **Catch the AI changing the story.** Compare its answer with your saved project record. If it invents progress or changes the plan, you have something to check it against.
+- **Stop starting over.** Pick up work in a new chat or with another AI using the same project information.
+- **Build things you can keep.** Work toward a website, an app, useful files, or your own tools — not just another long conversation.
+- **Know what's real.** Track work that was actually completed and tested, alongside errors and things still waiting to be checked.
+- **Stay in charge.** You choose which AI to use, what information to save, and which actions need your permission.
+
+### You can start at the copy-and-paste stage
+
+**Seriously. No coding. No special computer. No paid AI API needed for the first exercise.**
+
+Start by saving a simple **project card**: your goal, rules, decisions, completed work, open tasks, mistakes, and next step. Paste it into the next AI chat. Ask the AI to **check its plan against that card before continuing**.
+
+That's the first defense against drift. **You don't need to build an AI operating system to get useful continuity.**
+
+If you want more later, these guides take you step by step toward saving records in files on your own computer, checking changes, recovering after errors, and experimenting with more capable AI handoffs.
+
+**The bigger vision:** Your ideas don't have to start over just because an AI chat ended. Over time, you can work toward a project system where the work, decisions, and evidence outlast any one model.
+
+**One important distinction:** "No drift" is the **goal**, not a guarantee. A saved card can help you **spot and correct** changes, but AI can still misunderstand or make things up. These are free educational prompts and build guides, **not a finished downloadable AI operating system**, automatic memory service, or public Seraph release. The complete system has not been independently reproduced from the public instructions or security-audited. Start with fictional examples and keep private information out of unapproved chats.
 
 ## Start here — five minutes, no coding
 
@@ -15,10 +41,10 @@ You don't need to pay this project or use a paid AI API to try the basic chat ex
 
 1. Open **[the beginner chat exercise (Stage 0)](prompts/stages/00_CHAT_ONLY_CONTINUITY.md)**.
 2. Copy the text between **COPY PROMPT** and **END PROMPT** into an AI chat. It will walk you through an imaginary gardening project.
-3. Ask the AI for a short **project note**: your goal, what is known, what is done, what's left, what needs approval, and the next safe step.
-4. **Save that note yourself.** Open a new chat, paste it in, and check whether the new chat understands the project.
+3. Ask the AI for a short **project note**: your goal, important rules, decisions, what is known, what is done, what's left, what needs approval, and the next safe step.
+4. **Save that note yourself.** Open a new chat and paste it in. Ask the AI to compare its next steps with the saved note — and point out anything it cannot confirm.
 
-That's your first useful skill: **you can carry a project from one chat to another**. The AI did not secretly remember your work; **you saved the information and gave it to the next chat**.
+That's your first **anti-drift habit**: **you can carry your project and its rules from one chat to another**. If the new AI changes the goal or invents completed work, check it against your saved note and correct it. The AI did not secretly remember your work; **you saved the information and gave it to the next chat**.
 
 You can stop there, or try the more detailed **[Get Seraphed Community R1 instructions](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md)**.
 
@@ -26,7 +52,7 @@ You can stop there, or try the more detailed **[Get Seraphed Community R1 instru
 
 | I want to... | Go here | What I get |
 | --- | --- | --- |
-| **Keep a project going across AI chats** | [Start with a chat](prompts/stages/00_CHAT_ONLY_CONTINUITY.md) | A project note you save and reuse. No installation. |
+| **Keep my AI from losing the plan between chats** | [Start with a chat](prompts/stages/00_CHAT_ONLY_CONTINUITY.md) | A saved project note to check against new AI answers. No installation. |
 | **Build my first local AI-related tool** | [Step-by-step build guide](docs/STAGED_BUILD_PATH.md) | Instructions for writing and testing a simple program on a computer you control. |
 | **Organize a small project without a complicated system** | [Simplest project method](docs/SIMPLEST_VALID_PATH.md) | A saved handoff file and optional change history. |
 | **Study the advanced design** | [Advanced builder instructions](prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md) | A detailed plan and tests, **not ready-made software**. |
@@ -35,7 +61,7 @@ You can stop there, or try the more detailed **[Get Seraphed Community R1 instru
 
 ## Build your own tools, one step at a time
 
-- **[Stage 0 — Practice in a chat](prompts/stages/00_CHAT_ONLY_CONTINUITY.md):** Learn to save and reuse a project note.
+- **[Stage 0 — Practice in a chat](prompts/stages/00_CHAT_ONLY_CONTINUITY.md):** Save your plan and check whether the next AI stays on it.
 - **[Stage 1 — Make a basic offline tool](prompts/stages/01_OFFLINE_CORE.md):** Try creating a program that saves project information on your computer.
 - **[Stage 2 — Track work and fix problems](prompts/stages/02_TASKS_EVIDENCE_RECOVERY.md):** Keep a task list, results, errors, and backups.
 - **[Stage 3 — Check what was saved](prompts/stages/03_MEMORY_FIDELITY.md):** Spot conflicting or incorrect records.
