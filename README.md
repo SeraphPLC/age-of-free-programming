@@ -1,13 +1,28 @@
 # The Age of Free Programming
 
-**Learn to use AI for real projects — without learning to code first.**
+**Imagine having your own AI project team — one that can pick up where you left off.**
 
-This is a **free set of lessons and copy-and-paste instructions**. Start with a normal AI chat. If you want to go further, learn how to build and test your own small AI-related tools on your computer.
+You have an idea: **start a business, build a website, create an app, write a book, or tackle a project you've been putting off.** You ask AI for help. It makes a plan, helps you work through the steps, and — when you have the right tools and give permission — can help create real files and test software.
 
-**What this is:** A learning guide you can use right now.  
-**What this is not:** A downloadable AI operating system, automatic AI memory, or access to private Seraph software.
+Then you close the chat. A week goes by. You try a different AI.
 
-You don't need to pay this project or use a paid AI API to try the basic chat exercise or the intended offline foundation.
+**What if you didn't have to explain everything all over again?**
+
+That's the big idea behind **The Age of Free Programming**: learn to build **your own AI-powered project headquarters**. Your goals, decisions, unfinished jobs, mistakes, and results can have a home **outside any single AI chat**. You stay in charge, and the next AI has a clear place to start.
+
+### What all that work could give you
+
+- **Build something real.** Go beyond asking questions and work toward websites, apps, useful files, or tools you can actually keep.
+- **Stop losing your place.** Save your plan and progress so you can return tomorrow — or switch AI helpers — without starting from zero.
+- **Get help from different AIs.** Learn to pass a clear project update from one AI to another, with more advanced connections as an optional goal.
+- **Know what really got done.** Keep a record of finished work, mistakes, and actual test results instead of trusting an AI just because it says "done."
+- **Keep the keys in your hands.** Choose what lives on your computer, what an AI can access, and what needs your approval.
+
+**Here's the payoff:** Instead of collecting a bunch of disconnected AI conversations, you can work toward **a lasting project that keeps getting better**. You bring the idea. AI can help with the work. **You keep the plan, the results, and the final say.**
+
+**Start small, for free:** In five minutes, you can learn to carry your project from one chat to another using a note you save yourself. The later lessons show how to try building a more capable offline system on your own computer, one tested step at a time.
+
+**Important:** These are **free educational guides and prompts**, not a finished downloadable AI operating system or a public Seraph software release. Automatic memory, connected AI helpers, and a complete working system are **goals to build and verify**, not features you get by pasting a prompt. Independent reproduction of the full build and a security audit have not been completed. No paid AI API is required for the basic chat exercise or the intended offline foundation.
 
 ## Start here — five minutes, no coding
 
