@@ -1,39 +1,37 @@
 # The Age of Free Programming
 
-**THE GOAL: NO AI DRIFT. Your project stays on track — even when the conversation changes.**
+> **One person. A team of AIs. The freedom to build things that once required an entire organization.**
 
-Ever spend hours working with AI, only for it to **forget your instructions, change the plan, repeat finished work, or act like something is done when it isn't?**
+## Stop just asking AI questions. Start building something that grows with you.
 
-That's **AI drift**. You started with one goal. Little by little, the AI moves away from it. You waste time explaining everything again — or worse, you don't notice the change until you've gone in the wrong direction.
+Imagine having your own **digital workshop**: a place where your ideas become plans, plans become projects, projects become working tools, and the progress survives even when the AI conversation ends.
 
-**What if your project had its own memory of what matters?**
+Now imagine expanding that workshop into a **personal AI-powered work system**—with a project manager, research desk, software builder, learning assistant, organized memory, error tracker, and optional independent AI reviewers. You choose the tools, the information they may use, and the actions they may take.
 
-Imagine starting a business, building a website, creating an app, writing a book, or solving a problem that takes months. You could close a chat, come back next week, even try a different AI, and use a saved record to show **the original goal, the decisions already made, what actually got done, what failed, and what comes next**.
+**That is the full-build ambition of The Age of Free Programming.** It starts with one free prompt and grows, through real programming and testing, into something much bigger than a chatbot.
 
-That's what **The Age of Free Programming** helps you work toward: **an AI-powered project that keeps its direction instead of becoming a pile of disconnected conversations**.
+### What could this help you build?
 
-### The payoff: less drift, more real progress
+- **Turn an idea into a business.** Research a market, develop a plan, draft a website, prototype your own tools, organize work, and keep track of what actually gets finished.
+- **Create software without starting as a programmer.** Work with AI to design apps, write code, run tests, record bugs, and improve a project one working piece at a time.
+- **Give yourself a personalized learning system.** Organize study materials, develop practice exercises, track what you understand, and resume a long-term learning goal without losing the thread.
+- **Get control of complicated projects.** Keep decisions, tasks, deadlines, references, backups, setbacks, and next steps together—instead of scattering them across forgotten chats and files.
+- **Build a research desk for your biggest questions.** Organize public sources, compare competing ideas, record uncertainty, and design tests that can prove an idea wrong as well as support it.
+- **Grow toward an AI team you direct.** With separately approved and genuinely connected models, one worker could propose, another could challenge, and a real test or human reviewer could check the result. An AI vote is never proof.
 
-- **Keep the goal in sight.** Your original instructions and important decisions don't have to disappear when a chat ends.
-- **Catch the AI changing the story.** Compare its answer with your saved project record. If it invents progress or changes the plan, you have something to check it against.
-- **Stop starting over.** Pick up work in a new chat or with another AI using the same project information.
-- **Build things you can keep.** Work toward a website, an app, useful files, or your own tools — not just another long conversation.
-- **Know what's real.** Track work that was actually completed and tested, alongside errors and things still waiting to be checked.
-- **Stay in charge.** You choose which AI to use, what information to save, and which actions need your permission.
+**The real advantage isn't one impressive answer. It's being able to keep building, learning, recovering, and improving over time.**
 
-### You can start at the copy-and-paste stage
+### How powerful—and how complex—is the complete build?
 
-**Seriously. No coding. No special computer. No paid AI API needed for the first exercise.**
+This isn't one giant magic prompt. The [advanced builder blueprint](prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md) describes an evolving collection of software capabilities; the [public architecture library](docs/architecture/README.md) explores **115 design topics across 11 chapters**.
 
-Start by saving a simple **project card**: your goal, rules, decisions, completed work, open tasks, mistakes, and next step. Paste it into the next AI chat. Ask the AI to **check its plan against that card before continuing**.
+Think of the finished *goal* as combining a **personal knowledge library, project headquarters, software workshop, research assistant, audit trail, backup system, and optional AI council**—all with you making the important decisions.
 
-That's the first defense against drift. **You don't need to build an AI operating system to get useful continuity.**
+The build grows in manageable steps: **a saved project plan → a small offline program → tasks and evidence → reliable recovery and memory checks → optional research sources and AI models**. You can begin without coding. Building the advanced system requires a computer, working software, tests, and additional permission for any connected services.
 
-If you want more later, these guides take you step by step toward saving records in files on your own computer, checking changes, recovering after errors, and experimenting with more capable AI handoffs.
+**The mission outlives the model.** Your progress should belong to you, not disappear with a chat.
 
-**The bigger vision:** Your ideas don't have to start over just because an AI chat ended. Over time, you can work toward a project system where the work, decisions, and evidence outlast any one model.
-
-**One important distinction:** "No drift" is the **goal**, not a guarantee. A saved card can help you **spot and correct** changes, but AI can still misunderstand or make things up. These are free educational prompts and build guides, **not a finished downloadable AI operating system**, automatic memory service, or public Seraph release. The complete system has not been independently reproduced from the public instructions or security-audited. Start with fictional examples and keep private information out of unapproved chats.
+> **What is real today?** This repository provides **free educational prompts, examples, and build guides**—not a completed AI operating system, automatic cross-chat memory, an installed team of agents, or access to private Seraph systems. The complete build has **not** been independently reproduced or security-audited. Some experimental privacy tests failed; do not put confidential information into unapproved tools. Optional services may have costs. [See the actual verification record](docs/VERIFICATION_STATUS.md) and [privacy rules](docs/OUTPUT_DISCLOSURE_GATE.md).
 
 ## Start here — five minutes, no coding
 
