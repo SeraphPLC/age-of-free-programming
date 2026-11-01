@@ -49,7 +49,7 @@ flowchart LR
 
 **Primary choice:** The **coding surface with actual authorized filesystem and terminal capabilities**, not necessarily the most famous model. A model inside a normal web chat may be an excellent planner but cannot magically create local files. **Possible choices:** Claude Code, Gemini CLI, GitHub Copilot CLI/IDE, Kimi Code, Qwen Code, or eligible ChatGPT with a qualified computer connector.
 
-**Other routes at the same point:** A compatible local coding tool with a licensed model, a human terminal operator, or chat-only copyable files. A lost remote tool connection should be re-evaluated against known eligible alternatives; do not tell the user the project is disconnected merely because one optional adapter failed.
+**Other routes at the same point:** A compatible local coding tool with a licensed model, a human terminal operator, or chat-only copyable files. If an optional remote connection fails, tell the user which connection failed and what capability is affected. Mark affected work BLOCKED or UNKNOWN, check only currently authorized alternative routes, and describe the overall project's connectivity based on actual evidence. Report a restored connection only after a successful verification.
 
 **Next AI choices:** A different model qualified for source-code review, a bounded Copilot review feature for a live PR where permitted, or a human reviewer. Neither testing nor reviewing implies permission to merge or deploy.
 
