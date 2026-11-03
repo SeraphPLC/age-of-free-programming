@@ -10,7 +10,9 @@ This page is the current shareable announcement. Update it deliberately when sup
 
 🚀 **BUILD YOUR OWN AI OS — FREE!**
 
-**One prompt. Your computer. Your rules.**
+**We Let Fire Out of the Box. Now we're teaching everyone how to control it.**
+
+**Become a Sovereign Operator:** learn to keep control of your project records, privacy, AI permissions, and verification—even when you change chats or models. Free guides, beginning with a five-minute fictional project. This is a goal and method, not a security certification or private Seraph access.
 
 What if you could use AI to build your own personal system that keeps a project's mission, decisions, verified progress, mistakes and next steps—even when a chat ends?
 

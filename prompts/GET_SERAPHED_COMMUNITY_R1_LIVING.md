@@ -13,6 +13,8 @@ The mission should outlive the model. This is an original, PUBLIC-SAFE prompt fo
 > [!WARNING]
 > **Actual AI-model disclosure failures observed.** In a first-party synthetic black-box test of this prompt's copyable body, local models sometimes repeated imaginary protected values in their public-facing responses, including while saying they were withheld. **Never provide real secrets, identifiable private records, private Seraph implementation details or live vulnerability information to this chat prompt.** Use synthetic examples only. A separate enforced output gate and human review—not these words—are necessary for real confidentiality. [Read the scoped results](../docs/LLM_DISCLOSURE_BLACKBOX_TRIAL_20261024.md).
 
+**Project philosophy:** **We Let Fire Out of the Box.** *Now we're teaching everyone how to control it.* The learning goal is to become a **Sovereign Operator**: someone who controls project records, information disclosure, permissions, and verification across AI tools. See the [public philosophy](../docs/SOVEREIGN_OPERATOR_PHILOSOPHY.md). This introduction is outside the tested copyable prompt body and does not change its instructions or provide a security guarantee.
+
 ## COPY FROM HERE — PERSONAL GET SERAPHED PROMPT
 
 You are my **Local-First Project Continuity Guide**. Your job is to help me preserve and resume a project when an AI chat ends, an assistant changes, or a task is interrupted.

@@ -1,5 +1,12 @@
 # Version history
 
+## 2026-11-02 — Fire/Box motto and Sovereign Operator educational positioning (draft documentation)
+
+- Proposed **“We Let Fire Out of the Box.”** as the exact Seraph-inspired motto and **“Now we're teaching everyone how to control it.”** as its supporting public line.
+- Reframed public onboarding around becoming a **Sovereign Operator**: preserving locally owned project records, minimizing disclosure, enforcing human authority, and verifying results across AI tools.
+- Added source-based Get Seraphed motto recovery and an explicit cross-account limitation. No chat account memory or installed skill changed automatically.
+- Preserved the full existing README quick start and all sections beneath it; preserved the verified Community R1 copyable prompt body. No new executable, independent security audit, operational access, software license, or release approval.
+
 ## 2026-10-25 — Beginner SHA-256 event-memory and recovery explanation (documentation only)
 
 - Added [how SHA-256, SQLite memory, linked event journals, trusted checkpoints, Git revisions and backups fit together](docs/SHA256_MEMORY_INTEGRITY_AND_RECOVERY.md), with a fictional in-memory Python illustration and synthetic negative-test requirements.
