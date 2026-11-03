@@ -1,37 +1,54 @@
 # The Age of Free Programming
 
-> **One person. A team of AIs. The freedom to build things that once required an entire organization.**
+> **We Let Fire Out of the Box.**  
+> *Now we're teaching everyone how to control it.*
 
-## Stop just asking AI questions. Start building something that grows with you.
+## Become a Sovereign Operator.
 
-Imagine having your own **digital workshop**: a place where your ideas become plans, plans become projects, projects become working tools, and the progress survives even when the AI conversation ends.
+**Your work. Your AI workflow. Your rules.**
 
-Now imagine expanding that workshop into a **personal AI-powered work system**—with a project manager, research desk, software builder, learning assistant, organized memory, error tracker, and optional independent AI reviewers. You choose the tools, the information they may use, and the actions they may take.
+Artificial intelligence gives one person the ability to learn, research, create, and build at a scale that once demanded a team. But your work should not disappear with a chat, depend on one company's model, or give an AI permission simply because it has the capability to act.
 
-**That is the full-build ambition of The Age of Free Programming.** It starts with one free prompt and grows, through real programming and testing, into something much bigger than a chatbot.
+**A Sovereign Operator** is someone who keeps control of their project's records, private information, decisions, permissions, and verification—even while using AI models and services they do not own. It is a practical way of working, **not** a title, certification, or claim of technical immunity.
 
-### What could this help you build?
+**The Age of Free Programming teaches you how to become one, starting for free.** Begin with a saved project note, then learn to build local tools with standard-library Python and SQLite. No engineering degree, paid cloud database, or subscription to this project is required.
 
-- **Turn an idea into a business.** Research a market, develop a plan, draft a website, prototype your own tools, organize work, and keep track of what actually gets finished.
-- **Create software without starting as a programmer.** Work with AI to design apps, write code, run tests, record bugs, and improve a project one working piece at a time.
-- **Give yourself a personalized learning system.** Organize study materials, develop practice exercises, track what you understand, and resume a long-term learning goal without losing the thread.
-- **Get control of complicated projects.** Keep decisions, tasks, deadlines, references, backups, setbacks, and next steps together—instead of scattering them across forgotten chats and files.
-- **Build a research desk for your biggest questions.** Organize public sources, compare competing ideas, record uncertainty, and design tests that can prove an idea wrong as well as support it.
-- **Grow toward an AI team you direct.** With separately approved and genuinely connected models, one worker could propose, another could challenge, and a real test or human reviewer could check the result. An AI vote is never proof.
+**[Start in five minutes — no coding](prompts/stages/00_CHAT_ONLY_CONTINUITY.md)** · **[Get Seraphed Community R1](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md)** · **[Build the offline core](prompts/stages/01_OFFLINE_CORE.md)**
 
-**The real advantage isn't one impressive answer. It's being able to keep building, learning, recovering, and improving over time.**
+### Why the fire and the box?
 
-### How powerful—and how complex—is the complete build?
+Fire helped humanity build civilizations. It can also burn them down. Our motto combines Prometheus's gift of power with Pandora's warning about consequences that cannot simply be put away.
 
-This isn't one giant magic prompt. The [advanced builder blueprint](prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md) describes an evolving collection of software capabilities; the [public architecture library](docs/architecture/README.md) explores **115 design topics across 11 chapters**.
+AI is powerful. The answer is not to pretend otherwise—or to hand it unrestricted authority. **The answer is to teach ordinary people to use it with evidence, privacy, explicit permission, and human control.**
 
-Think of the finished *goal* as combining a **personal knowledge library, project headquarters, software workshop, research assistant, audit trail, backup system, and optional AI council**—all with you making the important decisions.
+### Four freedoms worth building
 
-The build grows in manageable steps: **a saved project plan → a small offline program → tasks and evidence → reliable recovery and memory checks → optional research sources and AI models**. You can begin without coding. Building the advanced system requires a computer, working software, tests, and additional permission for any connected services.
+- **Continuity:** Keep your mission, decisions, evidence, errors, and next actions in records that survive an individual conversation. A new AI must verify what it receives; saved notes are not magical memory.
+- **Privacy:** Learn local-first storage and data minimization so you choose what remains on your own computer and what, if anything, an outside service receives. A prompt alone is **not** a security boundary.
+- **Human command:** Capability is not permission. Require explicit approval for consequential actions and real results instead of accepting an AI's unverified claims.
+- **Choice:** Design model-neutral handoffs so you can change chat services, models, or machines without automatically losing your project records or depending on a particular vendor's memory feature.
 
-**The mission outlives the model.** Your progress should belong to you, not disappear with a chat.
+| When you only rely on a chat | When you build a Sovereign Operator workflow |
+| --- | --- |
+| Progress may be scattered across old conversations | Your project has a saved, inspectable mission and handoff |
+| Switching AI tools can mean restating the project | Another approved AI can resume from records it rechecks |
+| An AI may say something ran or passed | Actual files, test results, and evidence receipts determine what is verified |
+| Access and permissions may be unclear | You explicitly approve tools, disclosures, and protected actions |
+| More capabilities may require hosted infrastructure | An intended offline foundation can use Python's standard library and SQLite |
 
-> **What is real today?** This repository provides **free educational prompts, examples, and build guides**—not a completed AI operating system, automatic cross-chat memory, an installed team of agents, or access to private Seraph systems. The complete build has **not** been independently reproduced or security-audited. Some experimental privacy tests failed; do not put confidential information into unapproved tools. Optional services may have costs. [See the actual verification record](docs/VERIFICATION_STATUS.md) and [privacy rules](docs/OUTPUT_DISCLOSURE_GATE.md).
+### Who this is for
+
+**Students, parents, veterans, solo founders, researchers, creators, and anyone using AI to build a better future.** You do not need to become a programmer to begin. Start with a fictional project, save a handoff, and learn what another AI can genuinely recover. Advance through local tools, tasks, evidence, recovery, and optional models only as far as you need.
+
+You can explore the [advanced builder blueprint](prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md) and the [public architecture library](docs/architecture/README.md) whenever you're ready.
+
+### Why give it away?
+
+Because powerful AI should help people become more capable—not more dependent. The educational instructions are free to read and try. Your project information should remain under your control, and the important decisions should remain yours.
+
+**The mission outlives the model—when you preserve the state and verify the handoff.**
+
+> **What exists today?** Free educational prompts, examples, and build guides—not a finished downloadable AI operating system, automatic cross-chat memory, a security-certified privacy shield, or access to private Seraph systems. Some model privacy tests failed, the full public build has not been independently reproduced or security-audited, and optional third-party services may cost money. Use fictional data first. Read the [actual verification record](docs/VERIFICATION_STATUS.md) and [privacy/disclosure rules](docs/OUTPUT_DISCLOSURE_GATE.md).
 
 ## Start here — five minutes, no coding
 

@@ -2,6 +2,14 @@
 
 **Free educational guides, not an installed AI operating system.** No special Seraph access is needed. Choose a new, empty folder on your own computer only when you approve it. Never share passwords, personal records, chat exports or real databases to prove the prompts work.
 
+## Become a Sovereign Operator — free, starting here
+
+**We Let Fire Out of the Box.** *Now we're teaching everyone how to control it.*
+
+A **Sovereign Operator** controls their project records, information sharing, AI permissions, and evidence of completed work, even when changing models or chat sessions. Start with a fictional project and a saved state card; no installation or special account is required. This is a learning goal, not a certification or guarantee of security.
+
+Read the [motto and Sovereign Operator philosophy](SOVEREIGN_OPERATOR_PHILOSOPHY.md), then begin with [Stage 0](../prompts/stages/00_CHAT_ONLY_CONTINUITY.md). The public guides are separate from private Seraph operations.
+
 ## Default privacy gate
 
 Every current Get Seraphed prompt must follow the [mandatory public output disclosure gate](OUTPUT_DISCLOSURE_GATE.md): do not reveal private information, secrets, proprietary systems, security weaknesses or indirectly identifying clues in replies, handoffs, artifacts or links. If sensitivity or rights are unknown, WITHHOLD and offer a synthetic alternative. This is a prompt requirement, not an installed security filter. Public posting requires explicit current approval and final review.
