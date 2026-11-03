@@ -40,6 +40,8 @@ Do not claim these text instructions provide automatic filtering or an audited e
 
 Start with the [Community R1 prompt](../prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md), [staged guide](STAGED_BUILD_PATH.md), [advanced v0.5](../prompts/BUILD_YOUR_OWN_AI_OS_v0.5_LIVING_CANDIDATE.md) and [amendment card](../templates/LIVING_AMENDMENT_CARD.md). The old R0 and v0.1–v0.4 files remain historical.
 
+**Deep-immersion draft (not the default):** The [R2 two-axis system and live-state recovery standard](GET_SERAPHED_DEEP_IMMERSION_R2_CANDIDATE.md) and its [full copyable community prompt](../prompts/GET_SERAPHED_COMMUNITY_R2_DEEP_CANDIDATE.md) add substantial teach-back, source/claim checks, failure rewind, exclusion ledgers, scope/authority verification and 24 synthetic negative acceptance specifications. These are **review-only candidates**; they do not replace current Community R1, install technical privacy controls, authorize any account, or pass independent AI/security evaluation.
+
 ## Fictional example
 
 A pretend greenhouse plan says "water imaginary plants on Monday." Its owner later says, "Change the schedule to Tuesday; retain the original decision." Treat that as an **owner instruction**; keep Monday in superseded history, mark Tuesday as a candidate, and apply only through the tool/permission available for the current stage. Stage 0 can show the revision in text; Stage 2 can record a versioned event after a separately authorized edit.
