@@ -2,6 +2,8 @@
 
 > **One person. A team of AIs. The freedom to build things that once required an entire organization.**
 
+**Start free:** [5-minute beginner exercise](prompts/stages/00_CHAT_ONLY_CONTINUITY.md) · **Want to support the free lessons?** [Cash App, Venmo and PayPal QR codes](SUPPORT.md) (entirely optional)
+
 ## Stop just asking AI questions. Start building something that grows with you.
 
 Imagine having your own **digital workshop**: a place where your ideas become plans, plans become projects, projects become working tools, and the progress survives even when the AI conversation ends.
@@ -32,6 +34,16 @@ The build grows in manageable steps: **a saved project plan → a small offline 
 **The mission outlives the model.** Your progress should belong to you, not disappear with a chat.
 
 > **What is real today?** This repository provides **free educational prompts, examples, and build guides**—not a completed AI operating system, automatic cross-chat memory, an installed team of agents, or access to private Seraph systems. The complete build has **not** been independently reproduced or security-audited. Some experimental privacy tests failed; do not put confidential information into unapproved tools. Optional services may have costs. [See the actual verification record](docs/VERIFICATION_STATUS.md) and [privacy rules](docs/OUTPUT_DISCLOSURE_GATE.md).
+
+## Optional support — keep the guides free
+
+**The educational resources remain free for everyone, whether or not you contribute.** If you find them useful and want to help sustain the work, our existing support graphic shows **Cash App, Venmo and PayPal** QR codes, plus a QR for this repository's support page.
+
+<a href="SUPPORT.md"><img src="assets/support/support-payment-options.png" width="640" alt="Optional support graphic with Cash App, Venmo, PayPal and project support-page QR codes"></a>
+
+[**Payment links and full-size QR codes**](SUPPORT.md) · [Open the shareable QR image](assets/support/support-payment-options.png)
+
+*These are personal payment accounts, not verified business or charity accounts. Check the recipient in the payment app before sending funds. Support does not buy access, ownership or a charitable tax deduction.*
 
 ## Start here — five minutes, no coding
 
