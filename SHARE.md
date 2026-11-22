@@ -44,6 +44,32 @@ https://github.com/SeraphPLC/age-of-free-programming
 
 ## END FACEBOOK COMMENT
 
+## Optional support — Facebook image and copy
+
+**Publish manually only after checking the image and your intended audience.** The educational materials remain free regardless of support. Attach a social-ready 4:5 image containing the existing verified payment destinations, or use the repository's [original verified four-QR graphic](assets/support/support-payment-options.png). The image should show Cash App, Venmo, PayPal and the project's GitHub support page—not Zelle.
+
+**Suggested caption to accompany the image:**
+
+> 🚀 The Age of Free Programming is about giving people the tools to learn, experiment and build AI systems they control—without requiring paid APIs for the intended offline foundation.
+>
+> 
+> Our beginner lessons, prompts and educational guides remain **free to everyone**.
+>
+> If the project has helped you and you would like to support the ongoing work, the image includes optional Cash App, Venmo and PayPal QR codes. You can also use our official support page:
+>
+> https://github.com/SeraphPLC/age-of-free-programming/blob/main/SUPPORT.md
+>
+> 
+> 💻 Start learning here: https://github.com/SeraphPLC/age-of-free-programming
+>
+> 
+> **No contribution is required.** These are personal payment accounts, not a registered charity or verified company donation processor. Check the recipient in your payment app. Contributions are not represented as tax-deductible.
+>
+> 
+> **Get Seraphed. The mission outlives the model.**
+
+**Image QA:** Use the exact four URLs and privacy boundaries in [the R4 QR verification record](docs/SUPPORT_PAYMENT_QR_VERIFICATION_R4_20261025.md). A new layout must be re-decoded from its final raster exports before posting; visual similarity alone is not QR verification. A Facebook post is NOT made merely by editing this file.
+
 ## Short comment
 
 **BUILD YOUR OWN AI OS — FREE.** Start with Get Seraphed in an ordinary AI chat, then explore staged guides to build your own local Python/SQLite continuity tools. New information and instructions can be incorporated at every level as reviewed, versioned amendments. No paid API needed for the intended offline foundation. Educational guides—not a finished AI product. https://github.com/SeraphPLC/age-of-free-programming
