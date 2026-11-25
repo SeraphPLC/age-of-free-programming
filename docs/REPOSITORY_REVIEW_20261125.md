@@ -79,3 +79,21 @@ After the initial audit, the private Mac Studio maintenance checker queried **al
 **Controlling observed refs for this comparison:** main `56f74ebeb9748b27e927a4391762a8169987ece3`, #40 `f3156a36c51260d202d4038ea09ee92f950c935f`, #32 `ff0d1f75973ffeb28d57b96854ddb393fdbf0bb9`, #26 `9fbee50b29f534d8835b17d3b7490cc45dfce616`. The result becomes stale as soon as any relevant PR head changes.
 
 **Next safe action:** Keep #39 and #40 as separate draft, unmerged review candidates. Reconcile #12/#26/#27/#32/#33 before attempting an owner-reviewed merge. Repeat exact-source Stage 0 synthetic negative controls and independently qualified beginner testing, and separate optional support/branding changes from evidence and privacy work. No older PR approval or synthetic-model success counts as current release clearance.
+
+
+## Checker blind-spot regression coverage — 2026-11-25
+
+Source-pinned checker review uncovered two independent structural-audit blind spots: links shown as literal Markdown in fenced code examples were incorrectly treated as live targets, and links pointing to headings in the **same document** were entirely skipped rather than checked. Neither finding by itself establishes a problem in the published content; they are weaknesses in the validator.
+
+The revised checker in `scripts/check_repo.py` and its standard-library-only synthetic regression suite `scripts/test_check_repo.py` are at exact draft PR #39 commit `a441fd4c8f6d6c546b9c4ae78c51a35fb74bd840`. **7/7 synthetic tests passed**, exercising code-fence exclusion, simple same-page and cross-file heading anchors, duplicated headings, percent-encoded relative names, missing/escaping paths, and malformed JSON. `git diff --check` passed in the source-pinned isolated checkout.
+
+The enhanced offline checker returned **PASS: 83 Markdown documents, 493 local references and four JSON files**, with zero findings against the current public-main baseline in that checkout. It also returned zero findings when pointed at the separate draft PR #40 checkout (87 Markdown documents, 514 relative references, four JSON files). The static checker cannot validate external URL availability, accessibility, security, provider entitlements, AI instruction efficacy, compiled software, or independent release requirements. Both PRs remain **draft and unmerged**.
+
+For independent reproducibility on a Python 3.9+ environment after checking out this exact PR #39 branch:
+
+```sh
+python3 -m unittest -v scripts.test_check_repo
+python3 scripts/check_repo.py
+```
+
+No GitHub Actions workflow, paid external API, deployment, installer, or unreviewed execution service was created.
