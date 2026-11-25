@@ -40,7 +40,9 @@ The build grows in manageable steps: **a saved project plan → a small offline 
 1. Open **[the beginner chat exercise (Stage 0)](prompts/stages/00_CHAT_ONLY_CONTINUITY.md)**.
 2. Copy the text between **COPY PROMPT** and **END PROMPT** into an AI chat. It will walk you through an imaginary gardening project.
 3. Ask the AI for a short **project note**: your goal, important rules, decisions, what is known, what is done, what's left, what needs approval, and the next safe step.
-4. **Save that note yourself.** Open a new chat and paste it in. Ask the AI to compare its next steps with the saved note — and point out anything it cannot confirm.
+4. **Check and save that note yourself.** Use the Stage 0 page's **different SECOND CHAT prompt** in a new conversation, and paste only your verified fictional card. Ask the successor to mark missing evidence UNKNOWN and identify the next safe step. Do not paste the first-chat starter prompt again.
+
+**Test fairly:** Some AI apps remember or search older conversations. For a meaningful cold-start exercise, use an isolated temporary/memory-disabled chat or another provider where supported, note the settings, and check the result against the original fixture. See the [gentle handoff guide](docs/GENTLE_CHAT_HANDOFF.md) for real-world *manual* handoff steps; never submit private records to an unapproved AI.
 
 That's your first **anti-drift habit**: **you can carry your project and its rules from one chat to another**. If the new AI changes the goal or invents completed work, check it against your saved note and correct it. The AI did not secretly remember your work; **you saved the information and gave it to the next chat**.
 
