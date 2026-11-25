@@ -52,14 +52,14 @@ TASKS_AND_DEPENDENCIES:
   T-01: Outline three imaginary topics; REPORTED DONE IN STORY ONLY.
   T-02: Draft after T-01; NOT ACCEPTED after failed heading check.
   T-03: Review after T-02; BLOCKED pending corrected T-02.
-DONE_CLAIMS: T-01 story-only, not observed completion.
+DONE_CLAIMS: T-01 REPORTED DONE IN STORY ONLY, not observed completion.
 FAILURE: F-01 fictional check failed to catch a duplicate heading.
 DECISION: D-01 fictional coordinator allowed DRAFTING ONLY; NO PUBLICATION.
 OPEN: T-02 unfinished; T-03 blocked.
 AUTHORITY: NONE for any real action, including publishing.
 UPDATES: NONE; no new amendment was supplied.
 REAL_TESTS: NOT_RUN.
-NEXT: Propose an isolated fictional heading correction; do not act.
+NEXT: Propose correcting and rechecking the fictional T-02 duplicate-heading issue; do not act.
 ```
 
 ## Check the first card before moving it
