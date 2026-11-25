@@ -52,3 +52,12 @@ python3 scripts/check_repo.py
 ```
 
 Run from an authorized local checkout. Report its actual exit code and output; the checker returns nonzero on detected broken local targets or invalid JSON. External URLs and semantic verification require other tools and human review.
+
+## Bounded Mac Studio local-model advisory receipts
+
+Two installed Ollama models were **actually invoked against the same five excerpted public files**, not against the complete 101-file repository: `README.md`, `docs/VERIFICATION_STATUS.md`, `docs/START_HERE.md`, `docs/SHARING_AND_LICENSE_STATUS.md`, and `prompts/stages/00_CHAT_ONLY_CONTINUITY.md`. The local private receipt file is `/tmp/seraph-public-audit-20261125/local_review_receipts.json` on the authorized Studio (a temporary audit folder, not a durable canonical evidence store).
+
+- `gpt-oss:20b`: completed at the model endpoint after 134.5 seconds but returned an **empty response**. Reviewer finding count: zero; qualification: **UNUSABLE RESPONSE**. Do not count it as independent agreement or a successful review.
+- `qwen2.5-coder:7b`: returned a bounded advisory response after 51.5 seconds. It suggested more explicit warnings about security qualification and executable status in README/START_HERE/VERIFICATION_STATUS; **direct source comparison shows these caveats are already explicitly present** (for example README's “What is real today?” warning and the verification ledger's NOT VERIFIED entries). Its suggestions are therefore **ALREADY COVERED**, not confirmed new defects, and should not justify duplicative additions without stronger evidence. Its last item was cut off at the token limit and is **INCOMPLETE**.
+
+**Independence and qualification:** Both attempts used different local model names through the same installed Ollama service and the same coordinating session; these are **not provider-independent frontier reviews**, no external cloud service was invoked, and they do **not** satisfy the five-provider Advanced AI Council quorum. Neither model performed security tests, fresh-chat reproduction or rights clearance. The source quotes and recommendations are advisory, not dispositive.
