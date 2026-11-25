@@ -1,5 +1,15 @@
 # Version history
 
+## 2026-11-25 — Consolidated beginner continuity and transparent AI wording (review candidate)
+
+- Reconciled source-scoped portions of draft PRs #26, #27, #32 and #33, without merging those historical drafts or transferring their approvals.
+- Replaced the single ambiguous first-chat/second-chat instruction with a fixed fictional source card, a distinct successor prompt, explicit no-inherited-authority rules, a forged-approval negative control and memory-contamination warning.
+- Added a manual gentle-handoff guide and clarified beginner navigation from README, Start Here and Community R1.
+- Replaced four `do not tell the user` constructions with affirmative truthful-disclosure requirements; updated four active starter links from archived Community R0 to Community R1.
+- **Changing public archived v0.3/v0.4 prompt file bytes creates new file revisions.** Prior tests and original historical hashes remain tied to earlier revisions; these edits are **NOT** a new exact-source release approval or software security certification.
+- **DOCUMENTATION-ONLY DRAFT:** no cloud five-provider review, independent beginner usability qualification, executable starter build, new software license, merge, deployment or publication approval performed.
+
+
 ## 2026-10-25 — Beginner SHA-256 event-memory and recovery explanation (documentation only)
 
 - Added [how SHA-256, SQLite memory, linked event journals, trusted checkpoints, Git revisions and backups fit together](docs/SHA256_MEMORY_INTEGRITY_AND_RECOVERY.md), with a fictional in-memory Python illustration and synthetic negative-test requirements.
