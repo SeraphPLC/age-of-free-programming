@@ -61,3 +61,21 @@ Two installed Ollama models were **actually invoked against the same five excerp
 - `qwen2.5-coder:7b`: returned a bounded advisory response after 51.5 seconds. It suggested more explicit warnings about security qualification and executable status in README/START_HERE/VERIFICATION_STATUS; **direct source comparison shows these caveats are already explicitly present** (for example README's “What is real today?” warning and the verification ledger's NOT VERIFIED entries). Its suggestions are therefore **ALREADY COVERED**, not confirmed new defects, and should not justify duplicative additions without stronger evidence. Its last item was cut off at the token limit and is **INCOMPLETE**.
 
 **Independence and qualification:** Both attempts used different local model names through the same installed Ollama service and the same coordinating session; these are **not provider-independent frontier reviews**, no external cloud service was invoked, and they do **not** satisfy the five-provider Advanced AI Council quorum. Neither model performed security tests, fresh-chat reproduction or rights clearance. The source quotes and recommendations are advisory, not dispositive.
+
+
+## Source-pinned open-PR overlap review (2026-11-25)
+
+After the initial audit, the private Mac Studio maintenance checker queried **all 14 open GitHub pull requests** using the actual `headRefOid` and changed-file manifests returned by the public GitHub API. The comparison recorded **37 PR pairs with at least one shared changed file**. The total is a file-level overlap count, **not 37 confirmed Git merge conflicts**, 37 defects, or 37 required manual merges. Actual patch semantics and branch freshness still need review.
+
+| PR pair | Shared changed files | Review implication |
+| --- | ---: | --- |
+| [#33](https://github.com/SeraphPLC/age-of-free-programming/pull/33) and [#40](https://github.com/SeraphPLC/age-of-free-programming/pull/40) | 7 | Beginner routes, README, changelog, and Community R1 overlap; compare source texts before deciding which is authoritative |
+| [#32](https://github.com/SeraphPLC/age-of-free-programming/pull/32) and #40 | 4 | Affirmative transparency edits intentionally overlap; avoid two competing versions of the same wording |
+| [#10](https://github.com/SeraphPLC/age-of-free-programming/pull/10) and #40 | 4 | Documentation/navigation overlap; separately review research content |
+| [#37](https://github.com/SeraphPLC/age-of-free-programming/pull/37) and #40 | 4 | README and public positioning overlap; preserve owner branding/rights decisions |
+| [#10](https://github.com/SeraphPLC/age-of-free-programming/pull/10) and [#20](https://github.com/SeraphPLC/age-of-free-programming/pull/20) | 3 | Changelog/README/builder guidance overlap; evidence restrictions must not be weakened |
+| [#26](https://github.com/SeraphPLC/age-of-free-programming/pull/26) and #40 | 1 | Stage 0 successor prompt overlap; preserve earlier failed synthetic trials |
+
+**Controlling observed refs for this comparison:** main `56f74ebeb9748b27e927a4391762a8169987ece3`, #40 `f3156a36c51260d202d4038ea09ee92f950c935f`, #32 `ff0d1f75973ffeb28d57b96854ddb393fdbf0bb9`, #26 `9fbee50b29f534d8835b17d3b7490cc45dfce616`. The result becomes stale as soon as any relevant PR head changes.
+
+**Next safe action:** Keep #39 and #40 as separate draft, unmerged review candidates. Reconcile #12/#26/#27/#32/#33 before attempting an owner-reviewed merge. Repeat exact-source Stage 0 synthetic negative controls and independently qualified beginner testing, and separate optional support/branding changes from evidence and privacy work. No older PR approval or synthetic-model success counts as current release clearance.
