@@ -18,7 +18,7 @@ LINK = re.compile(r"(?<!!)\[[^\]]*\]\((?:<([^>]+)>|([^\s)]+))(?:\s+[^)]*)?\)")
 IMAGE = re.compile(r"!\[[^\]]*\]\((?:<([^>]+)>|([^\s)]+))(?:\s+[^)]*)?\)")
 HTML = re.compile(r"\b(?:href|src)\s*=\s*[\"']([^\"']+)[\"']", re.I)
 HEADING = re.compile(r"^\s{0,3}#{1,6}\s+(.+?)\s*#*\s*$")
-CODE_FENCE = re.compile(r"^\s*(`{3,}|~{3,})")
+CODE_FENCE = re.compile(r"^\s{0,3}(`{3,}|~{3,})")
 
 
 def slug(text: str) -> str:
@@ -27,16 +27,31 @@ def slug(text: str) -> str:
     return re.sub(r"\s+", "-", text)
 
 
+def without_fenced_code(raw: str) -> str:
+    """Blank fenced Markdown examples; their links/headings are not live references."""
+    inside = None
+    output = []
+    for line in raw.splitlines(keepends=True):
+        match = CODE_FENCE.match(line)
+        if inside is None:
+            if match:
+                inside = (match.group(1)[0], len(match.group(1)))
+                output.append("\n")
+            else:
+                output.append(line)
+        else:
+            if (match and match.group(1)[0] == inside[0]
+                    and len(match.group(1)) >= inside[1]
+                    and not line[match.end():].strip()):
+                inside = None
+            output.append("\n")
+    return "".join(output)
+
+
 def anchors(path: Path) -> set[str]:
     seen: dict[str, int] = {}
     result: set[str] = set()
-    fenced = False
-    for line in path.read_text(encoding="utf-8").splitlines():
-        if CODE_FENCE.match(line):
-            fenced = not fenced
-            continue
-        if fenced:
-            continue
+    for line in without_fenced_code(path.read_text(encoding="utf-8")).splitlines():
         match = HEADING.match(line)
         if match:
             base = slug(match.group(1))
@@ -52,15 +67,15 @@ def main() -> int:
     json_files = sorted(ROOT.rglob("*.json"))
     refs = 0
     for path in markdown:
-        raw = path.read_text(encoding="utf-8")
+        raw = without_fenced_code(path.read_text(encoding="utf-8"))
         for match in list(LINK.finditer(raw)) + list(IMAGE.finditer(raw)) + list(HTML.finditer(raw)):
             value = next((g for g in match.groups() if g is not None), "")
-            if not value or value.startswith(("#", "mailto:", "data:")):
+            if not value or value.startswith(("mailto:", "data:")):
                 continue
             parts = urlsplit(value)
             if parts.scheme or parts.netloc:
                 continue  # External sites not requested or verified by this offline check.
-            target = (path.parent / unquote(parts.path)).resolve()
+            target = ((path.parent / unquote(parts.path)) if parts.path else path).resolve()
             refs += 1
             if not target.is_relative_to(ROOT.resolve()):
                 failures.append(f"{path.relative_to(ROOT)}: link escapes repo: {value}")
