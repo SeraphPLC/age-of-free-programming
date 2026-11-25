@@ -2,7 +2,7 @@
 
 **Public educational guide | October 2026 | No private Seraph access**
 
-This page explains **public, official ways** to use major AI services as part of an independent personal project. It is a companion to [Get Seraphed Community](../prompts/GET_SERAPHED_COMMUNITY_R0.md) and the [beginner computer setup guide](RECOMMENDED_COMPUTER_SETUP.md). It does not disclose or provide any private Seraph Mesh route, account, machine, paid entitlement, code, credential or proprietary implementation.
+This page explains **public, official ways** to use major AI services as part of an independent personal project. It is a companion to [Get Seraphed Community R1 (Living)](../prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) and the [beginner computer setup guide](RECOMMENDED_COMPUTER_SETUP.md). It does not disclose or provide any private Seraph Mesh route, account, machine, paid entitlement, code, credential or proprietary implementation.
 
 **These are options, not connections that are already active for you.** Do not install every AI or buy subscriptions just to begin. A single supported chat can maintain a sanitized handoff card; an authorized local coding tool can build the offline Stage 1 program.
 
@@ -38,7 +38,7 @@ The latest model selector available **to your own account** is authoritative. Pu
 
 ## Practical methods by service
 
-**ChatGPT:** Start with the [free prompt](../prompts/GET_SERAPHED_COMMUNITY_R0.md). To build real files, use an authorized connected computer tool where supported by your plan. The separate [Desktop Commander guide](RECOMMENDED_COMPUTER_SETUP.md) gives a beginner path. Read [OpenAI's plugin guidance](https://help.openai.com/en/articles/20001256-plugins-in-chatgpt) before granting app permissions.
+**ChatGPT:** Start with the [free Community R1 prompt](../prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md). To build real files, use an authorized connected computer tool where supported by your plan. The separate [Desktop Commander guide](RECOMMENDED_COMPUTER_SETUP.md) gives a beginner path. Read [OpenAI's plugin guidance](https://help.openai.com/en/articles/20001256-plugins-in-chatgpt) before granting app permissions.
 
 **Claude:** Use the Claude web/desktop app for the chat-only handoff, or follow the official [Claude Code setup](https://support.claude.com/en/articles/14552382-your-first-day-in-claude-code) to work in a new local project. Claude also documents [custom remote MCP connectors](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities). An API subscription and a chat subscription are different access routes.
 
