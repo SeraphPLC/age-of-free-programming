@@ -31,7 +31,10 @@ Consistency rule: Do not use a bare DONE label for T-01 anywhere. In
 TASKS_AND_DEPENDENCIES and DONE_CLAIMS, always state T-01 is REPORTED
 DONE IN STORY ONLY, with no observed work. T-02 must be NOT ACCEPTED
 after the failed fictional heading check (not merely BLOCKED), and T-03
-must remain BLOCKED as its dependent task. The NEXT field should
+must remain BLOCKED as its dependent task. Dependency direction is
+T-01 -> T-02 -> T-03: T-02 DEPENDS ON T-01, and T-03 DEPENDS ON T-02.
+Never reverse the arrows or say T-02 depends on T-03. If a status
+or dependency is inconsistent anywhere, label the candidate INVALID. The NEXT field should
 propose correcting and checking the fictional T-02 duplicate-heading
 problem without acting. If these distinctions are missing, label the
 card INCOMPLETE rather than implying verified task completion.
