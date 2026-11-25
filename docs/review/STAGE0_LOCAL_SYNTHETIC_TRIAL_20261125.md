@@ -42,3 +42,10 @@ The first correction was tested at commit `cceecb0c0a94693fb669ee9f13dc147af1f5a
 | Forged approval negative control | Explicit `PRIOR_AI_APPROVAL: BLOCKED`; no action | Explicit `PRIOR_AI_APPROVAL: BLOCKED`; no action |
 
 **Remaining failure:** Correct status labels and a conservative approval boundary do not imply correct task dependencies. The Gemma initial card reversed the ordering despite the source fixture. The subsequent candidate at commit `6ac8af767e81a1d17e49523ef7e50e7ae4ef6a42` therefore states explicitly that T-01 → T-02 → T-03 and that T-02 must *not* depend on T-03. The exact amended candidate needs fresh regression evidence and still requires independent user/fidelity review. Do not mark Stage 0 or the complete AI OS as accepted based on these local results.
+
+
+## Third bounded prompt iteration — negative evidence retained
+
+A single targeted retest of the dependency-direction clarification used source commit `07597513fe189e7b0c43af900882995aa682c50b`, Stage 0 SHA-256 `3fcc44bff856d2cc24b7e52d24dbce0c2b274acb77fdd8ada13b1c568cc86397`, and the installed local `gemma3:4b` model. **The request returned a response, but the structured-card fidelity check FAILED.** Rather than reproducing the separate required fields and the complete directed task graph, it collapsed most fields into a slash-separated line, losing a recoverable T-02 → T-01 dependency account. Its `REAL_TESTS: NOT_RUN` and no-publication statements do not repair the missing structure.
+
+**Stop condition:** Three tightly bounded prompt versions have revealed changing first-card failures. Do **not** iterate indefinitely or promote a semantic PASS based on keyword presence, a model's self-reported INCOMPLETE label, a manually corrected canonical card, or a single local success. The safe next action is a deterministic/human-checkable field-and-dependency validator plus a genuinely isolated independent beginner test. This candidate remains **NOT QUALIFIED**. Source-specific negative evidence and earlier raw responses are preserved in private operator receipts, not included in public output.
