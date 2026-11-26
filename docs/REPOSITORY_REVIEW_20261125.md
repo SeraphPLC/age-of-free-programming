@@ -97,3 +97,24 @@ python3 scripts/check_repo.py
 ```
 
 No GitHub Actions workflow, paid external API, deployment, installer, or unreviewed execution service was created.
+
+
+## Offline external-link inventory and safer outbound URL classification
+
+This audit added a separate **read-only / no-network** public-doc inventory at `scripts/audit_external_links.py` with a six-case synthetic fixture suite `scripts/test_external_links.py`. The script parses HTTPS/HTTP URLs found in Markdown outside literal fenced code, checks the syntax of the destination host and URL and **only prints aggregate counts**. It never prints usernames, payment query values, token-like parameters or complete URL strings; it never contacts a provider or performs a redirect.
+
+**Pinned working draft #39** at `7a9b5f60b925bca60d8537db3b776d004faddf3d`: all **13** synthetic checker tests passed (7 original structural-link fixtures plus 6 new external-link safety fixtures). Running the inventory against that draft source found **176 URL occurrences**, **96 distinct hostnames** across 83 Markdown files. **0** plain-HTTP, userinfo, non-public/private-network destination or malformed URL findings. **4** query-bearing URLs appear in **2** public support/payment-related files; whether their payment parameters are appropriate, privacy-cleared, and stable is a separate contextual review, **not a reason to silently remove donation functionality**.
+
+Running the **same** tested scanner against draft PR #40 at source head `acdf997fa067b5e4487d7b94cc0ecfa6d0229640` found **173 URL occurrences**, **96 hostnames** across 87 Markdown files. Its findings were the same: **0** insecure/private destination indicators, **4** query-bearing URLs in **2** files, and no URL content printed. All four query strings were excluded from the printed report. Some were observed in public support/payment documentation; no payment transaction or connection was attempted.
+
+**Critical limitation:** `STATIC_PASS_REACHABILITY_UNTESTED` is **not** confirmation that a link works, that a third-party plan is currently free, that an account or donation address is the rightful owner's, that external text or assets have distribution rights, or that linked services provide authorized API access. These must be checked separately under owner rights, cost and publication policies. The public prompts are not running AI OS software. All owner release gates remain HOLD.
+
+Reproduce on an isolated checkout of the current draft #39:
+
+```sh
+python3 -m unittest -v scripts.test_check_repo scripts.test_external_links
+python3 scripts/check_repo.py
+python3 scripts/audit_external_links.py
+```
+
+No external HTTP requests, new standing CI workers, service registrations, model-provider requests, payments or release actions were made.
