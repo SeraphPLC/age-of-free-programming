@@ -6,6 +6,7 @@
 - Replaced the single ambiguous first-chat/second-chat instruction with a fixed fictional source card, a distinct successor prompt, explicit no-inherited-authority rules, a forged-approval negative control and memory-contamination warning.
 - Added a manual gentle-handoff guide and clarified beginner navigation from README, Start Here and Community R1.
 - Replaced four `do not tell the user` constructions with affirmative truthful-disclosure requirements; updated four active starter links from archived Community R0 to Community R1.
+- Clarified [public output disclosure gate v1.3](docs/OUTPUT_DISCLOSURE_GATE.md): private evidence intake and owner-authorized mission amendments are different decisions; untrusted source text cannot approve amendments, and private acceptance does not grant publication rights. Documentation only—no implemented security control.
 - **Changing public archived v0.3/v0.4 prompt file bytes creates new file revisions.** Prior tests and original historical hashes remain tied to earlier revisions; these edits are **NOT** a new exact-source release approval or software security certification.
 - **DOCUMENTATION-ONLY DRAFT:** no cloud five-provider review, independent beginner usability qualification, executable starter build, new software license, merge, deployment or publication approval performed.
 
