@@ -138,3 +138,12 @@ python3 scripts/audit_accessibility.py
 ```
 
 The Mac Studio private tasker separately tracks the same **unmerged** main-branch heading defect in W13 as `STATIC_ACCESSIBILITY_REVIEW_REQUIRED`; the public draft PR #39 is a proposed fix, **not proof the default branch was updated**. No merges, public release, third-party account requests, external model invocations or payments occurred.
+
+
+### Inline-code false-positive correction — 2026-11-27
+
+The first accessibility checker run on its **own** audit report generated a **false positive**: the report's inline-code example `<img>` was mistaken for a live unlabelled image. This is an auditor defect, not an accessibility fault in that report. Its literal Markdown heading/alt checks, the single H1-to-H3 source finding, and all original receipts were retained.
+
+The checker and fixture were updated at exact source commit `470dfd3f60bc9d7065b4f584d832ec3ed66fa0c6` to exclude **inline code as well as fenced code** before checking actual images and links. The new test explicitly covers backtick-quoted HTML and image Markdown. The resulting **20/20 public offline tests passed** (seven structural link, six outbound URL, seven accessibility cases). The revised PR #39 audit now reports **zero narrow static Markdown accessibility findings** across 83 Markdown files, with no external network requests. The separate PR #40 draft remains an independent, unmerged candidate with the original heading issue.
+
+These static checks do **not** establish WCAG conformance, keyboard or screen-reader operation, actual payment-QR accessibility, provider licensing or a final public release approval.
