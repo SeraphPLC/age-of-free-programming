@@ -118,3 +118,23 @@ python3 scripts/audit_external_links.py
 ```
 
 No external HTTP requests, new standing CI workers, service registrations, model-provider requests, payments or release actions were made.
+
+
+## Markdown accessibility hygiene follow-up — 2026-11-27
+
+A source-pinned, **offline** Markdown accessibility hygiene audit at `scripts/audit_accessibility.py` now checks for skipped heading levels, empty image alternative text, unlabelled generic Markdown links, and missing/empty `<img>` alt attributes. Six standard-library-only synthetic regression fixtures were added at `scripts/test_accessibility.py`. Fenced code examples are deliberately excluded. This is a **conservative authoring check**, not an assistive-technology test, independent beginner evaluation, WCAG compliance certification or privacy/security audit.
+
+At original public `main` `56f74ebeb9748b27e927a4391762a8169987ece3` and at unchanged draft PR #40 `acdf997fa067b5e4487d7b94cc0ecfa6d0229640`, the checker found **one** source-specific hierarchy issue: `docs/SHARING_AND_LICENSE_STATUS.md` line 5 jumped from an H1 heading to H3. The two affected headings were changed from `###` to `##` **in draft PR #39 only**. Their wording, licensing choices and document substance remain unchanged; this is **not** an owner's license selection.
+
+At verified draft PR #39 commit `2d860c44b6d767865ef29dfe5fa8994c37cf80e5`, all **19/19** public standard-library tests passed (seven structural-link tests, six external URL tests, six Markdown accessibility tests). The corrected draft #39 has **zero** findings from the narrow static accessibility audit across **83 Markdown documents**. Its other checks also reported zero broken local structural references and zero unsafe external URL syntax indicators. Actual rendering with screen readers, keyboard navigation, independent novice testing, accessible QR-code payment use, external HTTP link availability, provider cost terms and release rights are **NOT VERIFIED**.
+
+To reproduce from a pinned, isolated copy of draft PR #39:
+
+```sh
+python3 -m unittest -v scripts.test_check_repo scripts.test_external_links scripts.test_accessibility
+python3 scripts/check_repo.py
+python3 scripts/audit_external_links.py
+python3 scripts/audit_accessibility.py
+```
+
+The Mac Studio private tasker separately tracks the same **unmerged** main-branch heading defect in W13 as `STATIC_ACCESSIBILITY_REVIEW_REQUIRED`; the public draft PR #39 is a proposed fix, **not proof the default branch was updated**. No merges, public release, third-party account requests, external model invocations or payments occurred.
