@@ -20,6 +20,13 @@ class MarkdownAccessibilityTests(unittest.TestCase):
                 "## Real section\n")
         self.assertEqual(audit.checks_for_text(text),[])
 
+    def test_inline_code_is_example_not_live_html_or_image(self):
+        raw = ("# Real title\n"
+               "The syntax `<img>` is shown as inline code.\n"
+               "Use `![alt](path.png)` as an example.\n"
+               "The inert literal `<img src='x.png'>` should not count.\n")
+        self.assertEqual(audit.checks_for_text(raw), [])
+
     def test_image_alts_and_html_figure_alts(self):
         t=("# Heading\n![descriptive](img.png)\n"
            "![  ](img2.png)\n"
