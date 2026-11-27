@@ -22,10 +22,16 @@ HTML_IMG = re.compile(r"<img\b[^>]*>", re.I | re.S)
 HTML_ALT = re.compile(r"\balt\s*=\s*(['\"])(.*?)\1", re.I | re.S)
 WEAK_LINK_TEXT = {"here", "click here", "read more", "link", "this link"}
 DEFAULT_ROOT = Path(__file__).resolve().parents[1]
+INLINE_CODE = re.compile(r"(`+)(.*?)\1")
+
+
+def without_inline_code(text):
+    """Exclude literal inline-code examples from real links/images/HTML checks."""
+    return INLINE_CODE.sub(lambda match: " " * len(match.group()), text)
 
 
 def checks_for_text(text):
-    clean = without_fenced_code(text)
+    clean = without_inline_code(without_fenced_code(text))
     problems = []
     last_level = None
     for line_number, line in enumerate(clean.splitlines(), start=1):
