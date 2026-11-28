@@ -2,12 +2,12 @@
 
 **This project is free to read and follow as educational instructions.** The public README expressly welcomes copying the educational prompt into your own AI chat and sharing links to this repository without charge. This is not a paid product.
 
-### What is expressly contemplated
+## What is expressly contemplated
 - Reading the educational guides and experimenting with them in your own authorized environment.
 - Pasting the master prompt into an AI chat to build an original local-first project under the permissions of that AI service.
 - Sharing the repository link with others, including in free social media comments.
 
-### What is not established by that permission
+## What is not established by that permission
 - A repository-wide MIT, Apache, GPL, Creative Commons, public-domain or other blanket license for the repository contents, or the right to resell and relicense everything in it.
 - Any right to private Seraph PLC source, original proprietary documents, model weights, computer access, API credits, or unpublished research.
 - A right to distribute third-party books, simulations, Wikipedia media, repair guides, scientific datasets, commercial products or trained weights without their own rights review.

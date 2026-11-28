@@ -132,6 +132,8 @@ After pasting the prompt, write:
 
 Then start a fresh chat with the prompt and the synthetic handoff. Ask the successor to resume safely. Compare its result against your saved state.
 
+**Isolate the recovery test.** Some AI products can recall/search prior conversations; this may make a successor look more accurate than the state card alone warrants. Use a temporary or memory-disabled chat, or another provider, when supported; provide only the prompt and sanitized card and record model, provider and memory conditions (UNKNOWN if invisible). For a distinct first-chat / second-chat teaching exercise use [Stage 0](stages/00_CHAT_ONLY_CONTINUITY.md); for an existing project use the [gentle handoff guide](../docs/GENTLE_CHAT_HANDOFF.md).
+
 **Want to build an actual offline local continuity application?** Use the [Age of Free Programming builder prompt](../README.md) and begin with the Python/SQLite educational path. The prompts describe what an AI should build; they do not prove the software was built on your computer.
 
 **PUBLIC RELEASE BOUNDARY:** No private Seraph code, PLC research documents, passwords, bank records, operator identities, machine hostnames, control-plane endpoints, internal source paths, paid API keys, or undisclosed company material is included in this prompt. Do not add them when sharing.

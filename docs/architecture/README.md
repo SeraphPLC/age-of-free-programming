@@ -42,7 +42,7 @@ The concepts in this library have **mixed maturity**:
 
 ## Practical directions from this architecture
 
-For a working example built on **your own computer**, start with [Get Seraphed Community](../../prompts/GET_SERAPHED_COMMUNITY_R0.md), then select the [staged offline builder](../STAGED_BUILD_PATH.md). The [frontier AI methods guide](../FRONTIER_AI_ACCESS_METHODS.md) and [optional remote-computer setup](../RECOMMENDED_COMPUTER_SETUP.md) explain user-authorized tools, provider choice and privacy tradeoffs.
+For a working example built on **your own computer**, start with [Get Seraphed Community R1 (Living)](../../prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md), then select the [staged offline builder](../STAGED_BUILD_PATH.md). The [frontier AI methods guide](../FRONTIER_AI_ACCESS_METHODS.md) and [optional remote-computer setup](../RECOMMENDED_COMPUTER_SETUP.md) explain user-authorized tools, provider choice and privacy tradeoffs.
 
 Explore related subjects:
 - [Model-independent memory and fidelity](../MEMORY_FIDELITY_V1.md)

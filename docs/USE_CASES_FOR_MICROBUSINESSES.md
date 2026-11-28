@@ -45,7 +45,7 @@ The more useful hypothesis is **increased capacity for individuals with limited 
 
 ## Start free, preserve ownership
 
-The least complicated route is the [Get Seraphed Community Prompt](../prompts/GET_SERAPHED_COMMUNITY_R0.md) and a manually saved fictional state card. No Seraph publisher account, private Mesh connection, paid API or installed program is included.
+The least complicated route is the [Get Seraphed Community R1 (Living) prompt](../prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md) and a manually saved fictional state card. No Seraph publisher account, private Mesh connection, paid API or installed program is included.
 
 If you want to write real software, follow the [staged offline builder](STAGED_BUILD_PATH.md). For a user-authorized coding assistant, review the [frontier AI access methods](FRONTIER_AI_ACCESS_METHODS.md) and [computer privacy warning](RECOMMENDED_COMPUTER_SETUP.md). Independent computer tools may introduce cloud-data, permissions and financial risks.
 
