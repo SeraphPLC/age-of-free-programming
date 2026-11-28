@@ -37,3 +37,14 @@ Other public research, architecture, positioning, licensing and optional support
 - Any runnable starter requires its **separate** clean-machine OS tests, code/security audits and licensing decision.
 - Community branding, current optional provider entitlements/cost, source disclosure rights, exact-source five distinct qualified frontier-review receipts, closure of BLOCKER/HIGH findings and final owner publication decision remain their **own** gates.
 - **No merge, release, user notification requesting owner go/no-go, payment, connected account change, or external AI dispatch** is authorized by this document.
+
+
+## 2026-11-27 cross-draft accessibility correction
+
+The exact H1→H3 document-heading defect in the unmerged public `main` is now corrected in **both open drafts #39 and #40**, with no change to rights or licensing claims. The entire `docs/SHARING_AND_LICENSE_STATUS.md` file has the identical Git blob `127ba7be31a3af698b732d24379fc2475355edbe` in both drafts. Only its two section-heading markers differ from main (H3→H2). A same-file overlap is **intentional duplicate proposed coverage**, not proof that either proposal is already published.
+
+At draft #40 commit `43aa4447db0a455884bad4c85ff86c5f588fd227` (before this documentation-only note), the enhanced independent draft #39 checker found **87 Markdown documents, 515 internal references, four JSON files, zero broken structural references**. The separate no-network accessibility hygiene audit found **zero** narrow Markdown findings in the #40 draft. Its outbound URL inventory found **173 URLs / 96 distinct hosts**, no insecure/private destination syntax flags, and four query-bearing support/payment URLs still requiring contextual review. `git diff --check` passed. Stage 0's unchanged SHA-256 remained `eb4e741cbe3356ad78c38d3b605a86bc992f1ba853c7fbd2ba8a202c24a8e38b`.
+
+The Mac Studio operator tasker was updated to verify the **exact PR #39 and #40 Git head and this two-heading-only content change** against the pinned unmerged main source. It caches exact-source evidence by PR head, reports `FIX_PROPOSED_BOTH_DRAFTS_UNMERGED`, and refuses to treat that as a completed main-branch fix, new license, independent accessibility test or owner-approved release. A changed/unknown head cannot inherit approval from a cached older version.
+
+Neither draft has been merged or released. The separate educational prompt's five-provider independent review, owner rights, beginner usability, optional service cost, BLOCKER/HIGH closure, and executable starter audits remain unverified and cannot be satisfied by these documentation checks.
