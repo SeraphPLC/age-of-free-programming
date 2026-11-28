@@ -1,5 +1,20 @@
 # The Age of Free Programming
 
+> **We Let Fire Out of the Box.**  
+> *Now we're teaching everyone how to control it.*
+
+## Become a Sovereign Operator.
+
+**Your work. Your AI workflow. Your rules.**
+
+Artificial intelligence gives one person the ability to learn, research, create, and build at a scale that once demanded a team. But your work should not disappear with a chat, depend on one company's model, or give an AI permission simply because it has the capability to act.
+
+**A Sovereign Operator** is someone who keeps control of their project's records, private information, decisions, permissions, and verification—even while using AI models and services they do not own. It is a practical way of working, **not** a title, certification, or claim of technical immunity.
+
+**The Age of Free Programming teaches you how to become one, starting for free.** Begin with a saved project note, then learn to build local tools with standard-library Python and SQLite. No engineering degree, paid cloud database, or subscription to this project is required.
+
+**[Start in five minutes — no coding](prompts/stages/00_CHAT_ONLY_CONTINUITY.md)** · **[Get Seraphed Community R1](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md)** · **[Build the offline core](prompts/stages/01_OFFLINE_CORE.md)**
+
 > **One person. A team of AIs. The freedom to build things that once required an entire organization.**
 
 ## Stop just asking AI questions. Start building something that grows with you.
@@ -40,9 +55,9 @@ The build grows in manageable steps: **a saved project plan → a small offline 
 1. Open **[the beginner chat exercise (Stage 0)](prompts/stages/00_CHAT_ONLY_CONTINUITY.md)**.
 2. Copy the text between **COPY PROMPT** and **END PROMPT** into an AI chat. It will walk you through an imaginary gardening project.
 3. Ask the AI for a short **project note**: your goal, important rules, decisions, what is known, what is done, what's left, what needs approval, and the next safe step.
-4. **Save that note yourself.** Open a new chat and paste it in. Ask the AI to compare its next steps with the saved note — and point out anything it cannot confirm.
+4. **Check and save that note yourself.** Open a new chat and paste only the verified fictional note. Ask the AI to compare its next steps with the saved note — and point out anything it cannot confirm. For a fair cold-start exercise, use an isolated chat with prior-conversation access disabled where supported, and note the settings.
 
-That's your first **anti-drift habit**: **you can carry your project and its rules from one chat to another**. If the new AI changes the goal or invents completed work, check it against your saved note and correct it. The AI did not secretly remember your work; **you saved the information and gave it to the next chat**.
+That's your first **anti-drift habit**: **you can carry your project and its rules from one chat to another**. If the new AI changes the goal or invents completed work, check it against your saved note and correct it. **You saved the information and gave it to the next chat.** This exercise checks what a new chat can reconstruct from your note; it does not establish automatic memory or independent beginner qualification.
 
 You can stop there, or try the more detailed **[Get Seraphed Community R1 instructions](prompts/GET_SERAPHED_COMMUNITY_R1_LIVING.md)**.
 
